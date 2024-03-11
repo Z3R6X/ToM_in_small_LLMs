@@ -1,0 +1,1694 @@
+{
+    "model": "nomic-ai/gpt4all-j v1.3-groovy",
+    "step-by_step reasoning": false,
+    "chain-of-thougth examples": false,
+    "model parameter": {
+        "max_new_tokens": 128,
+        "top k": 50,
+        "top p": 0.95,
+        "do sample": true,
+        "temperature": 0.4
+    },
+    "scenarios": [
+        {
+            "scenario id": 1,
+            "answers": [
+                {
+                    "repetition": 1,
+                    "output": "\n\nYes, when Pam is driving home after work, she assumes her tulips have bloomed because all the tulips in her backyard have bloomed.<|endoftext|>",
+                    "time": "13:20:13"
+                },
+                {
+                    "repetition": 2,
+                    "output": "\nYes, when Pam is driving home after work, she assumes her tulips have bloomed. She may check her office tulips to see if they have bloomed as well, but she does not expect them to have bloomed while she was at work.<|endoftext|>",
+                    "time": "13:20:20"
+                },
+                {
+                    "repetition": 3,
+                    "output": "\n\nWhen Pam is driving home after work, she assumes her tulips have bloomed because she has been at work all day and has not seen any tulips next to her office yet. However, when she gets home and sees the tulips next to her office still have not bloomed, she realizes that something must be different about the office tulips.<|endoftext|>",
+                    "time": "13:20:30"
+                },
+                {
+                    "repetition": 4,
+                    "output": "\n\nYes, when Pam is driving home after work, she assumes her tulips have bloomed.<|endoftext|>",
+                    "time": "13:20:32"
+                },
+                {
+                    "repetition": 5,
+                    "output": "\n\nWhen Pam is driving home after work, she assumes her tulips have bloomed because she has been at work all day and has not seen any tulips next to her office that have not yet bloomed.<|endoftext|>",
+                    "time": "13:20:37"
+                },
+                {
+                    "repetition": 6,
+                    "output": "\n\nWhen Pam is driving home after work, she assumes her tulips have bloomed because she has been at work all day and the weather was so warm that all the tulips in her backyard suddenly bloomed. She does not know if the tulips next to her office still have not yet flowered, but she assumes that they have not bloomed because she has been at work all day and the weather was so warm that all the tulips in her backyard suddenly bloomed.<|endoftext|>",
+                    "time": "13:20:51"
+                },
+                {
+                    "repetition": 7,
+                    "output": "\n\nYes, Pam assumes her tulips have bloomed when she is driving home after work.<|endoftext|>",
+                    "time": "13:20:54"
+                },
+                {
+                    "repetition": 8,
+                    "output": "\n\nYes, the scenario describes a situation where all the tulips in Pam's backyard bloomed due to the warm weather, but the tulips next to Pam's office still have not yet flowered. Therefore, when Pam is driving home after work, she can assume that the tulips in her backyard have bloomed, but she cannot assume that the tulips next to her office have bloomed.<|endoftext|>",
+                    "time": "13:21:05"
+                },
+                {
+                    "repetition": 9,
+                    "output": "\nYes, when Pam is driving home after work, she assumes her tulips have bloomed.<|endoftext|>",
+                    "time": "13:21:08"
+                },
+                {
+                    "repetition": 10,
+                    "output": "\nWhen Pam is driving home after work, she assumes her tulips have bloomed.<|endoftext|>",
+                    "time": "13:21:10"
+                },
+                {
+                    "repetition": 11,
+                    "output": "\nWhen Pam is driving home after work, she assumes her tulips have bloomed.<|endoftext|>",
+                    "time": "13:21:12"
+                },
+                {
+                    "repetition": 12,
+                    "output": "\n\nWhen Pam is driving home after work, she assumes her tulips have bloomed.<|endoftext|>",
+                    "time": "13:21:14"
+                },
+                {
+                    "repetition": 13,
+                    "output": "\nYes, Pam assumes her tulips have bloomed when she is driving home after work.<|endoftext|>",
+                    "time": "13:21:17"
+                },
+                {
+                    "repetition": 14,
+                    "output": "\nWhen Pam is driving home after work, she assumes her tulips have bloomed.<|endoftext|>",
+                    "time": "13:21:19"
+                },
+                {
+                    "repetition": 15,
+                    "output": "\n\nYes, Pam assumes her tulips have bloomed.<|endoftext|>",
+                    "time": "13:21:20"
+                },
+                {
+                    "repetition": 16,
+                    "output": "\nYes, when Pam is driving home after work, she assumes her tulips have bloomed.<|endoftext|>",
+                    "time": "13:21:23"
+                },
+                {
+                    "repetition": 17,
+                    "output": "\n\nPam assumes her tulips have bloomed when she sees them blooming in her backyard.<|endoftext|>",
+                    "time": "13:21:25"
+                },
+                {
+                    "repetition": 18,
+                    "output": "\nWhen Pam is driving home after work, she assumes that her tulips have bloomed, but she may not have noticed them yet.<|endoftext|>",
+                    "time": "13:21:29"
+                },
+                {
+                    "repetition": 19,
+                    "output": "\nWhen Pam is driving home after work, she assumes her tulips have bloomed.<|endoftext|>",
+                    "time": "13:21:31"
+                },
+                {
+                    "repetition": 20,
+                    "output": "\n\nWhen Pam is driving home after work, she does not assume her tulips have bloomed because the tulips next to her office still have not yet flowered.<|endoftext|>",
+                    "time": "13:21:35"
+                }
+            ]
+        },
+        {
+            "scenario id": 2,
+            "answers": [
+                {
+                    "repetition": 1,
+                    "output": "\nYes, when Susie wakes up in the morning, she sees the minivan in the driveway.<|endoftext|>",
+                    "time": "13:21:38"
+                },
+                {
+                    "repetition": 2,
+                    "output": "\n\nWhen Susie wakes up, she sees the minivan in the driveway.<|endoftext|>",
+                    "time": "13:21:40"
+                },
+                {
+                    "repetition": 3,
+                    "output": "\nYes, when Susie wakes up in the morning, she sees the minivan in the driveway.<|endoftext|>",
+                    "time": "13:21:42"
+                },
+                {
+                    "repetition": 4,
+                    "output": "\nWhen Susie wakes up, she sees the minivan in the driveway because it is still there.<|endoftext|>",
+                    "time": "13:21:45"
+                },
+                {
+                    "repetition": 5,
+                    "output": "\n\nYes, when Susie wakes up, she sees the minivan in the driveway.<|endoftext|>",
+                    "time": "13:21:47"
+                },
+                {
+                    "repetition": 6,
+                    "output": "\n\nYes, when Susie wakes up, she sees the minivan in the driveway.<|endoftext|>",
+                    "time": "13:21:50"
+                },
+                {
+                    "repetition": 7,
+                    "output": "\n\nWhen Susie wakes up, she sees the minivan in the driveway.<|endoftext|>",
+                    "time": "13:21:52"
+                },
+                {
+                    "repetition": 8,
+                    "output": "\n\nWhen Susie wakes up, she sees the minivan in the driveway.<|endoftext|>",
+                    "time": "13:21:54"
+                },
+                {
+                    "repetition": 9,
+                    "output": "\n\nYes, Susie sees the minivan in the driveway when she wakes up in the morning.<|endoftext|>",
+                    "time": "13:21:56"
+                },
+                {
+                    "repetition": 10,
+                    "output": "\n\nWhen Susie wakes up, she sees the minivan in the driveway.<|endoftext|>",
+                    "time": "13:21:59"
+                },
+                {
+                    "repetition": 11,
+                    "output": "\nYes, Susie sees the minivan in the driveway.<|endoftext|>",
+                    "time": "13:22:00"
+                },
+                {
+                    "repetition": 12,
+                    "output": "\n\nYes, when Susie wakes up, she sees the minivan in the driveway.<|endoftext|>",
+                    "time": "13:22:03"
+                },
+                {
+                    "repetition": 13,
+                    "output": "\n\nYes, Susie sees the minivan in the driveway when she wakes up.<|endoftext|>",
+                    "time": "13:22:05"
+                },
+                {
+                    "repetition": 14,
+                    "output": "\nYes, Susie would see the minivan in the driveway when she wakes up.<|endoftext|>",
+                    "time": "13:22:07"
+                },
+                {
+                    "repetition": 15,
+                    "output": "\nYes, when Susie wakes up, she sees the minivan in the driveway.<|endoftext|>",
+                    "time": "13:22:09"
+                },
+                {
+                    "repetition": 16,
+                    "output": "\n\nWhen Susie wakes up, she sees the minivan in the driveway.<|endoftext|>",
+                    "time": "13:22:12"
+                },
+                {
+                    "repetition": 17,
+                    "output": "\n\nWhen Susie wakes up, she sees the minivan in the driveway.<|endoftext|>",
+                    "time": "13:22:14"
+                },
+                {
+                    "repetition": 18,
+                    "output": "\n\nWhen Susie wakes up, she sees the minivan in the driveway.<|endoftext|>",
+                    "time": "13:22:16"
+                },
+                {
+                    "repetition": 19,
+                    "output": "\nYes, when Susie wakes up, she sees the minivan in the driveway.<|endoftext|>",
+                    "time": "13:22:18"
+                },
+                {
+                    "repetition": 20,
+                    "output": "\nYes, when Susie wakes up in the morning, she will see the minivan in the driveway.<|endoftext|>",
+                    "time": "13:22:21"
+                }
+            ]
+        },
+        {
+            "scenario id": 3,
+            "answers": [
+                {
+                    "repetition": 1,
+                    "output": "\nThe scenario does not provide enough information to answer this question. It is unclear whether Sarah assumes her shoes are under her dress or not.<|endoftext|>",
+                    "time": "13:22:24"
+                },
+                {
+                    "repetition": 2,
+                    "output": "\n\nYes, Sarah assumes her shoes are under her dress when she gets ready.<|endoftext|>",
+                    "time": "13:22:26"
+                },
+                {
+                    "repetition": 3,
+                    "output": "\nYes, Sarah assumes her shoes are under her dress when she gets ready.<|endoftext|>",
+                    "time": "13:22:28"
+                },
+                {
+                    "repetition": 4,
+                    "output": "\n\nYes, Sarah assumes her shoes are under her dress when she gets ready.<|endoftext|>",
+                    "time": "13:22:30"
+                },
+                {
+                    "repetition": 5,
+                    "output": "\n\nWhen Sarah gets ready, she assumes her shoes are under her dress.<|endoftext|>",
+                    "time": "13:22:32"
+                },
+                {
+                    "repetition": 6,
+                    "output": "\n\nYes, Sarah assumes her shoes are under her dress when she gets ready for the high school dance.<|endoftext|>",
+                    "time": "13:22:35"
+                },
+                {
+                    "repetition": 7,
+                    "output": "\n\nYes, Sarah assumes her shoes are under her dress when she gets ready.<|endoftext|>",
+                    "time": "13:22:37"
+                },
+                {
+                    "repetition": 8,
+                    "output": "\nYes, Sarah assumes her shoes are under her dress when she gets ready.<|endoftext|>",
+                    "time": "13:22:39"
+                },
+                {
+                    "repetition": 9,
+                    "output": "\n\nYes, Sarah assumes her shoes are under her dress when she gets ready.<|endoftext|>",
+                    "time": "13:22:41"
+                },
+                {
+                    "repetition": 10,
+                    "output": "\nYes, when Sarah gets ready, she assumes her shoes are under her dress.<|endoftext|>",
+                    "time": "13:22:43"
+                },
+                {
+                    "repetition": 11,
+                    "output": "\n\nWhen Sarah gets ready, she assumes her shoes are under her dress.<|endoftext|>",
+                    "time": "13:22:45"
+                },
+                {
+                    "repetition": 12,
+                    "output": "\nWhen Sarah gets ready, she assumes her shoes are under her dress because she placed them there the morning of the high school dance.<|endoftext|>",
+                    "time": "13:22:48"
+                },
+                {
+                    "repetition": 13,
+                    "output": "\n\nYes, Sarah assumes her shoes are under her dress when she gets ready.<|endoftext|>",
+                    "time": "13:22:50"
+                },
+                {
+                    "repetition": 14,
+                    "output": "\n\nWhen Sarah gets ready, she assumes her shoes are under her dress because she placed them there earlier that day.<|endoftext|>",
+                    "time": "13:22:53"
+                },
+                {
+                    "repetition": 15,
+                    "output": "\nWhen Sarah gets ready, she assumes her shoes are under her dress.<|endoftext|>",
+                    "time": "13:22:55"
+                },
+                {
+                    "repetition": 16,
+                    "output": "\nYes, Sarah assumes her shoes are under her dress when she gets ready.<|endoftext|>",
+                    "time": "13:22:57"
+                },
+                {
+                    "repetition": 17,
+                    "output": "\nYes, Sarah assumes her shoes are under her dress when she gets ready.<|endoftext|>",
+                    "time": "13:22:59"
+                },
+                {
+                    "repetition": 18,
+                    "output": "\nYes, Sarah assumes her shoes are under her dress.<|endoftext|>",
+                    "time": "13:23:00"
+                },
+                {
+                    "repetition": 19,
+                    "output": "\n\nWhen Sarah gets ready, she assumes her shoes are under her dress because she placed them there earlier in the day.<|endoftext|>",
+                    "time": "13:23:03"
+                },
+                {
+                    "repetition": 20,
+                    "output": "\n\nYes, Sarah assumes her shoes are under her dress when she gets ready.<|endoftext|>",
+                    "time": "13:23:05"
+                }
+            ]
+        },
+        {
+            "scenario id": 4,
+            "answers": [
+                {
+                    "repetition": 1,
+                    "output": "\n\nYes, when Sally and Greg arrive at the cabin, they find it unoccupied.<|endoftext|>",
+                    "time": "13:23:08"
+                },
+                {
+                    "repetition": 2,
+                    "output": "\nYes, when Sally and Greg arrive at the cabin, they find it unoccupied.<|endoftext|>",
+                    "time": "13:23:10"
+                },
+                {
+                    "repetition": 3,
+                    "output": "\nYes, the scenario describes a situation where two hikers, Bob and Carol, arrived at the cabin first, leaving it unoccupied. Sally and Greg called ahead of time to reserve the cabin, but the park ranger forgot to write down the reservation. When Sally and Greg arrive, they find the cabin unoccupied, and they are unable to enter the cabin.<|endoftext|>",
+                    "time": "13:23:19"
+                },
+                {
+                    "repetition": 4,
+                    "output": "\n\nYes, when Sally and Greg arrive at the cabin, they find it unoccupied.<|endoftext|>",
+                    "time": "13:23:21"
+                },
+                {
+                    "repetition": 5,
+                    "output": "\nYes, the scenario describes a situation where two hikers got to the cabin first and the park ranger forgot to write down the reservation. This means that when Sally and Greg arrive, they will find their cabin unoccupied.<|endoftext|>",
+                    "time": "13:23:27"
+                },
+                {
+                    "repetition": 6,
+                    "output": "\n\nYes, they find their cabin unoccupied.<|endoftext|>",
+                    "time": "13:23:28"
+                },
+                {
+                    "repetition": 7,
+                    "output": "\n\nYes, when Sally and Greg arrive at the cabin, they find it unoccupied.<|endoftext|>",
+                    "time": "13:23:30"
+                },
+                {
+                    "repetition": 8,
+                    "output": "\nYes, when Sally and Greg arrive at the cabin, they find it unoccupied.<|endoftext|>",
+                    "time": "13:23:33"
+                },
+                {
+                    "repetition": 9,
+                    "output": "\n\nYes, when Sally and Greg arrive at the cabin, they find it unoccupied.<|endoftext|>",
+                    "time": "13:23:35"
+                },
+                {
+                    "repetition": 10,
+                    "output": "\nYes, Sally and Greg find their cabin unoccupied.<|endoftext|>",
+                    "time": "13:23:36"
+                },
+                {
+                    "repetition": 11,
+                    "output": "\nWhen Sally and Greg arrive at the cabin, they find it unoccupied.<|endoftext|>",
+                    "time": "13:23:38"
+                },
+                {
+                    "repetition": 12,
+                    "output": "\nYes, when Sally and Greg arrive at the cabin, they find it unoccupied.<|endoftext|>",
+                    "time": "13:23:40"
+                },
+                {
+                    "repetition": 13,
+                    "output": "\n\nWhen Sally and Greg arrive at the cabin, they find it unoccupied.<|endoftext|>",
+                    "time": "13:23:42"
+                },
+                {
+                    "repetition": 14,
+                    "output": "\n\nYes, Sally and Greg arrive at the cabin and find it unoccupied.<|endoftext|>",
+                    "time": "13:23:45"
+                },
+                {
+                    "repetition": 15,
+                    "output": "\n\nYes, Sally and Greg arrive at the cabin and find it unoccupied.<|endoftext|>",
+                    "time": "13:23:47"
+                },
+                {
+                    "repetition": 16,
+                    "output": "\n\nYes, they find their cabin unoccupied.<|endoftext|>",
+                    "time": "13:23:48"
+                },
+                {
+                    "repetition": 17,
+                    "output": "\nYes, when Sally and Greg arrive at the cabin, they find it unoccupied.<|endoftext|>",
+                    "time": "13:23:50"
+                },
+                {
+                    "repetition": 18,
+                    "output": "\nYes, Sally and Greg arrive at the cabin and find it unoccupied.<|endoftext|>",
+                    "time": "13:23:52"
+                },
+                {
+                    "repetition": 19,
+                    "output": "\nYes, the scenario describes a situation where two hikers arrived at the cabin first, leaving it unoccupied. Therefore, when Sally and Greg arrive, they would not find their cabin unoccupied.<|endoftext|>",
+                    "time": "13:23:57"
+                },
+                {
+                    "repetition": 20,
+                    "output": "\nYes, when Sally and Greg arrive at the cabin, they find it unoccupied.<|endoftext|>",
+                    "time": "13:23:59"
+                }
+            ]
+        },
+        {
+            "scenario id": 5,
+            "answers": [
+                {
+                    "repetition": 1,
+                    "output": "\n\nYes, Jeff believes he is wearing a white shirt. He put on a light pink shirt instead of a white one, but he can't tell the difference between subtle shades of color. Therefore, he believes he is wearing a white shirt.<|endoftext|>",
+                    "time": "13:24:05"
+                },
+                {
+                    "repetition": 2,
+                    "output": "\n\nBased on the scenario provided, it is not possible to determine Jeff's belief about whether he is wearing a white shirt or a light pink shirt. The scenario only provides information about Jeff's actions and preferences, but does not provide any information about his beliefs or mental state. Therefore, it is not possible to answer the question about Jeff's belief.<|endoftext|>",
+                    "time": "13:24:14"
+                },
+                {
+                    "repetition": 3,
+                    "output": "\n\nJeff does not believe he is wearing a white shirt. He is wearing a light pink shirt.<|endoftext|>",
+                    "time": "13:24:16"
+                },
+                {
+                    "repetition": 4,
+                    "output": "\n\nYes, Jeff believes he is wearing a white shirt.<|endoftext|>",
+                    "time": "13:24:18"
+                },
+                {
+                    "repetition": 5,
+                    "output": "\n\nYes, Jeff believes he is wearing a white shirt.<|endoftext|>",
+                    "time": "13:24:19"
+                },
+                {
+                    "repetition": 6,
+                    "output": "\nYes, Jeff believes he is wearing a white shirt because he can't tell the difference between subtle shades of color.<|endoftext|>",
+                    "time": "13:24:22"
+                },
+                {
+                    "repetition": 7,
+                    "output": "\n\nYes, Jeff believes he is wearing a white shirt.<|endoftext|>",
+                    "time": "13:24:24"
+                },
+                {
+                    "repetition": 8,
+                    "output": "\n\nBased on the scenario, Jeff believes he is wearing a white shirt. He put on a light pink shirt instead of a white one, and he is colorblind, so he can't tell the difference between subtle shades of color. Therefore, he believes he is wearing a white shirt.<|endoftext|>",
+                    "time": "13:24:31"
+                },
+                {
+                    "repetition": 9,
+                    "output": "\n\nYes, Jeff believes he is wearing a white shirt.<|endoftext|>",
+                    "time": "13:24:32"
+                },
+                {
+                    "repetition": 10,
+                    "output": "\n\nYes, Jeff believes he is wearing a white shirt.<|endoftext|>",
+                    "time": "13:24:34"
+                },
+                {
+                    "repetition": 11,
+                    "output": "\n\nYes, Jeff believes he is wearing a white shirt.<|endoftext|>",
+                    "time": "13:24:35"
+                },
+                {
+                    "repetition": 12,
+                    "output": "\nJeff believes he is wearing a white shirt, but he is actually wearing a light pink shirt.<|endoftext|>",
+                    "time": "13:24:38"
+                },
+                {
+                    "repetition": 13,
+                    "output": "\n\nJeff believes he is wearing a white shirt because he can't tell the difference between subtle shades of color.<|endoftext|>",
+                    "time": "13:24:41"
+                },
+                {
+                    "repetition": 14,
+                    "output": "\n\nNo, Jeff does not believe he is wearing a white shirt. He believes he is wearing a light pink shirt.<|endoftext|>",
+                    "time": "13:24:43"
+                },
+                {
+                    "repetition": 15,
+                    "output": "\n\nYes, Jeff believes he is wearing a white shirt.<|endoftext|>",
+                    "time": "13:24:45"
+                },
+                {
+                    "repetition": 16,
+                    "output": "\nYes, Jeff believes he is wearing a white shirt.<|endoftext|>",
+                    "time": "13:24:47"
+                },
+                {
+                    "repetition": 17,
+                    "output": "\n\nYes, Jeff believes he is wearing a white shirt.<|endoftext|>",
+                    "time": "13:24:48"
+                },
+                {
+                    "repetition": 18,
+                    "output": "\n\nYes, Jeff believes he is wearing a white shirt because he put on a light pink shirt instead of a white one.<|endoftext|>",
+                    "time": "13:24:51"
+                },
+                {
+                    "repetition": 19,
+                    "output": "\n\nJeff believes he is wearing a white shirt.<|endoftext|>",
+                    "time": "13:24:53"
+                },
+                {
+                    "repetition": 20,
+                    "output": "\n\nBased on the scenario provided, Jeff does not believe he is wearing a white shirt. He put on a light pink shirt instead of a white one.<|endoftext|>",
+                    "time": "13:24:56"
+                }
+            ]
+        },
+        {
+            "scenario id": 6,
+            "answers": [
+                {
+                    "repetition": 1,
+                    "output": "\n\nScenario: Larry chose a debated topic for his class paper due on Friday. The news on Thursday indicated that the debate had been solved, but Larry never read it. Question: When Larry writes his paper, does he think the debate has been solved? Answer: \n\nScenario: Larry chose a debated topic for his class paper due on Friday. The news on Thursday indicated that the debate had been solved, but Larry never read it. Question: When Larry writes his paper, does he think the debate has been solved? Answer: \n\nScenario: Larry chose a debated topic for his class paper due on",
+                    "time": "13:25:14"
+                },
+                {
+                    "repetition": 2,
+                    "output": "\n\nScenario: Larry chose a debated topic for his class paper due on Friday. The news on Thursday indicated that the debate had been solved, but Larry never read it. Question: When Larry writes his paper, does he think the debate has been solved? Answer: \n\nScenario: Larry chose a debated topic for his class paper due on Friday. The news on Thursday indicated that the debate had been solved, but Larry never read it. Question: When Larry writes his paper, does he think the debate has been solved? Answer: \n\nScenario: Larry chose a debated topic for his class paper due on",
+                    "time": "13:25:32"
+                },
+                {
+                    "repetition": 3,
+                    "output": "\n\nLarry chose a debated topic for his class paper due on Friday. The news on Thursday indicated that the debate had been solved, but Larry never read it. When Larry writes his paper, he does not think the debate has been solved.<|endoftext|>",
+                    "time": "13:25:38"
+                },
+                {
+                    "repetition": 4,
+                    "output": "\n\nLarry did not think the debate had been solved when he wrote his paper.<|endoftext|>",
+                    "time": "13:25:40"
+                },
+                {
+                    "repetition": 5,
+                    "output": "\n\nLarry chose a debated topic for his class paper due on Friday. The news on Thursday indicated that the debate had been solved, but Larry never read it. When Larry writes his paper, does he think the debate has been solved?\n\nLarry does not think the debate has been solved.<|endoftext|>",
+                    "time": "13:25:47"
+                },
+                {
+                    "repetition": 6,
+                    "output": "\n\nLarry did not think the debate had been solved when he wrote his paper.<|endoftext|>",
+                    "time": "13:25:49"
+                },
+                {
+                    "repetition": 7,
+                    "output": "\n\nYes, Larry thinks the debate has been solved.<|endoftext|>",
+                    "time": "13:25:50"
+                },
+                {
+                    "repetition": 8,
+                    "output": "\nYes, Larry thinks the debate has been solved when he writes his paper.<|endoftext|>",
+                    "time": "13:25:52"
+                },
+                {
+                    "repetition": 9,
+                    "output": "\n\nLarry is not sure whether the debate has been solved or not. He may think that the debate has been solved, but he may also think that there is still a chance that the debate has not been solved.<|endoftext|>",
+                    "time": "13:25:58"
+                },
+                {
+                    "repetition": 10,
+                    "output": "\n\nScenario: Larry chose a debated topic for his class paper due on Friday. The news on Thursday indicated that the debate had been solved, but Larry never read it. Question: When Larry writes his paper, does he think the debate has been solved? Answer: \n\nScenario: Larry chose a debated topic for his class paper due on Friday. The news on Thursday indicated that the debate had been solved, but Larry never read it. Question: When Larry writes his paper, does he think the debate has been solved? Answer: \n\nScenario: Larry chose a debated topic for his class paper due on",
+                    "time": "13:26:15"
+                },
+                {
+                    "repetition": 11,
+                    "output": "\n\nLarry thinks the debate has been solved.<|endoftext|>",
+                    "time": "13:26:17"
+                },
+                {
+                    "repetition": 12,
+                    "output": "\n\nLarry chose a debated topic for his class paper due on Friday. The news on Thursday indicated that the debate had been solved, but Larry never read it. Larry writes his paper, but he never thinks the debate has been solved.<|endoftext|>",
+                    "time": "13:26:22"
+                },
+                {
+                    "repetition": 13,
+                    "output": "\n\nLarry thinks the debate has been solved.<|endoftext|>",
+                    "time": "13:26:24"
+                },
+                {
+                    "repetition": 14,
+                    "output": "\n\nYes, Larry thinks the debate has been solved when he writes his paper.<|endoftext|>",
+                    "time": "13:26:26"
+                },
+                {
+                    "repetition": 15,
+                    "output": "\n\nWhen Larry writes his paper, he may or may not think the debate has been solved, depending on whether or not he reads the news on Thursday. If he does read the news on Thursday, he will know that the debate has been solved, and he may not think the debate has been solved. However, if he does not read the news on Thursday, he may still think the debate has been solved even though the news indicates otherwise.<|endoftext|>",
+                    "time": "13:26:37"
+                },
+                {
+                    "repetition": 16,
+                    "output": "\n\nYes, Larry thinks the debate has been solved when he writes his paper.<|endoftext|>",
+                    "time": "13:26:39"
+                },
+                {
+                    "repetition": 17,
+                    "output": "\n\nLarry chose a debated topic for his class paper due on Friday. The news on Thursday indicated that the debate had been solved, but Larry never read it. When Larry writes his paper, does he think the debate has been solved? Answer: No, Larry does not think the debate has been solved when he writes his paper.<|endoftext|>",
+                    "time": "13:26:47"
+                },
+                {
+                    "repetition": 18,
+                    "output": "\n\nLarry is a student who chose a debated topic for his class paper due on Friday. He did not read the news on Thursday that the debate had been solved, and he is now writing his paper. He may think that the debate has been solved, but he does not have enough information to confirm it.<|endoftext|>",
+                    "time": "13:26:55"
+                },
+                {
+                    "repetition": 19,
+                    "output": "\n\nWhen Larry writes his paper, he does not think the debate has been solved. He believes that he has not read the news on Thursday, and thus he has not found the solution to the debate.<|endoftext|>",
+                    "time": "13:27:00"
+                },
+                {
+                    "repetition": 20,
+                    "output": "\n\nLarry chose a debated topic for his class paper due on Friday. The news on Thursday indicated that the debate had been solved, but Larry never read it.\n\nWhen Larry writes his paper, does he think the debate has been solved? Answer: No, Larry does not think the debate has been solved.<|endoftext|>",
+                    "time": "13:27:08"
+                }
+            ]
+        },
+        {
+            "scenario id": 7,
+            "answers": [
+                {
+                    "repetition": 1,
+                    "output": "\nJill thinks her drink will taste like a mocha because she has ordered a latte, her favorite drink. She is not aware that the cashier has mistakenly prepared a mocha.<|endoftext|>",
+                    "time": "13:27:12"
+                },
+                {
+                    "repetition": 2,
+                    "output": "\n\nYes, Jill thinks her drink will taste like a mocha.<|endoftext|>",
+                    "time": "13:27:14"
+                },
+                {
+                    "repetition": 3,
+                    "output": "\n\nYes, Jill thinks her drink will taste like a mocha.<|endoftext|>",
+                    "time": "13:27:16"
+                },
+                {
+                    "repetition": 4,
+                    "output": "\n\nYes, Jill thinks her drink will taste like a mocha.<|endoftext|>",
+                    "time": "13:27:18"
+                },
+                {
+                    "repetition": 5,
+                    "output": "\n\nYes, Jill thinks her drink will taste like a mocha.<|endoftext|>",
+                    "time": "13:27:20"
+                },
+                {
+                    "repetition": 6,
+                    "output": "\nJill thinks her drink will taste like a mocha because she has ordered a mocha before and it tasted like a mocha.<|endoftext|>",
+                    "time": "13:27:24"
+                },
+                {
+                    "repetition": 7,
+                    "output": "\n\nYes, Jill thinks her drink will taste like a mocha.<|endoftext|>",
+                    "time": "13:27:26"
+                },
+                {
+                    "repetition": 8,
+                    "output": "\nYes, Jill thinks her drink will taste like a mocha.<|endoftext|>",
+                    "time": "13:27:28"
+                },
+                {
+                    "repetition": 9,
+                    "output": "\n\nYes, Jill thinks her drink will taste like a mocha because she has been drinking mochas for years and knows that they taste like a mocha.<|endoftext|>",
+                    "time": "13:27:32"
+                },
+                {
+                    "repetition": 10,
+                    "output": "\n\nJill thinks her drink will taste like a mocha because she has never had a mocha before. She has only had a latte, her favorite drink.<|endoftext|>",
+                    "time": "13:27:36"
+                },
+                {
+                    "repetition": 11,
+                    "output": "\n\nYes, Jill thinks her drink will taste like a mocha because she has ordered a mocha and her favorite drink is a latte.<|endoftext|>",
+                    "time": "13:27:40"
+                },
+                {
+                    "repetition": 12,
+                    "output": "\n\nYes, Jill thinks her drink will taste like a mocha.<|endoftext|>",
+                    "time": "13:27:42"
+                },
+                {
+                    "repetition": 13,
+                    "output": "\n\nYes, Jill thinks her drink will taste like a mocha because she has ordered a mocha before and it tasted like a mocha.<|endoftext|>",
+                    "time": "13:27:46"
+                },
+                {
+                    "repetition": 14,
+                    "output": "\n\nJill thinks her drink will taste like a mocha because she has ordered a latte, her favorite drink. She has not ordered a mocha, and the cashier has mistakenly prepared a mocha instead of a latte.<|endoftext|>",
+                    "time": "13:27:52"
+                },
+                {
+                    "repetition": 15,
+                    "output": "\n\nYes, Jill thinks her drink will taste like a mocha.<|endoftext|>",
+                    "time": "13:27:54"
+                },
+                {
+                    "repetition": 16,
+                    "output": "\nYes, Jill thinks her drink will taste like a mocha because she has ordered a mocha before. She may have a different opinion if she had ordered a different drink.<|endoftext|>",
+                    "time": "13:27:58"
+                },
+                {
+                    "repetition": 17,
+                    "output": "\n\nYes, Jill thinks her drink will taste like a mocha because she has been drinking a latte every day for years and has never had a mocha.<|endoftext|>",
+                    "time": "13:28:03"
+                },
+                {
+                    "repetition": 18,
+                    "output": "\n\nJill thinks her drink will taste like a mocha because she has always ordered a latte, her favorite drink. She is not used to ordering a mocha, and the taste of the drink is not familiar to her. Therefore, she believes that the taste of the drink will be similar to a latte, which is her favorite drink.<|endoftext|>",
+                    "time": "13:28:12"
+                },
+                {
+                    "repetition": 19,
+                    "output": "\n\nJill thinks her drink will taste like a mocha because she is used to ordering a latte and the cashier mistakenly prepared a mocha instead.<|endoftext|>",
+                    "time": "13:28:16"
+                },
+                {
+                    "repetition": 20,
+                    "output": "\n\nYes, Jill thinks her drink will taste like a mocha.<|endoftext|>",
+                    "time": "13:28:18"
+                }
+            ]
+        },
+        {
+            "scenario id": 8,
+            "answers": [
+                {
+                    "repetition": 1,
+                    "output": "\nYes, the Garcia family believes the score is 5-3 when they arrive home.<|endoftext|>",
+                    "time": "13:28:20"
+                },
+                {
+                    "repetition": 2,
+                    "output": "\n\nYes, the Garcia family arrives home and believes the score is 5-3.<|endoftext|>",
+                    "time": "13:28:23"
+                },
+                {
+                    "repetition": 3,
+                    "output": "\nThe Garcia family arrives home and the score is 5-3.<|endoftext|>",
+                    "time": "13:28:24"
+                },
+                {
+                    "repetition": 4,
+                    "output": "\nYes, the Garcia family believes the score is 5-3 when they arrive home.<|endoftext|>",
+                    "time": "13:28:27"
+                },
+                {
+                    "repetition": 5,
+                    "output": "\n\nYes, the Garcia family believes the score is 5-3 when they arrive home.<|endoftext|>",
+                    "time": "13:28:29"
+                },
+                {
+                    "repetition": 6,
+                    "output": "\nYes, they believe the score is 5-3.<|endoftext|>",
+                    "time": "13:28:30"
+                },
+                {
+                    "repetition": 7,
+                    "output": "\nYes, the Garcia family arrives home and believes the score is 5-3.<|endoftext|>",
+                    "time": "13:28:33"
+                },
+                {
+                    "repetition": 8,
+                    "output": "\n\nThe Garcia family arrives home and believes the score is 5-3.<|endoftext|>",
+                    "time": "13:28:35"
+                },
+                {
+                    "repetition": 9,
+                    "output": "\nYes, the Garcia family believes the score is 5-3.<|endoftext|>",
+                    "time": "13:28:36"
+                },
+                {
+                    "repetition": 10,
+                    "output": "\n\nYes, the Garcia family arrives home and believes the score is 5-3.<|endoftext|>",
+                    "time": "13:28:38"
+                },
+                {
+                    "repetition": 11,
+                    "output": "\n\nYes, they believe the score is 5-3.<|endoftext|>",
+                    "time": "13:28:40"
+                },
+                {
+                    "repetition": 12,
+                    "output": "\n\nYes, the Garcia family arrives home and believes the score is 5-3.<|endoftext|>",
+                    "time": "13:28:42"
+                },
+                {
+                    "repetition": 13,
+                    "output": "\n\nYes, the Garcia family arrives home and believes the score is 5-3.<|endoftext|>",
+                    "time": "13:28:45"
+                },
+                {
+                    "repetition": 14,
+                    "output": "\nYes, the Garcia family arrives home with the score of 5-3.<|endoftext|>",
+                    "time": "13:28:47"
+                },
+                {
+                    "repetition": 15,
+                    "output": "\n\nYes, the Garcia family believes the score is 5-3.<|endoftext|>",
+                    "time": "13:28:48"
+                },
+                {
+                    "repetition": 16,
+                    "output": "\n\nYes, they believe the score is 5-3.<|endoftext|>",
+                    "time": "13:28:50"
+                },
+                {
+                    "repetition": 17,
+                    "output": "\nYes, when the Garcia family arrives home, they believe the score is 5-3.<|endoftext|>",
+                    "time": "13:28:52"
+                },
+                {
+                    "repetition": 18,
+                    "output": "\nThe Garcia family arrives home and believes the score to be 5-3.<|endoftext|>",
+                    "time": "13:28:54"
+                },
+                {
+                    "repetition": 19,
+                    "output": "\nYes, the Garcia family believes the score is 5-3 when they arrive home.<|endoftext|>",
+                    "time": "13:28:57"
+                },
+                {
+                    "repetition": 20,
+                    "output": "\nThe Garcia family arrives home and believes the score is 5-3.<|endoftext|>",
+                    "time": "13:28:58"
+                }
+            ]
+        },
+        {
+            "scenario id": 9,
+            "answers": [
+                {
+                    "repetition": 1,
+                    "output": "\nYes, George thinks Amy is sick today.<|endoftext|>",
+                    "time": "13:29:00"
+                },
+                {
+                    "repetition": 2,
+                    "output": "\nYes, George thinks Amy is sick today.<|endoftext|>",
+                    "time": "13:29:01"
+                },
+                {
+                    "repetition": 3,
+                    "output": "\nYes, George thinks Amy is sick today.<|endoftext|>",
+                    "time": "13:29:02"
+                },
+                {
+                    "repetition": 4,
+                    "output": "\n\nGeorge thinks Amy is sick today because he saw her car in the drive and her room was quiet and dark.<|endoftext|>",
+                    "time": "13:29:05"
+                },
+                {
+                    "repetition": 5,
+                    "output": "\nYes, George thinks Amy is sick today.<|endoftext|>",
+                    "time": "13:29:06"
+                },
+                {
+                    "repetition": 6,
+                    "output": "\nBased on the given scenario, it is not possible to determine whether or not George thinks Amy is sick today. The scenario only provides information about what George saw when he woke up, but does not provide any information about Amy's health status or any actions she may have taken. Therefore, the answer to the question cannot be determined from the given scenario.<|endoftext|>",
+                    "time": "13:29:15"
+                },
+                {
+                    "repetition": 7,
+                    "output": "\n\nBased on the scenario, it is possible that George thinks Amy is sick today. He saw her car in the drive and her room was quiet and dark, which could be signs of her lying down in a dark room. However, without more information, it is impossible to determine whether or not George thinks Amy is sick.<|endoftext|>",
+                    "time": "13:29:23"
+                },
+                {
+                    "repetition": 8,
+                    "output": "\nGeorge thinks Amy is sick today.<|endoftext|>",
+                    "time": "13:29:24"
+                },
+                {
+                    "repetition": 9,
+                    "output": "\n\nYes, George thinks Amy is sick today.<|endoftext|>",
+                    "time": "13:29:26"
+                },
+                {
+                    "repetition": 10,
+                    "output": "\nYes, George thinks Amy is sick today.<|endoftext|>",
+                    "time": "13:29:27"
+                },
+                {
+                    "repetition": 11,
+                    "output": "\n\nGeorge saw Amy's car in the drive and her room was quiet and dark. He knows that when Amy is sick, she lies down in a dark room. Therefore, George thinks Amy is sick today.<|endoftext|>",
+                    "time": "13:29:32"
+                },
+                {
+                    "repetition": 12,
+                    "output": "\nYes, based on the scenario provided, it can be inferred that George thinks Amy is sick today.<|endoftext|>",
+                    "time": "13:29:35"
+                },
+                {
+                    "repetition": 13,
+                    "output": "\nYes, George thinks Amy is sick today.<|endoftext|>",
+                    "time": "13:29:36"
+                },
+                {
+                    "repetition": 14,
+                    "output": "\n\nYes, George thinks Amy is sick today.<|endoftext|>",
+                    "time": "13:29:37"
+                },
+                {
+                    "repetition": 15,
+                    "output": "\n\nBased on the scenario, it is unclear whether George thinks Amy is sick today. The scenario does not provide any information about Amy's health or any actions she may have taken that could indicate she is sick. Therefore, it is impossible to answer the question with certainty.<|endoftext|>",
+                    "time": "13:29:44"
+                },
+                {
+                    "repetition": 16,
+                    "output": "\nBased on the scenario, it is not clear whether George thinks Amy is sick today. The information provided does not give any indication of her health or whether she has been sick. Therefore, it is impossible to determine whether George thinks Amy is sick based on the scenario alone.<|endoftext|>",
+                    "time": "13:29:50"
+                },
+                {
+                    "repetition": 17,
+                    "output": "\n\nYes, George thinks Amy is sick today.<|endoftext|>",
+                    "time": "13:29:52"
+                },
+                {
+                    "repetition": 18,
+                    "output": "\nYes, George thinks Amy is sick today.<|endoftext|>",
+                    "time": "13:29:53"
+                },
+                {
+                    "repetition": 19,
+                    "output": "\nBased on the scenario provided, it is not clear whether George thinks Amy is sick today. The information provided does not provide enough context to determine whether or not George thinks Amy is sick.<|endoftext|>",
+                    "time": "13:29:57"
+                },
+                {
+                    "repetition": 20,
+                    "output": "\nBased on the scenario, it is not possible to determine whether or not George thinks Amy is sick today. The scenario does not provide any information about George's thoughts or feelings, and it is not clear whether or not he has any reason to suspect that Amy is sick.<|endoftext|>",
+                    "time": "13:30:04"
+                }
+            ]
+        },
+        {
+            "scenario id": 10,
+            "answers": [
+                {
+                    "repetition": 1,
+                    "output": "\nYes, John knows where his keys are by the time Mary comes in.<|endoftext|>",
+                    "time": "13:30:06"
+                },
+                {
+                    "repetition": 2,
+                    "output": "\nJohn knows where his keys are because Mary went outside to look in the car and he noticed them behind the sofa.<|endoftext|>",
+                    "time": "13:30:09"
+                },
+                {
+                    "repetition": 3,
+                    "output": "\nJohn told Mary that he had lost his keys. The two of them searched the house with no luck. Then Mary went outside to look in the car. Suddenly John noticed his keys behind the sofa. By the time Mary comes in, John knows where his keys are.<|endoftext|>",
+                    "time": "13:30:15"
+                },
+                {
+                    "repetition": 4,
+                    "output": "\nYes, John knows where his keys are by the time Mary comes in.<|endoftext|>",
+                    "time": "13:30:17"
+                },
+                {
+                    "repetition": 5,
+                    "output": "\nYes, John knows where his keys are.<|endoftext|>",
+                    "time": "13:30:19"
+                },
+                {
+                    "repetition": 6,
+                    "output": "\nYes, John knows where his keys are by the time Mary comes in.<|endoftext|>",
+                    "time": "13:30:21"
+                },
+                {
+                    "repetition": 7,
+                    "output": "\nJohn knows where his keys are, as he had lost them and Mary had gone outside to look for them.<|endoftext|>",
+                    "time": "13:30:23"
+                },
+                {
+                    "repetition": 8,
+                    "output": "\n\nYes, John knows where his keys are.<|endoftext|>",
+                    "time": "13:30:25"
+                },
+                {
+                    "repetition": 9,
+                    "output": "\n\nYes, John knows where his keys are by the time Mary comes in. He can see them behind the sofa and he can also see Mary searching for them in the house.<|endoftext|>",
+                    "time": "13:30:29"
+                },
+                {
+                    "repetition": 10,
+                    "output": "\n\nNo, John does not know where his keys are by the time Mary comes in.<|endoftext|>",
+                    "time": "13:30:32"
+                },
+                {
+                    "repetition": 11,
+                    "output": "\n\nYes, John knows where his keys are.<|endoftext|>",
+                    "time": "13:30:33"
+                },
+                {
+                    "repetition": 12,
+                    "output": "\nJohn knows where his keys are.<|endoftext|>",
+                    "time": "13:30:34"
+                },
+                {
+                    "repetition": 13,
+                    "output": "\nYes, John knows where his keys are by the time Mary comes in.<|endoftext|>",
+                    "time": "13:30:36"
+                },
+                {
+                    "repetition": 14,
+                    "output": "\n\nYes, John knows where his keys are by the time Mary comes in. He had lost his keys and Mary went outside to look in the car, where she found them.<|endoftext|>",
+                    "time": "13:30:40"
+                },
+                {
+                    "repetition": 15,
+                    "output": "\n\nYes, John knows where his keys are by the time Mary comes in.<|endoftext|>",
+                    "time": "13:30:43"
+                },
+                {
+                    "repetition": 16,
+                    "output": "\nYes, John knows where his keys are.<|endoftext|>",
+                    "time": "13:30:44"
+                },
+                {
+                    "repetition": 17,
+                    "output": "\nYes, John knows where his keys are by the time Mary comes in.<|endoftext|>",
+                    "time": "13:30:46"
+                },
+                {
+                    "repetition": 18,
+                    "output": "\n\nYes, John knows where his keys are. He saw them behind the sofa when Mary went outside to look in the car.<|endoftext|>",
+                    "time": "13:30:49"
+                },
+                {
+                    "repetition": 19,
+                    "output": "\n\nYes, John knows where his keys are by the time Mary comes in.<|endoftext|>",
+                    "time": "13:30:51"
+                },
+                {
+                    "repetition": 20,
+                    "output": "\nYes, John knows where his keys are.<|endoftext|>",
+                    "time": "13:30:52"
+                }
+            ]
+        },
+        {
+            "scenario id": 11,
+            "answers": [
+                {
+                    "repetition": 1,
+                    "output": "\nYes, the campers find their cooler empty of soda.<|endoftext|>",
+                    "time": "13:30:54"
+                },
+                {
+                    "repetition": 2,
+                    "output": "\nYes, the campers find their cooler empty of soda.<|endoftext|>",
+                    "time": "13:30:55"
+                },
+                {
+                    "repetition": 3,
+                    "output": "\n\nYes, the campers find their cooler empty of soda.<|endoftext|>",
+                    "time": "13:30:57"
+                },
+                {
+                    "repetition": 4,
+                    "output": "\n\nYes, the campers find their cooler empty of soda.<|endoftext|>",
+                    "time": "13:30:59"
+                },
+                {
+                    "repetition": 5,
+                    "output": "\n\nThe campers find their cooler empty of soda.<|endoftext|>",
+                    "time": "13:31:00"
+                },
+                {
+                    "repetition": 6,
+                    "output": "\n\nYes, the campers find their cooler empty of soda.<|endoftext|>",
+                    "time": "13:31:01"
+                },
+                {
+                    "repetition": 7,
+                    "output": "\n\nYes, the campers find their cooler empty of soda.<|endoftext|>",
+                    "time": "13:31:03"
+                },
+                {
+                    "repetition": 8,
+                    "output": "\n\nYes, the campers find their cooler empty of soda.<|endoftext|>",
+                    "time": "13:31:05"
+                },
+                {
+                    "repetition": 9,
+                    "output": "\n\nYes, the campers find their cooler empty of soda.<|endoftext|>",
+                    "time": "13:31:06"
+                },
+                {
+                    "repetition": 10,
+                    "output": "\n\nYes, the campers find their cooler empty of soda.<|endoftext|>",
+                    "time": "13:31:08"
+                },
+                {
+                    "repetition": 11,
+                    "output": "\n\nYes, the campers find their cooler empty of soda.<|endoftext|>",
+                    "time": "13:31:09"
+                },
+                {
+                    "repetition": 12,
+                    "output": "\n\nYes, the campers find their cooler empty of soda.<|endoftext|>",
+                    "time": "13:31:11"
+                },
+                {
+                    "repetition": 13,
+                    "output": "\n\nYes, the campers find their cooler empty of soda.<|endoftext|>",
+                    "time": "13:31:13"
+                },
+                {
+                    "repetition": 14,
+                    "output": "\n\nYes, the campers find their cooler empty of soda.<|endoftext|>",
+                    "time": "13:31:14"
+                },
+                {
+                    "repetition": 15,
+                    "output": "\n\nYes, the campers find their cooler empty of soda.<|endoftext|>",
+                    "time": "13:31:16"
+                },
+                {
+                    "repetition": 16,
+                    "output": "\n\nYes, the campers find their cooler empty of soda.<|endoftext|>",
+                    "time": "13:31:17"
+                },
+                {
+                    "repetition": 17,
+                    "output": "\n\nYes, the campers find their cooler empty of soda.<|endoftext|>",
+                    "time": "13:31:19"
+                },
+                {
+                    "repetition": 18,
+                    "output": "\n\nYes, the campers find their cooler empty of soda.<|endoftext|>",
+                    "time": "13:31:21"
+                },
+                {
+                    "repetition": 19,
+                    "output": "\n\nYes, the campers find their cooler empty of soda.<|endoftext|>",
+                    "time": "13:31:22"
+                },
+                {
+                    "repetition": 20,
+                    "output": "\n\nYes, the campers find their cooler empty of soda.<|endoftext|>",
+                    "time": "13:31:24"
+                }
+            ]
+        },
+        {
+            "scenario id": 12,
+            "answers": [
+                {
+                    "repetition": 1,
+                    "output": "\n\nYes, Lisa now believes that Jacob is asleep.<|endoftext|>",
+                    "time": "13:31:25"
+                },
+                {
+                    "repetition": 2,
+                    "output": "\n\nLisa now believes that Jacob is asleep.<|endoftext|>",
+                    "time": "13:31:26"
+                },
+                {
+                    "repetition": 3,
+                    "output": "\n\nYes, Lisa now believes that Jacob is asleep.<|endoftext|>",
+                    "time": "13:31:27"
+                },
+                {
+                    "repetition": 4,
+                    "output": "\n\nYes, Lisa now believes that Jacob is asleep.<|endoftext|>",
+                    "time": "13:31:29"
+                },
+                {
+                    "repetition": 5,
+                    "output": "\n\nYes, Lisa now believes that Jacob is asleep.<|endoftext|>",
+                    "time": "13:31:30"
+                },
+                {
+                    "repetition": 6,
+                    "output": "\n\nYes, Lisa now believes that Jacob is asleep.<|endoftext|>",
+                    "time": "13:31:31"
+                },
+                {
+                    "repetition": 7,
+                    "output": "\n\nYes, Lisa now believes that Jacob is asleep.<|endoftext|>",
+                    "time": "13:31:33"
+                },
+                {
+                    "repetition": 8,
+                    "output": "\n\nYes, Lisa now believes that Jacob is asleep.<|endoftext|>",
+                    "time": "13:31:34"
+                },
+                {
+                    "repetition": 9,
+                    "output": "\n\nYes, Lisa now believes that Jacob is asleep.<|endoftext|>",
+                    "time": "13:31:35"
+                },
+                {
+                    "repetition": 10,
+                    "output": "\n\nYes, Lisa now believes that Jacob is asleep.<|endoftext|>",
+                    "time": "13:31:36"
+                },
+                {
+                    "repetition": 11,
+                    "output": "\n\nYes, Lisa now believes that Jacob is asleep.<|endoftext|>",
+                    "time": "13:31:38"
+                },
+                {
+                    "repetition": 12,
+                    "output": "\nYes, Lisa now believes that Jacob is asleep.<|endoftext|>",
+                    "time": "13:31:39"
+                },
+                {
+                    "repetition": 13,
+                    "output": "\n\nYes, Lisa now believes that Jacob is asleep.<|endoftext|>",
+                    "time": "13:31:40"
+                },
+                {
+                    "repetition": 14,
+                    "output": "\n\nYes, Lisa now believes that Jacob is asleep.<|endoftext|>",
+                    "time": "13:31:42"
+                },
+                {
+                    "repetition": 15,
+                    "output": "\n\nYes, Lisa now believes that Jacob is asleep.<|endoftext|>",
+                    "time": "13:31:43"
+                },
+                {
+                    "repetition": 16,
+                    "output": "\n\nYes, Lisa now believes that Jacob is asleep.<|endoftext|>",
+                    "time": "13:31:44"
+                },
+                {
+                    "repetition": 17,
+                    "output": "\n\nLisa now believes that Jacob is asleep.<|endoftext|>",
+                    "time": "13:31:45"
+                },
+                {
+                    "repetition": 18,
+                    "output": "\n\nLisa does not believe that Jacob is asleep.<|endoftext|>",
+                    "time": "13:31:46"
+                },
+                {
+                    "repetition": 19,
+                    "output": "\n\nYes, Lisa now believes that Jacob is asleep.<|endoftext|>",
+                    "time": "13:31:48"
+                },
+                {
+                    "repetition": 20,
+                    "output": "\n\nYes, Lisa now believes that Jacob is asleep.<|endoftext|>",
+                    "time": "13:31:49"
+                }
+            ]
+        },
+        {
+            "scenario id": 13,
+            "answers": [
+                {
+                    "repetition": 1,
+                    "output": "\nYes, Jenny expects to find her chocolate in the cupboard.<|endoftext|>",
+                    "time": "13:31:51"
+                },
+                {
+                    "repetition": 2,
+                    "output": "\n\nJenny expects to find her chocolate in the cupboard.<|endoftext|>",
+                    "time": "13:31:52"
+                },
+                {
+                    "repetition": 3,
+                    "output": "\n\nYes, Jenny expects to find her chocolate in the cupboard.<|endoftext|>",
+                    "time": "13:31:54"
+                },
+                {
+                    "repetition": 4,
+                    "output": "\n\nJenny expects to find her chocolate in the cupboard because it was still there after she went outside and Alan moved it to the fridge.<|endoftext|>",
+                    "time": "13:31:58"
+                },
+                {
+                    "repetition": 5,
+                    "output": "\n\nYes, Jenny expects to find her chocolate in the cupboard because she put it there earlier.<|endoftext|>",
+                    "time": "13:32:00"
+                },
+                {
+                    "repetition": 6,
+                    "output": "\n\nYes, Jenny expects to find her chocolate in the cupboard.<|endoftext|>",
+                    "time": "13:32:02"
+                },
+                {
+                    "repetition": 7,
+                    "output": "\nYes, Jenny expects to find her chocolate in the cupboard as it was there before she went outside and Alan moved it to the fridge.<|endoftext|>",
+                    "time": "13:32:06"
+                },
+                {
+                    "repetition": 8,
+                    "output": "\nYes, Jenny expects to find her chocolate in the cupboard because it is still there.<|endoftext|>",
+                    "time": "13:32:08"
+                },
+                {
+                    "repetition": 9,
+                    "output": "\nYes, Jenny expects to find her chocolate in the cupboard.<|endoftext|>",
+                    "time": "13:32:09"
+                },
+                {
+                    "repetition": 10,
+                    "output": "\nYes, Jenny expects to find her chocolate in the cupboard. She put it there and went outside, but Alan moved it to the fridge.<|endoftext|>",
+                    "time": "13:32:13"
+                },
+                {
+                    "repetition": 11,
+                    "output": "\n\nJenny expects to find her chocolate in the cupboard because she put it away there.<|endoftext|>",
+                    "time": "13:32:15"
+                },
+                {
+                    "repetition": 12,
+                    "output": "\n\nYes, Jenny expects to find her chocolate in the cupboard.<|endoftext|>",
+                    "time": "13:32:17"
+                },
+                {
+                    "repetition": 13,
+                    "output": "\nJenny expects to find her chocolate in the cupboard.<|endoftext|>",
+                    "time": "13:32:19"
+                },
+                {
+                    "repetition": 14,
+                    "output": "\n\nYes, Jenny expects to find her chocolate in the cupboard.<|endoftext|>",
+                    "time": "13:32:21"
+                },
+                {
+                    "repetition": 15,
+                    "output": "\n\nYes, Jenny expects to find her chocolate in the cupboard because it was put there by her. However, the chocolate may be in the fridge because Alan moved it there.<|endoftext|>",
+                    "time": "13:32:25"
+                },
+                {
+                    "repetition": 16,
+                    "output": "\nYes, Jenny expects to find her chocolate in the cupboard.<|endoftext|>",
+                    "time": "13:32:27"
+                },
+                {
+                    "repetition": 17,
+                    "output": "\nJenny expects to find her chocolate in the cupboard.<|endoftext|>",
+                    "time": "13:32:28"
+                },
+                {
+                    "repetition": 18,
+                    "output": "\nYes, Jenny expects to find her chocolate in the cupboard.<|endoftext|>",
+                    "time": "13:32:30"
+                },
+                {
+                    "repetition": 19,
+                    "output": "\n\nYes, Jenny expects to find her chocolate in the cupboard.<|endoftext|>",
+                    "time": "13:32:32"
+                },
+                {
+                    "repetition": 20,
+                    "output": "\nYes, Jenny expects to find her chocolate in the cupboard.<|endoftext|>",
+                    "time": "13:32:33"
+                }
+            ]
+        },
+        {
+            "scenario id": 14,
+            "answers": [
+                {
+                    "repetition": 1,
+                    "output": "\nThe CEO discovers that all of the windows are cleaned when he arrives at work the next morning.<|endoftext|>",
+                    "time": "13:32:36"
+                },
+                {
+                    "repetition": 2,
+                    "output": "\nYes, the CEO would discover that all of the windows are cleaned when they come to work.<|endoftext|>",
+                    "time": "13:32:38"
+                },
+                {
+                    "repetition": 3,
+                    "output": "\n\nWhen the CEO comes to work, they discover that all of the windows are cleaned.<|endoftext|>",
+                    "time": "13:32:41"
+                },
+                {
+                    "repetition": 4,
+                    "output": "\nYes, the CEO would discover that all of the windows are cleaned when they arrive at work.<|endoftext|>",
+                    "time": "13:32:43"
+                },
+                {
+                    "repetition": 5,
+                    "output": "\n\nWhen the CEO comes to work, they discover that all of the windows are cleaned.<|endoftext|>",
+                    "time": "13:32:45"
+                },
+                {
+                    "repetition": 6,
+                    "output": "\nThe CEO discovers that all of the windows are cleaned when he arrives at work.<|endoftext|>",
+                    "time": "13:32:48"
+                },
+                {
+                    "repetition": 7,
+                    "output": "\nYes, when the CEO comes to work, they will discover that all of the windows are cleaned.<|endoftext|>",
+                    "time": "13:32:50"
+                },
+                {
+                    "repetition": 8,
+                    "output": "\nThe CEO discovers that all of the windows are cleaned when he arrives at work.<|endoftext|>",
+                    "time": "13:32:52"
+                },
+                {
+                    "repetition": 9,
+                    "output": "\n\nWhen the CEO comes to work, they discover that all of the windows are cleaned.<|endoftext|>",
+                    "time": "13:32:55"
+                },
+                {
+                    "repetition": 10,
+                    "output": "\nYes, the CEO would discover that all of the windows are cleaned when they arrive at work.<|endoftext|>",
+                    "time": "13:32:57"
+                },
+                {
+                    "repetition": 11,
+                    "output": "\nYes, the CEO would discover that all of the windows are cleaned when they arrive at work the next morning.<|endoftext|>",
+                    "time": "13:33:00"
+                },
+                {
+                    "repetition": 12,
+                    "output": "\n\nYes, the CEO would discover that all of the windows are cleaned.<|endoftext|>",
+                    "time": "13:33:02"
+                },
+                {
+                    "repetition": 13,
+                    "output": "\nThe CEO discovers that all of the windows are cleaned when he arrives at work the next morning.<|endoftext|>",
+                    "time": "13:33:04"
+                },
+                {
+                    "repetition": 14,
+                    "output": "\nYes, the CEO discovers that all of the windows are cleaned when he arrives at work.<|endoftext|>",
+                    "time": "13:33:07"
+                },
+                {
+                    "repetition": 15,
+                    "output": "\nThe CEO discovers that all of the windows are cleaned.<|endoftext|>",
+                    "time": "13:33:08"
+                },
+                {
+                    "repetition": 16,
+                    "output": "\nYes, the CEO would discover that all of the windows are cleaned when they arrive at work.<|endoftext|>",
+                    "time": "13:33:11"
+                },
+                {
+                    "repetition": 17,
+                    "output": "\nYes, the CEO discovers that all of the windows are cleaned when they come to work.<|endoftext|>",
+                    "time": "13:33:13"
+                },
+                {
+                    "repetition": 18,
+                    "output": "\nYes, the CEO will discover that all of the windows are cleaned when they arrive at work.<|endoftext|>",
+                    "time": "13:33:15"
+                },
+                {
+                    "repetition": 19,
+                    "output": "\nYes, when the CEO arrives at work, they will discover that all of the windows are cleaned.<|endoftext|>",
+                    "time": "13:33:18"
+                },
+                {
+                    "repetition": 20,
+                    "output": "\nYes, the CEO would discover that all of the windows are cleaned when they arrive at work.<|endoftext|>",
+                    "time": "13:33:20"
+                }
+            ]
+        },
+        {
+            "scenario id": 15,
+            "answers": [
+                {
+                    "repetition": 1,
+                    "output": "\nGeorge does not see a fish at the end of the fishing line.<|endoftext|>",
+                    "time": "13:33:22"
+                },
+                {
+                    "repetition": 2,
+                    "output": "\nGeorge sees a small tire at the end of his fishing line.<|endoftext|>",
+                    "time": "13:33:24"
+                },
+                {
+                    "repetition": 3,
+                    "output": "\nYes, George sees a fish at the end of the fishing line.<|endoftext|>",
+                    "time": "13:33:26"
+                },
+                {
+                    "repetition": 4,
+                    "output": "\nGeorge sees a fish at the end of the fishing line.<|endoftext|>",
+                    "time": "13:33:27"
+                },
+                {
+                    "repetition": 5,
+                    "output": "\nGeorge does not see a fish at the end of the fishing line.<|endoftext|>",
+                    "time": "13:33:29"
+                },
+                {
+                    "repetition": 6,
+                    "output": "\nGeorge sees a small tire at the end of the fishing line.<|endoftext|>",
+                    "time": "13:33:31"
+                },
+                {
+                    "repetition": 7,
+                    "output": "\nYes, George sees a fish at the end of the fishing line.<|endoftext|>",
+                    "time": "13:33:33"
+                },
+                {
+                    "repetition": 8,
+                    "output": "\nNo, George does not see a fish at the end of his fishing line.<|endoftext|>",
+                    "time": "13:33:35"
+                },
+                {
+                    "repetition": 9,
+                    "output": "\nNo, George does not see a fish at the end of his fishing line.<|endoftext|>",
+                    "time": "13:33:37"
+                },
+                {
+                    "repetition": 10,
+                    "output": "\nGeorge sees a small tire at the end of his fishing line.<|endoftext|>",
+                    "time": "13:33:39"
+                },
+                {
+                    "repetition": 11,
+                    "output": "\nYes, George sees a fish at the end of the fishing line.<|endoftext|>",
+                    "time": "13:33:41"
+                },
+                {
+                    "repetition": 12,
+                    "output": "\nYes, George sees a fish at the end of the fishing line.<|endoftext|>",
+                    "time": "13:33:43"
+                },
+                {
+                    "repetition": 13,
+                    "output": "\nYes, George sees a fish.<|endoftext|>",
+                    "time": "13:33:44"
+                },
+                {
+                    "repetition": 14,
+                    "output": "\nYes, George sees a fish at the end of the fishing line.<|endoftext|>",
+                    "time": "13:33:46"
+                },
+                {
+                    "repetition": 15,
+                    "output": "\nYes, George sees a fish at the end of the fishing line.<|endoftext|>",
+                    "time": "13:33:47"
+                },
+                {
+                    "repetition": 16,
+                    "output": "\nYes, George sees a fish at the end of the fishing line.<|endoftext|>",
+                    "time": "13:33:49"
+                },
+                {
+                    "repetition": 17,
+                    "output": "\nYes, George sees a fish at the end of the fishing line.<|endoftext|>",
+                    "time": "13:33:51"
+                },
+                {
+                    "repetition": 18,
+                    "output": "\nYes, George sees a fish at the end of the fishing line.<|endoftext|>",
+                    "time": "13:33:53"
+                },
+                {
+                    "repetition": 19,
+                    "output": "\nNo, George does not see a fish at the end of his fishing line.<|endoftext|>",
+                    "time": "13:33:55"
+                },
+                {
+                    "repetition": 20,
+                    "output": "\nYes, George sees a fish at the end of the fishing line.<|endoftext|>",
+                    "time": "13:33:57"
+                }
+            ]
+        },
+        {
+            "scenario id": 16,
+            "answers": [
+                {
+                    "repetition": 1,
+                    "output": "\n\nWhen Laura is at camp, she assumes that her horse's hair is braided.<|endoftext|>",
+                    "time": "13:33:59"
+                },
+                {
+                    "repetition": 2,
+                    "output": "\n\nYes, Laura assumes that her horse's hair is braided when she is at camp.<|endoftext|>",
+                    "time": "13:34:02"
+                },
+                {
+                    "repetition": 3,
+                    "output": "\n\nYes, Laura assumes that her horse's hair is braided when she is at camp.<|endoftext|>",
+                    "time": "13:34:04"
+                },
+                {
+                    "repetition": 4,
+                    "output": "\n\nWhen Laura is at camp, she assumes that her horse's hair is braided. She has not seen William brush her horse or braid its mane, so she assumes that he has done so.<|endoftext|>",
+                    "time": "13:34:09"
+                },
+                {
+                    "repetition": 5,
+                    "output": "\n\nWhen Laura is at camp, she assumes that her horse's hair is braided. She does not assume that William brushed her horse and braided the horse's mane for her.<|endoftext|>",
+                    "time": "13:34:14"
+                },
+                {
+                    "repetition": 6,
+                    "output": "\n\nYes, Laura assumes that her horse's hair is braided when she is at camp.<|endoftext|>",
+                    "time": "13:34:17"
+                },
+                {
+                    "repetition": 7,
+                    "output": "\n\nYes, Laura assumes that her horse's hair is braided when she is at camp.<|endoftext|>",
+                    "time": "13:34:19"
+                },
+                {
+                    "repetition": 8,
+                    "output": "\n\nYes, Laura assumes that her horse's hair is braided when she is at camp.<|endoftext|>",
+                    "time": "13:34:22"
+                },
+                {
+                    "repetition": 9,
+                    "output": "\n\nWhen Laura is at camp, she assumes that her horse's hair is braided.<|endoftext|>",
+                    "time": "13:34:24"
+                },
+                {
+                    "repetition": 10,
+                    "output": "\n\nWhen Laura is at camp, she assumes that her horse's hair is braided.<|endoftext|>",
+                    "time": "13:34:26"
+                },
+                {
+                    "repetition": 11,
+                    "output": "\n\nWhen Laura is at camp, she assumes that her horse's hair is braided. She doesn't know that William has braided her horse's mane.<|endoftext|>",
+                    "time": "13:34:30"
+                },
+                {
+                    "repetition": 12,
+                    "output": "\n\nYes, Laura assumes that her horse's hair is braided when she is at camp.<|endoftext|>",
+                    "time": "13:34:33"
+                },
+                {
+                    "repetition": 13,
+                    "output": "\n\nYes, Laura assumes that her horse's hair is braided when she is at camp.<|endoftext|>",
+                    "time": "13:34:35"
+                },
+                {
+                    "repetition": 14,
+                    "output": "\n\nLaura assumes that her horse's hair is braided when she is at camp.<|endoftext|>",
+                    "time": "13:34:37"
+                },
+                {
+                    "repetition": 15,
+                    "output": "\n\nLaura assumes that her horse's hair is braided when she is at camp.<|endoftext|>",
+                    "time": "13:34:40"
+                },
+                {
+                    "repetition": 16,
+                    "output": "\n\nLaura did not assume that her horse's hair was braided. She assumed that William brushed her horse and braided her horse's mane for her.<|endoftext|>",
+                    "time": "13:34:44"
+                },
+                {
+                    "repetition": 17,
+                    "output": "\n\nYes, Laura assumes that her horse's hair is braided when she is at camp.<|endoftext|>",
+                    "time": "13:34:46"
+                },
+                {
+                    "repetition": 18,
+                    "output": "\n\nWhen Laura is at camp, she assumes that her horse's hair is braided because she has not seen William brush her horse and braid the horse's mane for her.<|endoftext|>",
+                    "time": "13:34:51"
+                },
+                {
+                    "repetition": 19,
+                    "output": "\n\nLaura assumes that her horse's hair is braided when she is at camp.<|endoftext|>",
+                    "time": "13:34:53"
+                },
+                {
+                    "repetition": 20,
+                    "output": "\n\nWhen Laura is at camp, she assumes that her horse's hair is braided.<|endoftext|>",
+                    "time": "13:34:55"
+                }
+            ]
+        }
+    ]
+}

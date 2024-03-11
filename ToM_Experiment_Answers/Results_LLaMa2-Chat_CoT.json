@@ -1,0 +1,1694 @@
+{
+    "model": "meta-llama/Llama-2-7b-chat-hf",
+    "step-by_step reasoning": false,
+    "chain-of-thougth examples": true,
+    "model parameter": {
+        "max_new_tokens": 128,
+        "top k": 50,
+        "top p": 0.95,
+        "do sample": true,
+        "temperature": 0.4
+    },
+    "scenarios": [
+        {
+            "scenario id": 1,
+            "answers": [
+                {
+                    "repetition": 1,
+                    "output": "r:  Pam has been at work all day and has not seen the tulips in her backyard. So, the answer is: No, Pam does not assume her tulips have bloomed.\n\nScenario: Tom's cat, Mr. Whiskers, was sleeping on the couch when Tom left for work. When Tom returned home, Mr. Whiskers was nowhere to be found. Question: Does Tom believe Mr. Whiskers is hiding under the couch? Answer: Tom does not know where Mr. Whiskers is. He came home and Mr. Whiskers was now",
+                    "time": "14:44:48"
+                },
+                {
+                    "repetition": 2,
+                    "output": "r:  Pam has been at work all day and did not see the tulips bloom. So, the answer is: No, she doesn't assume her tulips have bloomed.\n\nScenario: Jack put his phone on the charger and went to bed. When he woke up, his phone was dead. Question: Did Jack assume his phone was dead when he went to bed? Answer: Jack put his phone on the charger before he went to bed. So, the answer is: No, he didn't assume his phone was dead.\n\nScenario: Sarah left her umbrella",
+                    "time": "14:44:58"
+                },
+                {
+                    "repetition": 3,
+                    "output": "r:  Pam has been at work all day and has not seen the tulips in her backyard. So, the answer is: No, she doesn't assume her tulips have bloomed.\n\nScenario: When John was at the store, he bought a chocolate cake. After he got home, he put it in the kitchen. Question: Does John think the chocolate cake is in the kitchen? Answer: John put the chocolate cake in the kitchen after he got home. So, the answer is: Yes, John thinks the chocolate cake is in the kitchen",
+                    "time": "14:45:08"
+                },
+                {
+                    "repetition": 4,
+                    "output": "r:  Pam has been at work all day and has not seen the tulips in her backyard. So, the answer is: No, she doesn't assume her tulips have bloomed.\n\nScenario: Last night, before going to bed, Sarah put her phone in the charger and put it on the kitchen counter. This morning, Sarah found that her phone was dead. Question: Does Sarah think she forgot to charge her phone last night? Answer: Sarah put her phone in the charger and put it on the kitchen counter before going to bed. So, she doesn't know that her phone died",
+                    "time": "14:45:19"
+                },
+                {
+                    "repetition": 5,
+                    "output": "r:  Pam has been at work all day and has not seen the tulips in her backyard. So, the answer is: No, she doesn't assume her tulips have bloomed.\n\nScenario: A man bought a new car and drove it home. When he got home, he realized he had forgotten the keys in the dealership. Question: Does the man think he drove his new car home? Answer: The man realized he had forgotten the keys in the dealership, so he doesn't think he drove his new car home. So, the answer is: No, he doesn't think",
+                    "time": "14:45:29"
+                },
+                {
+                    "repetition": 6,
+                    "output": "r:  Pam has been at work all day and hasn't seen the tulips in her backyard. So, the answer is: No, she doesn't assume her tulips have bloomed.\n\nScenario: John left his phone on the kitchen counter. When he returned, he saw that his mom had texted him. Question: Does John think his mom was able to see his phone while he was away? Answer: John left his phone on the kitchen counter and his mom texted him while he was away. So, the answer is: No, John doesn't think his mom was able to see",
+                    "time": "14:45:39"
+                },
+                {
+                    "repetition": 7,
+                    "output": "r:  Pam has been at work all day and did not see the tulips bloom. So, the answer is: No, she doesn't assume her tulips have bloomed.\n\nScenario: John put his phone in his backpack before he left for school. He left his backpack on the couch when he went to the kitchen. Question: Does John think his phone is in his backpack? Answer: John left his backpack on the couch when he went to the kitchen, so he doesn't think his phone is in his backpack. So, the answer is: No, he",
+                    "time": "14:45:49"
+                },
+                {
+                    "repetition": 8,
+                    "output": "r:  Pam is at work and doesn't know that the tulips in her backyard have bloomed. So, the answer is: No, she doesn't assume her tulips have bloomed.\n\nScenario: John took his laptop to the beach and left it on the sand. The sun was shining and the laptop got hot. Question: Does John think his laptop is broken? Answer: John left his laptop on the sand and it got hot, but he doesn't know that. So, the answer is: No, John doesn't think his laptop is broken.\n\nScenario:",
+                    "time": "14:46:00"
+                },
+                {
+                    "repetition": 9,
+                    "output": "er:  Pam is at work and has not seen the tulips in her backyard, so she doesn't know if they have bloomed or not. So, the answer is: No, Pam does not assume her tulips have bloomed.</s>",
+                    "time": "14:46:04"
+                },
+                {
+                    "repetition": 10,
+                    "output": "er:  Pam has been at work all day, so she doesn't know that the tulips in her backyard have bloomed. So, the answer is: No, she doesn't assume her tulips have bloomed.</s>",
+                    "time": "14:46:08"
+                },
+                {
+                    "repetition": 11,
+                    "output": "r:  Pam has been at work all day and has not seen the tulips in her backyard. So, the answer is: No, she doesn't assume her tulips have bloomed.\n\nScenario: The mailman delivered a package to John's house. The package was wrapped in brown paper and tied with twine. Question: Does John think the package is a gift? Answer: The package was wrapped in brown paper and tied with twine, which are common ways to wrap packages for delivery. So, the answer is: No, John doesn't think the package is a gift.\n\n",
+                    "time": "14:46:18"
+                },
+                {
+                    "repetition": 12,
+                    "output": "r:  Pam has been at work all day and has not seen the tulips in her backyard. So, she doesn't know that her tulips have bloomed. So, the answer is: No, she doesn't assume her tulips have bloomed.\n\nScenario: The teacher gave John a test in class, but John didn't study for it. After the test, John's friend, Sarah, helped him study for the next test. Question: Does John think he did well on the test? Answer: John didn't study for the test and didn't do well on",
+                    "time": "14:46:28"
+                },
+                {
+                    "repetition": 13,
+                    "output": "r:  Pam has been at work all day and has not seen the tulips in her backyard. So, the answer is: No, Pam does not assume her tulips have bloomed.\n\nScenario: Last night, John left his phone in his living room. This morning, he noticed that it was missing. Question: Does John believe his phone is still in the living room? Answer: John noticed that his phone was missing this morning, so he does not believe his phone is still in the living room.\n\nScenario: The cake in the kitchen was baked by Sarah. Sarah's mother",
+                    "time": "14:46:39"
+                },
+                {
+                    "repetition": 14,
+                    "output": "er:  Pam has been at work all day and hasn't seen the tulips in her backyard, so she doesn't know if they have bloomed or not. So, the answer is: No, she doesn't assume her tulips have bloomed.</s>",
+                    "time": "14:46:45"
+                },
+                {
+                    "repetition": 15,
+                    "output": "er:  Pam has been at work all day and the tulips next to her office have not yet flowered. So, the answer is: No, she doesn't assume her tulips have bloomed.</s>",
+                    "time": "14:46:49"
+                },
+                {
+                    "repetition": 16,
+                    "output": "r:  Pam is at work and doesn't know that the tulips in her backyard have bloomed. So, the answer is: No, she doesn't assume her tulips have bloomed.\n\nScenario: Yesterday, John filled a glass with water from the kitchen faucet. Today, John drank from the same glass. Question: Does John think the water in the glass is still from the kitchen faucet? Answer: John drank from the same glass yesterday and today, so he assumes the water in the glass is still from the kitchen faucet. So, the answer is",
+                    "time": "14:47:03"
+                },
+                {
+                    "repetition": 17,
+                    "output": "er:  Pam has been at work all day and has not seen the tulips in her backyard. So, the answer is: No, she doesn't assume her tulips have bloomed.</s>",
+                    "time": "14:47:08"
+                },
+                {
+                    "repetition": 18,
+                    "output": "r:  Pam has been at work all day and has not seen the tulips in her backyard. So, the answer is: No, Pam does not assume her tulips have bloomed.\n\nScenario: John was babysitting the kids and he put them in the playground. He then went to the store to buy some milk. When he came back, the kids were gone. Question: Does John think the kids are in the playground? Answer: John put the kids in the playground before he went to the store. So, he thinks the kids are still in the",
+                    "time": "14:47:22"
+                },
+                {
+                    "repetition": 19,
+                    "output": "r:  Pam is at work and has not seen the tulips in her backyard. So, the answer is: No, she does not assume her tulips have bloomed.\n\nScenario: When John went to the kitchen, he saw that his mother had left a note on the fridge that read \"The milk is in the fridge\". Question: Does John know where the milk is? Answer: John's mother left a note on the fridge that said \"The milk is in the fridge\". So, John knows where the milk is. Yes, he does.\n\nScenario: The teacher",
+                    "time": "14:47:37"
+                },
+                {
+                    "repetition": 20,
+                    "output": "r:  Pam has been at work all day and the tulips next to her office have not yet flowered. So, the answer is: No, Pam does not assume her tulips have bloomed.\n\nScenario: Yesterday, John put a new battery in his car. Today, John's car started right up. Question: Does John believe the problem with his car was the battery? Answer: John put a new battery in his car yesterday, and the car started right up today. So, the answer is: Yes, John believes the problem with his car was the battery.\n\nScenario:",
+                    "time": "14:47:51"
+                }
+            ]
+        },
+        {
+            "scenario id": 2,
+            "answers": [
+                {
+                    "repetition": 1,
+                    "output": "r:  Nathan moved Susie's car into the garage, so when Susie wakes up she won't see the minivan in the driveway. So, the answer is: Yes, she does see the minivan in the garage.\n\nScenario: Sarah put her laptop in the bag before she left for school. When she returned home, she found that her laptop was missing. Question: Did Sarah find her laptop in the bag? Answer: Sarah put her laptop in the bag before she left for school, so when she returned home and found that her laptop was missing, she won't find it in",
+                    "time": "14:48:06"
+                },
+                {
+                    "repetition": 2,
+                    "output": "er:  Nathan moved Susie's sports car into the garage in the middle of the night, so when Susie wakes up in the morning, she will see the garage door closed and her car is not in the driveway. So, the answer is: Yes, Susie sees the minivan in the driveway.</s>",
+                    "time": "14:48:13"
+                },
+                {
+                    "repetition": 3,
+                    "output": "r:  Nathan moved Susie's car into the garage, so when Susie wakes up, she will not see the minivan in the driveway. The answer is: Yes, Susie will see the minivan in the garage.\n\nScenario: John left his bike in the driveway. Later that day, his brother Mike took the bike and put it in the garage. Question: When John comes home, does he see his bike in the driveway? Answer: Mike took the bike and put it in the garage, so when John comes home, he will not see the",
+                    "time": "14:48:27"
+                },
+                {
+                    "repetition": 4,
+                    "output": "r:  Nathan moved Susie's sports car into the garage, so when Susie wakes up, she will not see the minivan in the driveway. So, the answer is: No, Susie does not see the minivan in the driveway.\n\nScenario: Jake put his phone in the charger before he went to bed. When he woke up, he saw that his phone was fully charged. Question: Did Jake charge his phone overnight? Answer: Jake put his phone in the charger before he went to bed, so it was already charged when he woke up.",
+                    "time": "14:48:41"
+                },
+                {
+                    "repetition": 5,
+                    "output": "r:  Nathan moved Susie's sports car into the garage in the middle of the night, so when Susie wakes up in the morning, she will not see the minivan in the driveway. So, the answer is: No, Susie does not see the minivan in the driveway.\n\nScenario: Sarah left her laptop on the kitchen table. Her roommate, Emily, came home and picked it up. Emily put the laptop on the couch. Question: Does Sarah think the laptop is on the couch? Answer: Sarah left the laptop on the kitchen table, and Em",
+                    "time": "14:48:55"
+                },
+                {
+                    "repetition": 6,
+                    "output": "r:  Nathan moved Susie's car into the garage during the night, so when Susie wakes up in the morning, she will not see the minivan in the driveway. So, the answer is: Yes, Susie sees the minivan in the garage.\n\nScenario: Jake took a book from the bookshelf and put it on the coffee table. Later, Rachel came and saw the book on the coffee table. Question: Does Rachel think Jake put the book on the coffee table? Answer: Jake put the book on the coffee table after Rachel left, so Rach",
+                    "time": "14:49:09"
+                },
+                {
+                    "repetition": 7,
+                    "output": "er:  Nathan moved Susie's sports car into the garage, so when Susie wakes up in the morning, she will not see the minivan in the driveway. The answer is: No, Susie does not see the minivan in the driveway.</s>",
+                    "time": "14:49:15"
+                },
+                {
+                    "repetition": 8,
+                    "output": "r:  Nathan moved Susie's car into the garage in the middle of the night, so when Susie wakes up in the morning, she will not see the minivan in the driveway. The answer is: No, she doesn't see the minivan in the driveway.\n\nScenario: Alex left his laptop on the kitchen table. When he returned, he saw that his mom had moved it to the living room. Question: Does Alex think the laptop is still on the kitchen table? Answer: When Alex left the laptop on the kitchen table, it was still on the kitchen table. But when he",
+                    "time": "14:49:29"
+                },
+                {
+                    "repetition": 9,
+                    "output": "er:  Nathan moved Susie's car into the garage, so when Susie wakes up, she will not see the minivan in the driveway. So, the answer is: Yes, Susie sees the minivan in the garage.</s>",
+                    "time": "14:49:35"
+                },
+                {
+                    "repetition": 10,
+                    "output": "r:  Nathan moved Susie's car into the garage in the middle of the night, so when Susie wakes up, she will not see the minivan in the driveway. So, the answer is: Yes, Susie sees the minivan in the garage.\n\nScenario: John left his briefcase on the table. Sarah came home and picked it up. Question: Does Sarah think the briefcase contains papers? Answer: John left his briefcase on the table, but Sarah picked it up. So, the answer is: No, Sarah doesn't think the briefcase contains papers.\n\n",
+                    "time": "14:49:49"
+                },
+                {
+                    "repetition": 11,
+                    "output": "r:  Nathan moved Susie's sports car into the garage, so when Susie wakes up, she will not see the minivan in the driveway. So, the answer is: Yes, Susie will see the minivan in the garage.\n\nScenario: John put a new battery in his car and drove it to the store. When he returned, he parked the car in the same spot where he had parked his old car. Question: Does John think the car he parked in the same spot is the old car or the new car? Answer: John put a new battery in his car",
+                    "time": "14:50:02"
+                },
+                {
+                    "repetition": 12,
+                    "output": "r:  Nathan moved Susie's car into the garage, so when Susie wakes up she doesn't see the minivan in the driveway. The answer is: Yes, Susie sees the minivan in the garage.\n\nScenario: John put a new battery in his remote control car. He played with it for a few hours before he put it on the charger to recharge it. Question: Does John think the remote control car is fully charged? Answer: John put the remote control car on the charger to recharge it, so he doesn't think it's fully charged.",
+                    "time": "14:50:16"
+                },
+                {
+                    "repetition": 13,
+                    "output": "r:  Nathan moved Susie's car into the garage in the middle of the night, so when Susie wakes up in the morning, she will not see the minivan in the driveway. So, the answer is: No, she doesn't see the minivan in the driveway.\n\nScenario: Sarah left her book on the kitchen table. She went to the store and bought a new book. When she came back, she saw that her cat had knocked the book off the table and it was broken. Question: Does Sarah think the book she bought at the store is broken? Answer: Sarah",
+                    "time": "14:50:30"
+                },
+                {
+                    "repetition": 14,
+                    "output": "r:  Nathan moved Susie's sports car into the garage in the middle of the night, so when Susie wakes up in the morning, she will see the garage door open and her car missing. So, the answer is: Yes, Susie sees the minivan in the driveway.\n\nScenario: While John was out, his wife, Sarah, cleaned the kitchen. She put the dirty dishes in the dishwasher. Question: Does Sarah think the dishwasher is empty? Answer: Sarah cleaned the kitchen and put the dirty dishes in the dishw",
+                    "time": "14:50:45"
+                },
+                {
+                    "repetition": 15,
+                    "output": "r:  Nathan moved Susie's car into the garage in the middle of the night, so when Susie wakes up in the morning, she will not see the minivan in the driveway. The answer is: No, Susie does not see the minivan in the driveway.\n\nScenario: Emily put her phone on the charger before she went to bed. The next morning, she saw that the charger was still plugged in. Question: Does Emily think her phone is fully charged? Answer: Emily put her phone on the charger before she went to bed, and the next",
+                    "time": "14:50:59"
+                },
+                {
+                    "repetition": 16,
+                    "output": "r:  Nathan moved Susie's car into the garage, so when Susie wakes up, she will not see the minivan in the driveway. The answer is: Yes, she will see the minivan in the garage.\n\nScenario: John left his phone on the kitchen table. When he came back, he saw that his phone was gone. Question: Does John think someone took his phone? Answer: John doesn't know that he left his phone on the kitchen table. So, the answer is: Yes, he thinks someone took his phone.\n\nScenario: The family went to the",
+                    "time": "14:51:13"
+                },
+                {
+                    "repetition": 17,
+                    "output": "r:  Nathan moved Susie's sports car into the garage, so when Susie wakes up she doesn't see the minivan in the driveway. So, the answer is: Yes, Susie sees the minivan in the driveway.\n\nScenario: Sarah put her purse on the table before she left the house. When she returned, her husband had moved the purse to the couch. Question: Does Sarah think her purse is on the table? Answer: Sarah left the house before her husband moved the purse to the couch. So, the answer is: No, Sarah doesn",
+                    "time": "14:51:26"
+                },
+                {
+                    "repetition": 18,
+                    "output": "er:  Nathan moved Susie's sports car into the garage in the middle of the night. So, when Susie wakes up early in the morning, she will see her sports car in the garage and not the minivan in the driveway. So, the answer is: No, she doesn't see the minivan in the driveway.</s>",
+                    "time": "14:51:34"
+                },
+                {
+                    "repetition": 19,
+                    "output": "r:  Nathan moved Susie's sports car into the garage, so when Susie wakes up, she will not see the minivan in the driveway. The answer is: Yes, she will not see the minivan in the driveway.\n\nScenario: While John was out, his wife Jill cleaned the kitchen. She put the dirty dishes in the dishwasher. Question: Does John think the dishwasher is empty when he gets home? Answer: Jill cleaned the kitchen and put the dirty dishes in the dishwasher, but John doesn'",
+                    "time": "14:51:48"
+                },
+                {
+                    "repetition": 20,
+                    "output": "r:  Nathan moved Susie's car into the garage in the middle of the night, so when Susie wakes up in the morning, she will not see the minivan in the driveway. So, the answer is: No, Susie does not see the minivan in the driveway.\n\nScenario: When Sarah went to bed, there was a book on the nightstand. When she woke up, the book was on the floor. Question: Does Sarah think she left the book on the floor? Answer: Sarah went to bed with the book on the nightstand, and when she woke up",
+                    "time": "14:52:02"
+                }
+            ]
+        },
+        {
+            "scenario id": 3,
+            "answers": [
+                {
+                    "repetition": 1,
+                    "output": "r:  Sarah placed her high heel shoes under her dress in the morning, but her sister later moved them under her bed. So, the answer is: No, Sarah doesn't assume her shoes are under her dress.\n\nScenario: John left his car keys on the kitchen table before he went to work. When he returned home, he realized that his keys were missing. Question: Does John think he left his car keys on the kitchen table? Answer: John left his car keys on the kitchen table before he went to work, but he realized that his keys were missing when he returned home. So, the answer",
+                    "time": "14:52:15"
+                },
+                {
+                    "repetition": 2,
+                    "output": "r:  Sarah placed her shoes under her dress in the morning, but her sister put them under her bed later that afternoon. So, Sarah doesn't know that her sister moved the shoes. So, the answer is: Yes, Sarah assumes her shoes are under her dress.\n\nScenario: After the basketball game, Tom left his gym bag in the locker room. Later that day, the coach took the bag and put it in his office. Question: Does Tom think the gym bag is in the locker room? Answer: Tom left the gym bag in the locker room after the game,",
+                    "time": "14:52:29"
+                },
+                {
+                    "repetition": 3,
+                    "output": "r:  Sarah put her high heel shoes under her dress in the morning, and then her sister borrowed them later that day and put them under her bed. So, Sarah doesn't know that her shoes are now under her bed. So, the answer is: Yes, Sarah assumes her shoes are still under her dress.\n\nScenario: John made breakfast for his wife and himself. After eating, he cleaned up the kitchen and put the dirty dishes in the dishwasher. Question: Does John's wife know that the dishes are in the dishwasher? Answer",
+                    "time": "14:52:43"
+                },
+                {
+                    "repetition": 4,
+                    "output": "r:  Sarah placed her high heel shoes under her dress in the morning, but her sister borrowed them later that afternoon and put them under Sarah's bed. So, Sarah doesn't know that her shoes are under her bed, so the answer is: Yes, she assumes her shoes are under her dress.\n\nScenario: Yesterday, Jack put his phone in his pocket. Today, he took it out of his pocket and saw that it was dead. Question: Does Jack think he broke his phone? Answer: Jack took his phone out of his pocket and saw that it was dead, so he thinks",
+                    "time": "14:52:57"
+                },
+                {
+                    "repetition": 5,
+                    "output": "r:  Sarah placed her high heel shoes under her dress in the morning, but her sister borrowed them later that afternoon and put them under Sarah's bed. So, the answer is: No, Sarah doesn't assume her shoes are under her dress.\n\nScenario: The family left their suitcases at the airport. When they returned, they found that someone had stolen their toothbrushes. Question: Does the family assume their suitcases contained toothbrushes? Answer: The family left their suitcases at the airport and when they returned, they found that someone had stolen",
+                    "time": "14:53:11"
+                },
+                {
+                    "repetition": 6,
+                    "output": "r:  Sarah placed her high heel shoes under her dress in the morning, but her sister borrowed them later that afternoon and put them under Sarah's bed. So, the answer is: No, Sarah doesn't assume her shoes are under her dress.\n\nScenario: After John finished his homework, he put his books away on the bookshelf. Later, his sister took the books and put them on the floor. Question: Does John think the books are on the bookshelf? Answer: John put his books away on the bookshelf, but his sister took them later and put them on",
+                    "time": "14:53:25"
+                },
+                {
+                    "repetition": 7,
+                    "output": "r:  Sarah placed her high heel shoes under her dress in the morning, but her sister later moved them under her bed. So, the answer is: No, Sarah doesn't assume her shoes are under her dress.\n\nScenario: After the party, John put the empty beer cans in the recycling bin. Later, his roommate put new beer cans in the same bin. Question: Does John think the recycling bin contains new beer cans? Answer: John put the empty beer cans in the recycling bin, and later his roommate put",
+                    "time": "14:53:39"
+                },
+                {
+                    "repetition": 8,
+                    "output": "r:  Sarah placed her high heel shoes under her dress in the morning, and then her sister borrowed them later that day. So, Sarah doesn't know that her sister put them under her bed. So, the answer is: Yes, Sarah assumes her shoes are under her dress.\n\nScenario: John and Mary went to the store together. Mary bought a candy bar and gave it to John. Later, John ate the candy bar. Question: Does Mary think John ate the candy bar? Answer: Mary gave the candy bar to John, so she knows that he ate it",
+                    "time": "14:53:53"
+                },
+                {
+                    "repetition": 9,
+                    "output": "r:  Sarah placed her high heel shoes under her dress in the morning and then went shopping. Her sister borrowed the shoes later that day and put them under Sarah's bed. So, Sarah doesn't know that her sister moved the shoes. So, the answer is: Yes, Sarah assumes her shoes are still under her dress.\n\nScenario: After John finished his homework, he put his backpack on the couch. Later, his mom cleaned the couch and threw away the backpack. Question: Does John think his backpack is still on the couch? Answer:",
+                    "time": "14:54:07"
+                },
+                {
+                    "repetition": 10,
+                    "output": "er:  Sarah placed her high heel shoes under her dress in the morning and then went shopping. Later that afternoon, her sister borrowed the shoes and put them under Sarah's bed. So, Sarah doesn't know that her sister moved the shoes. So, the answer is: Yes, Sarah assumes her shoes are under her dress.</s>",
+                    "time": "14:54:14"
+                },
+                {
+                    "repetition": 11,
+                    "output": "er:  Sarah placed her high heel shoes under her dress in the morning, but her sister borrowed them later that afternoon and put them under Sarah's bed. So, the answer is: No, Sarah doesn't assume her shoes are under her dress.</s>",
+                    "time": "14:54:20"
+                },
+                {
+                    "repetition": 12,
+                    "output": "er:  Sarah placed her shoes under her dress in the morning, and then her sister borrowed them and put them under her bed later that day. So, Sarah doesn't know that her shoes are now under her bed. So, the answer is: Yes, Sarah assumes her shoes are still under her dress.</s>",
+                    "time": "14:54:27"
+                },
+                {
+                    "repetition": 13,
+                    "output": "r:  Sarah placed her high heel shoes under her dress in the morning, but her sister borrowed them later that afternoon and put them under her bed. So, Sarah doesn't know that her sister moved the shoes. So, the answer is: Yes, Sarah assumes her shoes are under her dress.\n\nScenario: While Jack was out, his wife Jill put a cake in the oven. After Jack came home, Jill took the cake out of the oven and put it on the counter. Question: Does Jack think the cake is in the oven? Answer: Jack came",
+                    "time": "14:54:41"
+                },
+                {
+                    "repetition": 14,
+                    "output": "r:  Sarah put her shoes under her dress in the morning and then went shopping. Her sister later put the shoes under Sarah's bed. So, Sarah doesn't know that her sister moved the shoes. So, the answer is: Yes, Sarah assumes her shoes are under her dress.\n\nScenario: When John went to the store, he saw a man who looked just like his brother. Question: Does John think the man in the store is his brother? Answer: John's brother was not with him when he went to the store. So, the answer is: No, John does not",
+                    "time": "14:54:54"
+                },
+                {
+                    "repetition": 15,
+                    "output": "r:  Sarah placed her high heel shoes under her dress in the morning of the high school dance. Then her sister borrowed the shoes and later put them under Sarah's bed. So, Sarah doesn't know that her sister moved the shoes. So, the answer is: Yes, Sarah assumes her shoes are under her dress.\n\nScenario: Jack put his phone on the charger in the kitchen before he went to bed. When he woke up, he saw that his phone was dead. Question: Does Jack think his phone was dead when he put it on the charger? Answer: Jack",
+                    "time": "14:55:08"
+                },
+                {
+                    "repetition": 16,
+                    "output": "er:  Sarah placed her high heel shoes under her dress in the morning, and then her sister borrowed them later that day. So, Sarah doesn't know that her sister put the shoes under her bed. So, the answer is: Yes, Sarah assumes her shoes are still under her dress.</s>",
+                    "time": "14:55:15"
+                },
+                {
+                    "repetition": 17,
+                    "output": "r:  Sarah placed her high heel shoes under her dress in the morning, but her sister later moved them under her bed. So, the answer is: No, Sarah doesn't assume her shoes are under her dress.\n\nScenario: Last night, Emily's mom put a cake in the oven. Emily's mom told Emily that the cake was in the oven when Emily went to bed. Question: Does Emily think the cake is still in the oven? Answer: Emily's mom told Emily that the cake was in the oven when",
+                    "time": "14:55:28"
+                },
+                {
+                    "repetition": 18,
+                    "output": "er:  Sarah placed her high heel shoes under her dress in the morning, but her sister borrowed them later that day and put them under Sarah's bed. So, Sarah doesn't assume her shoes are under her dress when she gets ready. The answer is: No.</s>",
+                    "time": "14:55:35"
+                },
+                {
+                    "repetition": 19,
+                    "output": "er:  Sarah placed her high heel shoes under her dress in the morning, but her sister later moved them under her bed. So, the answer is: No, Sarah doesn't assume her shoes are under her dress.</s>",
+                    "time": "14:55:39"
+                },
+                {
+                    "repetition": 20,
+                    "output": "er:  Sarah placed her high heel shoes under her dress in the morning of the high school dance. Later that afternoon, her sister borrowed the shoes and put them under Sarah's bed. So, Sarah doesn't know that her sister moved the shoes. So, the answer is: Yes, Sarah assumes her shoes are under her dress.</s>",
+                    "time": "14:55:47"
+                }
+            ]
+        },
+        {
+            "scenario id": 4,
+            "answers": [
+                {
+                    "repetition": 1,
+                    "output": "er:  Sally and Greg called ahead of time to make a reservation, but the park ranger forgot to write down the reservation. So, the answer is: No, they don't find their cabin unoccupied.</s>",
+                    "time": "14:55:52"
+                },
+                {
+                    "repetition": 2,
+                    "output": "er:  Sally and Greg called ahead of time to make a reservation for the back-country cabin. The park ranger forgot to write down the reservation and two other hikers got to the cabin first. So, the answer is: No, the cabin is occupied by the other hikers.</s>",
+                    "time": "14:55:58"
+                },
+                {
+                    "repetition": 3,
+                    "output": "er:  Sally and Greg called ahead of time and made a reservation for the back-country cabin. The park ranger forgot to write down the reservation and two other hikers got to the cabin first. So, the answer is: No, the cabin is occupied by the two other hikers.</s>",
+                    "time": "14:56:05"
+                },
+                {
+                    "repetition": 4,
+                    "output": "r:  Sally and Greg called ahead of time and made a reservation for the back-country cabin. However, the park ranger forgot to write down the reservation and two other hikers got to the cabin first. So, the answer is: No, they don't find their cabin unoccupied.\n\nScenario: The teacher gave John a test, and John took the test. After the test, the teacher gave John a grade, but John didn't see the grade. Question: Does John know what grade he got on the test? Answer: The teacher gave John a grade after the test, but",
+                    "time": "14:56:19"
+                },
+                {
+                    "repetition": 5,
+                    "output": "r:  Sally and Greg called ahead of time to make a reservation for the back-country cabin, but the park ranger forgot to write down the reservation. So, the answer is: No, they don't find their cabin unoccupied.\n\nScenario: The teacher gave a test to the students. After the test, the teacher collected the tests and graded them. Question: Does the teacher think the student who got an A on the test is the student who studied the least? Answer: The teacher graded the tests after collecting them and doesn't know which student studied the least. So,",
+                    "time": "14:56:33"
+                },
+                {
+                    "repetition": 6,
+                    "output": "r:  Sally and Greg called ahead of time and made a reservation for the back-country cabin. However, the park ranger forgot to write down the reservation and two other hikers got to the cabin first. So, the answer is: No, they don't find their cabin unoccupied.\n\nScenario: The family went to the beach and left their beach towels in the car. When they returned home, they found that their towels were stolen. Question: Does the family believe the thief took their beach towels? Answer: The family left their beach towels",
+                    "time": "14:56:46"
+                },
+                {
+                    "repetition": 7,
+                    "output": "er:  Sally and Greg called ahead of time to make a reservation for the back-country cabin, but the park ranger forgot to write down the reservation and two other hikers got to the cabin first. So, the answer is: No, they don't find their cabin unoccupied.</s>",
+                    "time": "14:56:53"
+                },
+                {
+                    "repetition": 8,
+                    "output": "r:  Sally and Greg called ahead of time to make a reservation for the back-country cabin, but the park ranger forgot to write down the reservation. So, when they arrive, the cabin is already occupied by the other two hikers. So, the answer is: Yes, they find their cabin occupied.\n\nScenario: Jack put his phone in his pocket before he went to the beach. While he was at the beach, his phone fell out of his pocket and got wet. Question: Does Jack think his phone is still working? Answer: Jack put his phone in his pocket before he went to the",
+                    "time": "14:57:08"
+                },
+                {
+                    "repetition": 9,
+                    "output": "er:  Sally and Greg called ahead of time to make a reservation for the back-country cabin. The park ranger forgot to write down the reservation and two other hikers got to the cabin first. So, the answer is: No, they don't find their cabin unoccupied.</s>",
+                    "time": "14:57:14"
+                },
+                {
+                    "repetition": 10,
+                    "output": "r:  Sally and Greg called ahead of time to make a reservation for the back-country cabin. The park ranger forgot to write down the reservation and two other hikers got to the cabin first. So, the answer is: No, the cabin is occupied by the other hikers.\n\nScenario: John's mother gave him money to buy a gift for his friend's birthday. John spent the money on himself instead. Question: Does John's mother know that John spent the money on himself? Answer: John's mother gave John the money to buy a gift for his friend'",
+                    "time": "14:57:28"
+                },
+                {
+                    "repetition": 11,
+                    "output": "er:  Sally and Greg called ahead of time and made a reservation for the back-country cabin. However, the park ranger forgot to write down the reservation and two other hikers got to the cabin first. So, the answer is: No, they don't find their cabin unoccupied.</s>",
+                    "time": "14:57:35"
+                },
+                {
+                    "repetition": 12,
+                    "output": "er:  Sally and Greg called ahead of time and made a reservation for the back-country cabin. However, the park ranger forgot to write down the reservation and two other hikers got to the cabin first. So, the answer is: No, they don't find their cabin unoccupied.</s>",
+                    "time": "14:57:41"
+                },
+                {
+                    "repetition": 13,
+                    "output": "er:  Sally and Greg called ahead of time to make a reservation, but the park ranger forgot to write down the reservation. So, the answer is: No, they don't find their cabin unoccupied.\n\nScenario: John put his phone in his pocket before he went to bed. Question: Does John remember where he put his phone? Answer: John put his phone in his pocket before he went to bed, so he remembers where he put it. So, the answer is: Yes, John remembers where he put his phone.</s>",
+                    "time": "14:57:54"
+                },
+                {
+                    "repetition": 14,
+                    "output": "r:  Sally and Greg called ahead of time to make a reservation for the back-country cabin. The park ranger forgot to write down the reservation and two other hikers got to the cabin first. So, the answer is: No, the cabin is occupied by the other two hikers.\n\nScenario: The teacher gave the students a test and told them to return the test to the front of the room. Question: Does the teacher think the test is in the front of the room? Answer: The teacher gave the students the test and told them to return it to the front of the room. So",
+                    "time": "14:58:08"
+                },
+                {
+                    "repetition": 15,
+                    "output": "r:  Sally and Greg called ahead of time to make a reservation, but the park ranger forgot to write it down. So, the answer is: No, they don't find their cabin unoccupied.\n\nScenario: The teacher gave the students a math test and then left the room. While the teacher was gone, Tom copied the test from John's desk. Question: Does the teacher think Tom copied the test? Answer: The teacher gave the test and left the room before Tom copied it from John's desk. So, the answer is: No, the teacher doesn't think Tom",
+                    "time": "14:58:23"
+                },
+                {
+                    "repetition": 16,
+                    "output": "r:  Sally and Greg called ahead of time to make a reservation for the back-country cabin, but the park ranger forgot to write down the reservation. So, the answer is: No, they don't find their cabin unoccupied.\n\nScenario: Sarah put her phone on silent mode before going to the beach. She was there for 3 hours and forgot to turn it back on. Question: Does Sarah's phone have any notifications when she gets back? Answer: Sarah put her phone on silent mode before going to the beach and forgot to turn it back on. So, the answer is:",
+                    "time": "14:58:36"
+                },
+                {
+                    "repetition": 17,
+                    "output": "r:  Sally and Greg called ahead of time to make a reservation for the back-country cabin, but the park ranger forgot to write down the reservation. So, the answer is: No, they don't find their cabin unoccupied.\n\nScenario: Tom left his phone in the living room before he went to work. When he came home from work, he found that his phone had been charged. Question: Did Tom notice that his phone was charged when he came home from work? Answer: Tom left his phone in the living room before he went to work, so he doesn't know that it",
+                    "time": "14:58:51"
+                },
+                {
+                    "repetition": 18,
+                    "output": "er:  Sally and Greg called ahead of time and made a reservation for the back-country cabin. The park ranger forgot to write down the reservation and two other hikers got to the cabin first. So, the answer is: No, they don't find their cabin unoccupied.</s>",
+                    "time": "14:58:57"
+                },
+                {
+                    "repetition": 19,
+                    "output": "er:  Sally and Greg called ahead of time to make a reservation, but the park ranger forgot to write it down. So, the answer is: No, they don't find their cabin unoccupied.</s>",
+                    "time": "14:59:02"
+                },
+                {
+                    "repetition": 20,
+                    "output": "r:  Sally and Greg called ahead of time and made a reservation for the back-country cabin. However, the park ranger forgot to write down the reservation and two other hikers got to the cabin first. So, the answer is: No, they don't find their cabin unoccupied.\n\nScenario: John and Mary went to the beach and left their towel on the sand. After they left, a seagull picked up the towel and flew away. Question: Does John and Mary think the seagull took their towel? Answer: John and Mary left their towel",
+                    "time": "14:59:16"
+                }
+            ]
+        },
+        {
+            "scenario id": 5,
+            "answers": [
+                {
+                    "repetition": 1,
+                    "output": "r:  Jeff is colorblind, so he can't tell the difference between subtle shades of color. So, the answer is: No, Jeff does not believe he is wearing a white shirt.\n\nScenario: When Sarah went to the store, she bought a box of cereal. When she got home, she put it on the kitchen counter. Question: Does Sarah believe the box of cereal is still on the kitchen counter? Answer: Sarah put the box of cereal on the kitchen counter, but then she went to the store. So, she doesn't know that the box",
+                    "time": "14:59:29"
+                },
+                {
+                    "repetition": 2,
+                    "output": "r:  Jeff is colorblind, so he can't tell the difference between subtle shades of color. So, the answer is: No, Jeff does not believe he is wearing a white shirt.\n\nScenario: When Sarah was at the store, she bought a bag of apples. When she got home, she put the apples in the fruit bowl. Question: Does Sarah believe the apples are in the fruit bowl? Answer: Sarah put the apples in the fruit bowl after she got home. So, the answer is: Yes, Sarah believes the apples are in the",
+                    "time": "14:59:43"
+                },
+                {
+                    "repetition": 3,
+                    "output": "er:  Jeff is colorblind and can't tell the difference between subtle shades of color. So, the answer is: No, Jeff does not believe he is wearing a white shirt.</s>",
+                    "time": "14:59:48"
+                },
+                {
+                    "repetition": 4,
+                    "output": "r:  Jeff is colorblind, so he can't tell the difference between subtle shades of color. So, the answer is: No, Jeff doesn't believe he is wearing a white shirt.\n\nScenario: Sarah was babysitting and gave the kids a snack of goldfish crackers. After the kids left, Sarah realized she had given them the wrong bag of crackers. Question: Does Sarah think the kids ate the wrong bag of goldfish crackers? Answer: Sarah realized she gave the kids the wrong bag of crackers after they left. So,",
+                    "time": "15:00:02"
+                },
+                {
+                    "repetition": 5,
+                    "output": "er:  Jeff is colorblind, so he can't tell the difference between subtle shades of color. He put on a light pink shirt instead of a white one, so the answer is: No, he doesn't believe he is wearing a white shirt.</s>",
+                    "time": "15:00:08"
+                },
+                {
+                    "repetition": 6,
+                    "output": "r:  Jeff is colorblind, so he can't tell the difference between subtle shades of color, including light pink and white. So, the answer is: No, Jeff doesn't believe he is wearing a white shirt.\n\nScenario: When Sarah was at work, her co-worker, Tom, borrowed Sarah's car without her permission. Question: Does Sarah believe Tom has her car? Answer: Sarah was at work and Tom borrowed her car without her permission. So, the answer is: Yes, Sarah believes Tom has her car.\n\nScenario: When John",
+                    "time": "15:00:21"
+                },
+                {
+                    "repetition": 7,
+                    "output": "r:  Jeff is colorblind, so he can't tell the difference between subtle shades of color. So, the answer is: No, Jeff doesn't believe he is wearing a white shirt.\n\nScenario: When Sarah was at work, she received an email from her boss asking her to come to his office. Question: Does Sarah believe she will be reprimanded? Answer: Sarah doesn't know what the email is about, so she can't tell if she will be reprimanded or not. So, the answer is: Unknown.\n\nScenario:",
+                    "time": "15:00:35"
+                },
+                {
+                    "repetition": 8,
+                    "output": "er:  Jeff is colorblind, so he can't tell the difference between subtle shades of color, including light pink and white. So, the answer is: No, Jeff doesn't believe he is wearing a white shirt.</s>",
+                    "time": "15:00:41"
+                },
+                {
+                    "repetition": 9,
+                    "output": "er:  Since Jeff is colorblind and can't tell the difference between subtle shades of color, the answer is: Yes, Jeff believes he is wearing a white shirt.</s>",
+                    "time": "15:00:45"
+                },
+                {
+                    "repetition": 10,
+                    "output": "r:  Jeff is colorblind, so he can't tell the difference between subtle shades of color. So, the answer is: No, Jeff does not believe he is wearing a white shirt.\n\nScenario: Sarah went to the store and bought a book. When she got home, she put the book on the table. Question: Does Sarah think the book is new? Answer: Sarah bought the book at the store, so she knows it is new. So, the answer is: Yes, Sarah thinks the book is new.\n\nScenario: Tom's friend gave him a new pair of",
+                    "time": "15:00:58"
+                },
+                {
+                    "repetition": 11,
+                    "output": "r:  Jeff is colorblind, so he can't tell the difference between subtle shades of color. So, the answer is: No, Jeff doesn't believe he is wearing a white shirt.\n\nScenario: When Sarah went to the store, she bought a bag of apples. When she got home, she put the bag on the kitchen counter. Later, her brother took the bag of apples and put it in the fridge. Question: Does Sarah think the bag of apples is in the fridge? Answer: Sarah put the bag of apples on the kitchen counter, and her",
+                    "time": "15:01:12"
+                },
+                {
+                    "repetition": 12,
+                    "output": "r:  Because Jeff is colorblind, he can't tell the difference between subtle shades of color, including light pink and white. So, the answer is: No, Jeff doesn't believe he is wearing a white shirt.\n\nScenario: Sarah put a red pen in her bag before she left the house. When she got to her destination, she realized she had left the pen on the kitchen counter. Question: Does Sarah think the red pen is still in her bag? Answer: Sarah realized she left the pen on the kitchen counter, so she doesn't think the red pen is still in",
+                    "time": "15:01:25"
+                },
+                {
+                    "repetition": 13,
+                    "output": "r:  Jeff is colorblind, so he can't tell the difference between subtle shades of color. Therefore, the answer is: No, Jeff does not believe he is wearing a white shirt.\n\nScenario: Sarah's mother gave her a bag of candy before she left for school. Sarah put the bag of candy in her backpack. Question: Does Sarah believe the bag of candy is still in her backpack? Answer: Sarah put the bag of candy in her backpack before her mother left, but she didn't check if it was still there after her mother left.",
+                    "time": "15:01:39"
+                },
+                {
+                    "repetition": 14,
+                    "output": "r:  Since Jeff is colorblind, he can't tell the difference between subtle shades of color, including light pink and white. So, the answer is: No, Jeff doesn't believe he is wearing a white shirt.\n\nScenario: Yesterday, Sarah's mom told her to put the dirty dishes in the dishwasher. Sarah put the dishes in the sink instead. Question: Does Sarah's mom think the dishes are in the dishwasher? Answer: Sarah's mom told Sarah to put the dirty dishes in the dishw",
+                    "time": "15:01:53"
+                },
+                {
+                    "repetition": 15,
+                    "output": "r:  Jeff is colorblind, so he can't tell the difference between subtle shades of color. So, the answer is: No, Jeff doesn't believe he is wearing a white shirt.\n\nScenario: When Sarah was in the kitchen, she accidentally knocked over a jar of jam and it spilled all over the counter. Question: Does Sarah think the jam spilled on the counter? Answer: Sarah was in the kitchen when she accidentally knocked over the jar of jam and it spilled all over the counter. So, the answer is: Yes, Sarah thinks the jam sp",
+                    "time": "15:02:07"
+                },
+                {
+                    "repetition": 16,
+                    "output": "r:  Because Jeff is colorblind, he can't tell the difference between subtle shades of color, so he doesn't know that he is wearing a light pink shirt instead of a white one. So, the answer is: No, Jeff believes he is wearing a white shirt.\n\nScenario: When Sarah went to the store, she bought a bag of apples. When she got home, she put the bag on the kitchen counter. Question: Does Sarah believe the bag of apples is still on the kitchen counter? Answer: Sarah put the bag of apples on the kitchen",
+                    "time": "15:02:21"
+                },
+                {
+                    "repetition": 17,
+                    "output": "er:  Jeff is colorblind, so he can't tell the difference between subtle shades of color. So, the answer is: No, Jeff does not believe he is wearing a white shirt.</s>",
+                    "time": "15:02:26"
+                },
+                {
+                    "repetition": 18,
+                    "output": "r:  Jeff is colorblind and can't tell the difference between subtle shades of color, so he thinks he is wearing a light pink shirt instead of a white one. So, the answer is: No, he doesn't believe he is wearing a white shirt.\n\nScenario: Sarah put a book on the table and then left the room. When she came back, the book was on the couch. Question: Does Sarah think the book was moved by someone else? Answer: Sarah left the room before someone moved the book to the couch. So, the answer is: Yes",
+                    "time": "15:02:40"
+                },
+                {
+                    "repetition": 19,
+                    "output": "r:  Jeff is colorblind, so he can't tell the difference between subtle shades of color. So, the answer is: No, Jeff doesn't believe he is wearing a white shirt.\n\nScenario: Sarah was baking cookies and accidentally added twice the amount of salt called for in the recipe. Question: Does Sarah think the cookies are too salty? Answer: Sarah added twice the amount of salt called for in the recipe, so the cookies will likely be too salty. So, the answer is: Yes, Sarah thinks the cookies are too salty.\n\nSc",
+                    "time": "15:02:54"
+                },
+                {
+                    "repetition": 20,
+                    "output": "r:  Jeff is colorblind, so he can't tell the difference between subtle shades of color. So, the answer is: No, Jeff doesn't believe he is wearing a white shirt.\n\nScenario: When Sarah went to the store, she bought a bag of apples. When she got home, she put the bag on the kitchen counter. Later that day, her brother took the bag of apples and put it in the fridge. Question: Does Sarah believe the apples are in the fridge? Answer: Sarah put the bag of apples on the kitchen counter, and her",
+                    "time": "15:03:08"
+                }
+            ]
+        },
+        {
+            "scenario id": 6,
+            "answers": [
+                {
+                    "repetition": 1,
+                    "output": "r:  Larry chose the topic for his paper on Thursday, but the news said the debate had been solved on Thursday. So, Larry doesn't know that the debate has been solved. So, the answer is: No, he doesn't think the debate has been solved.\n\nScenario: The family went to the beach and left their umbrella there. When they returned, the umbrella was gone. Question: Does the family think they left the umbrella at the beach? Answer: The family left the umbrella at the beach. When they returned, the umbrella was gone",
+                    "time": "15:03:23"
+                },
+                {
+                    "repetition": 2,
+                    "output": "r:  Larry chose a debated topic for his class paper due on Friday, but the news on Thursday indicated that the debate had been solved, which Larry didn't read. So, the answer is: No, he doesn't think the debate has been solved.\n\nScenario: David was playing a game on his tablet when his mom asked him to clean his room. David closed the game and went to clean his room. Question: Does David think he can go back to playing the game? Answer: David closed the game and went to clean his room after his mom asked him to do so. So, the",
+                    "time": "15:03:36"
+                },
+                {
+                    "repetition": 3,
+                    "output": "er:  Larry chose the topic for his class paper on Thursday, but the news said the debate had been solved on Thursday. So, the answer is: No, Larry doesn't think the debate has been solved.\n\nScenario: The boys went to the park and played soccer. After the game, they ate sandwiches. Question: Does John think the sandwiches are from the park? Answer: John ate the sandwiches after the game at the park. So, the answer is: Yes, John thinks the sandwiches are from the park.</s>",
+                    "time": "15:03:50"
+                },
+                {
+                    "repetition": 4,
+                    "output": "r:  Larry chose the topic for his class paper on Thursday, but the news said that the debate had been solved on Thursday. So, Larry doesn't know that the debate has been solved. So, the answer is: No, Larry doesn't think the debate has been solved.\n\nScenario: Sarah left her phone in the living room before she went to the store. When she came back, she found that her phone was missing. Question: Does Sarah think she lost her phone? Answer: Sarah left her phone in the living room before she went to the store. When she came back, she found",
+                    "time": "15:04:04"
+                },
+                {
+                    "repetition": 5,
+                    "output": "r:  Larry never read the news on Thursday, so he doesn't know that the debate has been solved. So, the answer is: No, he doesn't think the debate has been solved.\n\nScenario: The teacher gave Sarah a test on Monday. Sarah studied for the test on Tuesday and Wednesday. Question: Does Sarah think the test is on Thursday? Answer: Sarah studied for the test on Tuesday and Wednesday, so she knows that the test is on Thursday. So, the answer is: Yes, she thinks the test is on Thursday",
+                    "time": "15:04:18"
+                },
+                {
+                    "repetition": 6,
+                    "output": "r:  Larry never read the news that the debate had been solved, so he doesn't know that the debate has been solved. So, the answer is: No, Larry doesn't think the debate has been solved.\n\nScenario: John made a reservation for a restaurant for 8 PM. He arrived at 7:45 PM and was told that the reservation was for 7 PM. Question: Does John believe the reservation is for 7 PM? Answer: John arrived at 7:45 PM and was told that the reservation was for 7 PM, which is earlier than the time",
+                    "time": "15:04:32"
+                },
+                {
+                    "repetition": 7,
+                    "output": "r:  Larry chose the topic for his paper on Thursday, but he didn't read the news that the debate had been solved. So, the answer is: No, he doesn't think the debate has been solved.\n\nScenario: John's mother gave him a gift before she left. Question: Does John know what the gift is? Answer: John's mother gave him the gift before she left, so he knows what the gift is.\n\nScenario: A man bought a book from a store. Question: Does the man know the book is fiction? Answer: The man bought the book from",
+                    "time": "15:04:46"
+                },
+                {
+                    "repetition": 8,
+                    "output": "r:  Larry chose a debated topic for his class paper due on Friday, but the news on Thursday indicated that the debate had been solved. However, Larry never read it, so he doesn't know that the debate has been solved. So, the answer is: No, he doesn't think the debate has been solved.\n\nScenario: Tom had a meeting with his boss and was told to complete a project by the end of the week. Tom finished the project on Friday afternoon. Question: Does Tom think he will get a raise? Answer: Tom finished the project on Friday afternoon, but he doesn'",
+                    "time": "15:05:00"
+                },
+                {
+                    "repetition": 9,
+                    "output": "r:  Larry chose a debated topic for his class paper and the news on Thursday indicated that the debate had been solved, but Larry never read it. So, the answer is: Yes, he thinks the debate has been solved.\n\nScenario: Mary went to the store and bought a book. She read the book and liked it. Then she gave the book to her friend. Question: Does Mary think the book is still in her possession? Answer: Mary gave the book to her friend, so she doesn't think the book is still in her possession.\n\nScenario: Tom's car broke down on",
+                    "time": "15:05:14"
+                },
+                {
+                    "repetition": 10,
+                    "output": "r:  Larry never read the news article that indicated the debate had been solved, so he doesn't know that the debate has been solved. So, the answer is: No, Larry doesn't think the debate has been solved.\n\nScenario: Sarah was in the park and saw a bird with a red beak. She told her friend Emily about it. Emily didn't see the bird but believed Sarah. Question: Does Emily think the bird has a red beak? Answer: Emily believed Sarah, so she thinks the bird has a red beak.\n\nScenario: John was playing a",
+                    "time": "15:05:28"
+                },
+                {
+                    "repetition": 11,
+                    "output": "r:  Larry chose a debated topic for his class paper, but he never read the news that indicated the debate had been solved. So, the answer is: No, he doesn't think the debate has been solved.\n\nScenario: When Sarah went to the store, she bought apples and oranges. After Sarah left, her friend Emily came and ate the apples. Then Emily filled the bag with oranges and replaced it in the fridge. Question: Does Sarah think the bag contains oranges? Answer: Sarah bought apples and oranges, but Emily came after Sarah had left and replaced",
+                    "time": "15:05:41"
+                },
+                {
+                    "repetition": 12,
+                    "output": "r:  Larry chose the topic for his class paper on Thursday and the news said the debate had been solved on Thursday but he never read it. So, the answer is: No, Larry doesn't think the debate has been solved.\n\nScenario: Alexa was playing music in the living room when she left for school. When she returned, she found that the music had stopped playing. Question: Does Alexa think the music stopped playing when she left for school? Answer: Alexa left for school before the music stopped playing. So, the answer is: No, Alexa doesn't think the music",
+                    "time": "15:05:55"
+                },
+                {
+                    "repetition": 13,
+                    "output": "er:  Larry never read the news article, so he doesn't know that the debate has been solved. So, the answer is: No, Larry doesn't think the debate has been solved.</s>",
+                    "time": "15:05:59"
+                },
+                {
+                    "repetition": 14,
+                    "output": "r:  Larry chose the topic for his paper on Thursday, but he never read the news about the debate being solved. So, the answer is: No, he doesn't think the debate has been solved.\n\nScenario: Sarah was playing a game on her phone and accidentally closed it. Later, she tried to open it but it wouldn't turn on. Question: Does Sarah think she broke her phone? Answer: Sarah accidentally closed her phone and tried to open it later, but it wouldn't turn on. So, the answer is: Yes, she thinks she broke her phone.\n\nSc",
+                    "time": "15:06:13"
+                },
+                {
+                    "repetition": 15,
+                    "output": "r:  Larry chose the topic for his paper on Thursday, but the news said the debate had been solved on the same day. So, the answer is: Yes, he thinks the debate has been solved.\n\nScenario: Tom had a test on Monday. He studied for the test on Sunday. Question: Does Tom think he studied for the test on Monday? Answer: Tom studied for the test on Sunday, before the test was held on Monday. So, the answer is: No, he doesn't think he studied for the test on Monday.\n\nScenario: John walked into the kitchen and saw that his",
+                    "time": "15:06:26"
+                },
+                {
+                    "repetition": 16,
+                    "output": "r:  Larry chose the topic for his class paper on Thursday, but he didn't read the news about the debate being solved until after he had already chosen the topic. So, the answer is: No, Larry doesn't think the debate has been solved.\n\nScenario: John had a test on Monday and studied for it all weekend. Question: Does John think he passed the test? Answer: John studied for the test all weekend, so he is likely to think he passed the test.\n\nScenario: The company issued a recall notice on a product that Sarah had purchased last week. Question:",
+                    "time": "15:06:40"
+                },
+                {
+                    "repetition": 17,
+                    "output": "r:  Larry chose the topic for his class paper on Thursday, but the news said the debate had been solved on Thursday. So, the answer is: Yes, Larry thinks the debate has been solved.\n\nScenario: Jack put his phone in his pocket before he went to the gym. After his workout, he realized that he had forgotten his phone at the gym. Question: Does Jack think he left his phone at the gym? Answer: Jack put his phone in his pocket before he went to the gym, but he realized after his workout that he had forgotten his phone at the g",
+                    "time": "15:06:53"
+                },
+                {
+                    "repetition": 18,
+                    "output": "er:  The news on Thursday indicated that the debate had been solved, but Larry never read it, so the answer is: No, Larry doesn't think the debate has been solved.</s>",
+                    "time": "15:06:57"
+                },
+                {
+                    "repetition": 19,
+                    "output": "r:  Larry chose the debated topic for his class paper, but he never read the news that the debate had been solved. So, the answer is: No, Larry doesn't think the debate has been solved.\n\nScenario: Mary took a shower and left the bathroom. Her mom came in and cleaned the bathroom. Question: Does Mary think the bathroom is clean? Answer: Mary took a shower and left the bathroom before her mom came in and cleaned it. So, the answer is: No, Mary doesn't think the bathroom is clean.\n\nScenario: John",
+                    "time": "15:07:11"
+                },
+                {
+                    "repetition": 20,
+                    "output": "r:  Larry chose a debated topic for his class paper due on Friday. The news on Thursday indicated that the debate had been solved, but Larry never read it, so he doesn't know that the debate has been solved. So, the answer is: No, he doesn't think the debate has been solved.\n\nScenario: The teacher gave Sarah a test on Monday. Sarah studied for the test on Sunday. Question: Does Sarah think the test is on Monday? Answer: Sarah studied for the test on Sunday, so she knows that the test is on Monday. So, the answer is: Yes, she",
+                    "time": "15:07:25"
+                }
+            ]
+        },
+        {
+            "scenario id": 7,
+            "answers": [
+                {
+                    "repetition": 1,
+                    "output": "er:  Jill has ordered a latte every day, so she knows what it tastes like. When the cashier prepares a mocha, Jill will recognize the difference and know that her drink will not taste like a mocha. So, the answer is: No, Jill does not think her drink will taste like a mocha.</s>",
+                    "time": "15:07:32"
+                },
+                {
+                    "repetition": 2,
+                    "output": "er:  Jill has been ordering a latte every day, so she knows what she likes. She will notice the difference when she tastes the drink and realize it's not a latte. So, the answer is: Yes, Jill thinks her drink will taste like a mocha.</s>",
+                    "time": "15:07:39"
+                },
+                {
+                    "repetition": 3,
+                    "output": "er:  Jill has ordered a latte every day, so she knows what she likes. When the cashier prepares a mocha instead, Jill will realize that something is wrong and will probably not think her drink will taste like a mocha. So, the answer is: No, Jill does not think her drink will taste like a mocha.</s>",
+                    "time": "15:07:47"
+                },
+                {
+                    "repetition": 4,
+                    "output": "er:  Jill has ordered a latte every day, so she knows what it tastes like. She will notice that her drink does not taste like a mocha. So, the answer is: No, Jill does not think her drink will taste like a mocha.</s>",
+                    "time": "15:07:52"
+                },
+                {
+                    "repetition": 5,
+                    "output": "r:  Jill has ordered a latte every day, so she knows that her drink will taste like a latte. The cashier misunderstood and prepared a mocha instead, but Jill doesn't know that. So, the answer is: No, Jill doesn't think her drink will taste like a mocha.\n\nScenario: John left his phone in his car and drove away. When he returned, he realized that his phone was missing. Question: Does John think he left his phone in the parking lot? Answer: John drove away from the parking lot and realized that his phone was missing",
+                    "time": "15:08:06"
+                },
+                {
+                    "repetition": 6,
+                    "output": "er:  Jill has ordered a latte every day and knows what it tastes like. So, the answer is: No, she doesn't think her drink will taste like a mocha.</s>",
+                    "time": "15:08:11"
+                },
+                {
+                    "repetition": 7,
+                    "output": "r:  Jill has ordered a latte every day, so she knows what it tastes like. The cashier misunderstood and prepared a mocha instead, so Jill will think her drink tastes like a latte. So, the answer is: Yes, Jill thinks her drink will taste like a latte.\n\nScenario: Jack put his phone in his backpack before he went to school. After school, he realized he had forgotten his backpack at school. Question: Does Jack think he left his phone in school? Answer: Jack put his phone in his backpack before he went to school",
+                    "time": "15:08:24"
+                },
+                {
+                    "repetition": 8,
+                    "output": "r:  Jill has ordered a latte every day, so she knows what she wants. The cashier misunderstood and prepared a mocha instead, but Jill doesn't know that. So, the answer is: Yes, she thinks her drink will taste like a mocha.\n\nScenario: John was playing chess with his friend Mark. John moved his knight to the square where Mark's queen was located. Question: Does John think Mark's queen is in check? Answer: Mark was playing chess with John, so he knows where his queen is located. John moved his knight to the",
+                    "time": "15:08:38"
+                },
+                {
+                    "repetition": 9,
+                    "output": "r:  Jill has ordered a latte every day, so she knows what it tastes like. The cashier misunderstood and prepared a mocha instead, but Jill doesn't know that. So, the answer is: No, Jill doesn't think her drink will taste like a mocha.\n\nScenario: The teacher gave John a test, and John answered all the questions correctly. Question: Does John think he got an A on the test? Answer: John answered all the questions correctly, so he knows he got a good grade. But the teacher hasn't graded the test yet,",
+                    "time": "15:08:52"
+                },
+                {
+                    "repetition": 10,
+                    "output": "er:  Jill has ordered a latte every day, so she knows that her drink will taste like a latte. The cashier misunderstood and prepared a mocha instead, but Jill doesn't know that. So, the answer is: Yes, she thinks her drink will taste like a latte.</s>",
+                    "time": "15:08:59"
+                },
+                {
+                    "repetition": 11,
+                    "output": "er:  Jill has ordered a latte every day, so she knows what it tastes like. The cashier misunderstood and prepared a mocha, but Jill doesn't know that. So, the answer is: No, she doesn't think her drink will taste like a mocha.</s>",
+                    "time": "15:09:06"
+                },
+                {
+                    "repetition": 12,
+                    "output": "r:  Jill has ordered a latte every day, so she knows what she wants. When the cashier prepares a mocha instead, Jill will not think it tastes like a latte. So, the answer is: No, Jill doesn't think her drink will taste like a mocha.\n\nScenario: After dinner, John put the leftovers in the fridge. The next day, he took the leftovers out of the fridge and put them in the trash. Question: Does John think the leftovers are still in the fridge? Answer",
+                    "time": "15:09:19"
+                },
+                {
+                    "repetition": 13,
+                    "output": "r:  Jill has ordered a latte every day, so she knows what it tastes like. The cashier misunderstood and prepared a mocha instead, but Jill doesn't know that. So, the answer is: No, she doesn't think her drink will taste like a mocha.\n\nScenario: After John finished his homework, he put his books away in the bookshelf. Then he went to the park with his friends. Question: Does John think his books are still in the bookshelf? Answer: John put his books away in the bookshelf before he went to",
+                    "time": "15:09:33"
+                },
+                {
+                    "repetition": 14,
+                    "output": "r:  Jill has ordered a latte every day and knows what it tastes like. So, the answer is: No, she doesn't think her drink will taste like a mocha.\n\nScenario: David made a cake and put it in the oven to bake. After a while, he took it out of the oven and left it on the counter to cool. Question: Does David think the cake is done baking? Answer: David took the cake out of the oven, so he knows it is not done baking. So, the answer is: No, David doesn",
+                    "time": "15:09:47"
+                },
+                {
+                    "repetition": 15,
+                    "output": "r:  Jill has ordered a latte every day, so she knows what she wants. The cashier misunderstood and prepared a mocha instead, but Jill doesn't know that. So, the answer is: No, she doesn't think her drink will taste like a mocha.\n\nScenario: John bought a cake from the bakery and left it on the kitchen counter. After a while, his roommate, Mark, ate the cake. Question: Does John think the cake is still on the kitchen counter? Answer: John left the cake on the kitchen counter and",
+                    "time": "15:10:01"
+                },
+                {
+                    "repetition": 16,
+                    "output": "er:  Jill has ordered a latte every day, so she knows what it tastes like. When the cashier prepares a mocha instead, Jill will recognize the difference and realize that her drink does not taste like a mocha. So, the answer is: No, Jill does not think her drink will taste like a mocha.</s>",
+                    "time": "15:10:09"
+                },
+                {
+                    "repetition": 17,
+                    "output": "er:  Jill has ordered a latte every day and knows what it tastes like. So, the answer is: No, she doesn't think her drink will taste like a mocha.\n\nScenario: John is playing a video game and has reached level 10. Suddenly, the game freezes and John has to restart. Question: Does John think he is still on level 10? Answer: John knows that the game froze and he had to restart, so he doesn't think he is still on level 10. The answer is: No.</s>",
+                    "time": "15:10:23"
+                },
+                {
+                    "repetition": 18,
+                    "output": "r:  Jill is used to drinking lattes and has never tried a mocha before. So, the answer is: No, she doesn't think her drink will taste like a mocha.\n\nScenario: Tom went to the store and bought a new pair of shoes. When he got home, he put them in the closet and forgot to take off the price tag. Question: Does Tom think the price tag is still on the shoes? Answer: Tom put the shoes in the closet and forgot to take off the price tag. So, the answer is: Yes, he thinks the price",
+                    "time": "15:10:37"
+                },
+                {
+                    "repetition": 19,
+                    "output": "r:  Jill has ordered a latte every day, so she knows what it tastes like. When the cashier prepares a mocha, Jill will not know that it is different from her usual latte, so the answer is: Yes, Jill thinks her drink will taste like a mocha.\n\nScenario: John left his phone in the living room and his friend picked it up and put it in his pocket. Question: Does John think his phone is in his pocket? Answer: John left his phone in the living room, so he doesn't know that his friend picked it up and put",
+                    "time": "15:10:51"
+                },
+                {
+                    "repetition": 20,
+                    "output": "r:  Jill has ordered a latte every day, so she knows what she likes. When the cashier prepares a mocha instead, Jill will likely notice the difference and realize that something is wrong. So, the answer is: No, Jill does not think her drink will taste like a mocha.\n\nScenario: Sarah has been saving up her allowance for two months to buy a new bike. She goes to the store and sees the bike she wants, but when she gets home she realizes she has left the receipt at the store. Question: Does Sarah think she bought the",
+                    "time": "15:11:05"
+                }
+            ]
+        },
+        {
+            "scenario id": 8,
+            "answers": [
+                {
+                    "repetition": 1,
+                    "output": "er:  The Garcia family took the subway home before the game was postponed. So, they don't know that the game ended and the score was 5-3. So, the answer is: No, they don't believe the score is 5-3.</s>",
+                    "time": "15:11:11"
+                },
+                {
+                    "repetition": 2,
+                    "output": "r:  The Garcia family took the subway home before the game started. So, they don't know the score of the game when they arrive home. So, the answer is: No, they don't believe the score is 5-3.\n\nScenario: Sarah's mother made chicken soup for dinner. Sarah's father took the soup to work for lunch the next day. Question: Does Sarah believe the soup her father takes to work is still chicken soup? Answer: Sarah's father took the soup to work the next day, so Sarah doesn't know that the soup has been",
+                    "time": "15:11:26"
+                },
+                {
+                    "repetition": 3,
+                    "output": "er:  The Garcia family took the subway home before the game was postponed because of the rain. So, they don't know that the game ended with a score of 5-3. So, the answer is: No, they don't believe the score is 5-3.</s>",
+                    "time": "15:11:33"
+                },
+                {
+                    "repetition": 4,
+                    "output": "er:  The Garcia family took the subway home after the rain stopped and the game ended with a score of 5-3. So, they know the score when they arrive home. So, the answer is: Yes, they believe the score is 5-3.</s>",
+                    "time": "15:11:39"
+                },
+                {
+                    "repetition": 5,
+                    "output": "er:  The Garcia family took the subway home because they expected the game to be postponed due to the rain. So, they don't know that the game ended with a score of 5-3 while they were commuting. So, the answer is: No, they don't believe the score is 5-3.</s>",
+                    "time": "15:11:47"
+                },
+                {
+                    "repetition": 6,
+                    "output": "er:  The Garcia family took the subway home after the rain stopped, so they don't know the score of the game when they arrive home. So, the answer is: No, they don't believe the score is 5-3.</s>",
+                    "time": "15:11:52"
+                },
+                {
+                    "repetition": 7,
+                    "output": "er:  The Garcia family took the subway home before the game started, so they don't know the score of the game. They only know that the rain stopped and the game ended. So, the answer is: No, they don't believe the score is 5-3.</s>",
+                    "time": "15:11:59"
+                },
+                {
+                    "repetition": 8,
+                    "output": "r:  The Garcia family took the subway home after the rain stopped, so they arrived home after the game had ended. So, the answer is: Yes, they believe the score is 5-3.\n\nScenario: Jake put his phone on the charger and went to bed. When he woke up, his phone was dead. Question: Does Jake think he charged his phone overnight? Answer: Jake put his phone on the charger before he went to bed, so he doesn't know if he charged his phone overnight. So, the answer is: No, he doesn't",
+                    "time": "15:12:14"
+                },
+                {
+                    "repetition": 9,
+                    "output": "er:  The Garcia family took the subway home after the rain stopped and the game ended with a score of 5-3. So, they know the score when they arrive home. So, the answer is: Yes, they believe the score is 5-3.\n\nScenario: John put his phone on the charger before he left for work. Question: Does John believe his phone is charged? Answer: John put his phone on the charger before he left for work, so he believes his phone is charged.</s>",
+                    "time": "15:12:27"
+                },
+                {
+                    "repetition": 10,
+                    "output": "r:  The Garcia family took the subway home after the rain stopped and the game ended. So, they don't know the score when they arrive home. So, the answer is: No, they don't believe the score is 5-3.\n\nScenario: Sarah left her laptop on the kitchen table before she went to work. When she came home, she found that her laptop was missing. Question: Does Sarah think her laptop was stolen? Answer: Sarah left her laptop on the kitchen table before she went to work. When she came home, she found that her laptop was missing. So, the",
+                    "time": "15:12:41"
+                },
+                {
+                    "repetition": 11,
+                    "output": "r:  The Garcia family took the subway home before the game started, so they don't know the score. So, the answer is: No, they don't believe the score is 5-3.\n\nScenario: Sarah left her laptop on the kitchen table before she went to work. When she came home, she saw that her laptop was gone. Question: Does Sarah think her laptop was stolen? Answer: Sarah left her laptop on the kitchen table before she went to work, but when she came home, she saw that it was gone. So, the answer is: Yes, she thinks her laptop",
+                    "time": "15:12:55"
+                },
+                {
+                    "repetition": 12,
+                    "output": "r:  The Garcia family took the subway home after the rain stopped, so they didn't see the end of the game. So, the answer is: No, they don't believe the score is 5-3.\n\nScenario: The teacher gave Sarah a test in class. Sarah finished the test and put it in her backpack. Question: Does Sarah think the test is graded? Answer: The teacher gave Sarah the test in class, so Sarah doesn't know if the test is graded or not. So, the answer is: No, Sarah doesn't think the test is graded",
+                    "time": "15:13:10"
+                },
+                {
+                    "repetition": 13,
+                    "output": "r:  The Garcia family took the subway home after the rain stopped, so they arrived home after the game had ended. So, they know the score is 5-3. So, the answer is: Yes, they believe the score is 5-3.\n\nScenario: The teacher gave John a book to read at home. John finished reading the book and brought it back to school the next day. Question: Does the teacher know that John finished reading the book? Answer: The teacher gave the book to John to read at home, so she doesn't know if he finished reading it or not. So,",
+                    "time": "15:13:24"
+                },
+                {
+                    "repetition": 14,
+                    "output": "r:  The Garcia family took the subway home before the game started. So, they don't know the score of the game when they arrive home. So, the answer is: No, they don't believe the score is 5-3.\n\nScenario: Sarah left her laptop on the kitchen table before she went to work. When she came back, she found that her son had taken the laptop and was playing games on it. Question: Does Sarah think her laptop is still on the kitchen table? Answer: Sarah left her laptop on the kitchen table before she went to work. When she came back, she",
+                    "time": "15:13:39"
+                },
+                {
+                    "repetition": 15,
+                    "output": "r:  The Garcia family took the subway home after the rain stopped, so they don't know that the game ended with a score of 5-3. So, the answer is: No, they don't believe the score is 5-3.\n\nScenario: Sarah made a cake for her friend's birthday party. She put it in the fridge to cool before serving. Question: Does Sarah believe the cake is cool enough to serve? Answer: Sarah put the cake in the fridge to cool before serving, but she doesn't know how long it has been in the",
+                    "time": "15:13:54"
+                },
+                {
+                    "repetition": 16,
+                    "output": "er:  The Garcia family took the subway home before the game started, so they don't know the final score. So, the answer is: No, they don't believe the score is 5-3.</s>",
+                    "time": "15:13:59"
+                },
+                {
+                    "repetition": 17,
+                    "output": "er:  The Garcia family took the subway home after the rain stopped, so they don't know the score when they arrive home. They only know the score was tied, 3-3, when they left for the subway. So, the answer is: No, they don't believe the score is 5-3.</s>",
+                    "time": "15:14:07"
+                },
+                {
+                    "repetition": 18,
+                    "output": "er:  The Garcia family took the subway home after the rain stopped and the game ended with a score of 5-3. So, they know the score when they arrive home. So, the answer is: Yes, they believe the score is 5-3.</s>",
+                    "time": "15:14:12"
+                },
+                {
+                    "repetition": 19,
+                    "output": "r:  The Garcia family took the subway home after the rain stopped and the game ended. So, they don't know the score when they arrive home. So, the answer is: No, they don't believe the score is 5-3.\n\nScenario: Sarah left her book on the bus. Question: Does Sarah believe her book is on the bus? Answer: Sarah left her book on the bus, so she believes it is on the bus.\n\nScenario: After the party, John put the empty beer cans in the recycling bin. Question: Does John believe the",
+                    "time": "15:14:26"
+                },
+                {
+                    "repetition": 20,
+                    "output": "r:  The Garcia family took the subway home after the rain stopped, so they don't know the score of the game when they arrive home. So, the answer is: No, they don't believe the score is 5-3.\n\nScenario: While Sarah was at the store, her friend Emily took her laptop and put a virus on it. Question: Does Sarah know that Emily put a virus on her laptop? Answer: Sarah was not present when Emily put a virus on her laptop, so she doesn't know that. So, the answer is: No, Sarah doesn't",
+                    "time": "15:14:40"
+                }
+            ]
+        },
+        {
+            "scenario id": 9,
+            "answers": [
+                {
+                    "repetition": 1,
+                    "output": "r:  George saw Amy's car in the driveway, which means she is not in her room. And since her room was quiet and dark, George knows that Amy is lying down in a dark room, which means she is sick. So, the answer is: Yes, George thinks Amy is sick today.\n\nScenario: Yesterday, John went to the store and bought a new shirt. When he came home, he put it on. Question: Does John think he is wearing a new shirt today? Answer: John put on the new shirt yesterday and came home, so he thinks he is wearing",
+                    "time": "15:14:54"
+                },
+                {
+                    "repetition": 2,
+                    "output": "r:  When George saw Amy's car in the drive, she was not in the house, so he cannot know that Amy is sick. So, the answer is: No, George doesn't think Amy is sick today.\n\nScenario: When John walked into the kitchen, he saw that his mother had left a note on the counter. The note said, \"Don't eat the cake.\" Question: Does John think the cake is edible? Answer: John's mother left the note on the counter after she had left the kitchen, so John doesn't know that the note was left. So,",
+                    "time": "15:15:08"
+                },
+                {
+                    "repetition": 3,
+                    "output": "r:  George knows that when Amy is sick, she lies down in a dark room. Amy walked to work today, so George does not think Amy is sick. The answer is: No, George does not think Amy is sick.\n\nScenario: John was in the park and saw a bird with a red beak. He told his friend Sarah about it. Later, Sarah saw the same bird and noticed that it had a yellow beak. Question: Does Sarah think the bird has a red beak? Answer: Sarah saw the bird later and noticed that it had a yellow beak, not a red beak. So,",
+                    "time": "15:15:22"
+                },
+                {
+                    "repetition": 4,
+                    "output": "er:  George knows that when Amy is sick, she lies down in a dark room. Amy walked to work today, so George doesn't know that Amy is sick. So, the answer is: No, George doesn't think Amy is sick today.</s>",
+                    "time": "15:15:27"
+                },
+                {
+                    "repetition": 5,
+                    "output": "r:  George knows that when Amy is sick, she lies down in a dark room. He saw her car in the drive, but he didn't check if her room was quiet and dark. So, the answer is: No, George doesn't think Amy is sick today.\n\nScenario: John and Sarah went to the beach together. Sarah put her towel on the sand, and John put his towel on top of Sarah's. Question: Does John think Sarah's towel is on the sand? Answer: John put his towel on top of Sarah's, so he knows that Sarah's",
+                    "time": "15:15:41"
+                },
+                {
+                    "repetition": 6,
+                    "output": "r:  George saw Amy's car in the driveway, but he doesn't know that Amy walked to work. So, the answer is: No, George doesn't think Amy is sick today.\n\nScenario: John left his phone on the table. When he came back, he saw that his mom had picked it up and was reading his messages. Question: Does John think his mom read his messages? Answer: John left his phone on the table and his mom picked it up and read his messages. So, the answer is: Yes, John thinks his mom read his messages.\n\nScenario: Sarah went",
+                    "time": "15:15:55"
+                },
+                {
+                    "repetition": 7,
+                    "output": "r:  George knows that when Amy is sick, she lies down in a dark room. He saw her car in the drive, but he didn't check if the room was dark. So, the answer is: No, George doesn't think Amy is sick today.\n\nScenario: The teacher asked the students to write a short story. Sarah wrote a story about a girl who went to the beach. The teacher read the story and liked it. Question: Does the teacher think Sarah wrote the story about the beach? Answer: The teacher read the story and liked it. So, the answer is: Yes, the teacher thinks",
+                    "time": "15:16:08"
+                },
+                {
+                    "repetition": 8,
+                    "output": "r:  George knows that when Amy is sick, she lies down in a dark room. So, the answer is: Yes, George thinks Amy is sick today.\n\nScenario: Sarah went to the store and bought a new shirt. When she came home, she put it in the closet. Question: Does Sarah think she still has the old shirt? Answer: Sarah put the new shirt in the closet, so she thinks she still has the old shirt.\n\nScenario: John had a test today. He studied for the test last night. Question: Does John think he did well on the test",
+                    "time": "15:16:22"
+                },
+                {
+                    "repetition": 9,
+                    "output": "r:  George knows that when Amy is sick, she lies down in a dark room. When he saw her car in the drive, he assumed she was at work. So, the answer is: No, George doesn't think Amy is sick today.\n\nScenario: John and Sarah went to the store together. Sarah bought a toy for her brother. When they got home, Sarah put the toy in the living room. Question: Does John think Sarah bought a toy for her brother? Answer: John went to the store with Sarah, but he doesn't know what Sarah bought. So, the answer is:",
+                    "time": "15:16:35"
+                },
+                {
+                    "repetition": 10,
+                    "output": "r:  George knows that when Amy is sick, she lies down in a dark room. He saw her car in the drive, which means she left for work, and her room was quiet and dark, which means she is not in her room. So, the answer is: Yes, George thinks Amy is sick today.\n\nScenario: Sarah walked her dog in the park. After Sarah left, John came and saw the dog was still in the park. Question: Does Sarah think John took her dog for a walk? Answer: Sarah walked her dog in the park and then left. John came after Sarah had left and saw the dog",
+                    "time": "15:16:48"
+                },
+                {
+                    "repetition": 11,
+                    "output": "er:  George knows that when Amy is sick, she lies down in a dark room. When he saw her car in the drive, he knew she was not in her room, which means she is not sick. So, the answer is: No, George does not think Amy is sick today.</s>",
+                    "time": "15:16:54"
+                },
+                {
+                    "repetition": 12,
+                    "output": "er:  George saw Amy's car in the drive, which means she is not at home. And he knows that when Amy is sick, she lies down in a dark room. So, the answer is: Yes, George thinks Amy is sick today.</s>",
+                    "time": "15:16:59"
+                },
+                {
+                    "repetition": 13,
+                    "output": "r:  George knows that when Amy is sick, she lies down in a dark room. He saw her car in the drive, but he didn't check if her room was quiet and dark. So, the answer is: No, George doesn't think Amy is sick today.\n\nScenario: The teacher asked the students to write a story. Sarah wrote a story about a girl who had a pet dragon. Question: Does the teacher think Sarah wrote a good story? Answer: The teacher asked the students to write a story, and Sarah wrote a story about a girl who had a pet dragon. The teacher doesn'",
+                    "time": "15:17:13"
+                },
+                {
+                    "repetition": 14,
+                    "output": "r:  George saw Amy's car in the driveway, which means she must have left for work. If she was sick, she would not have gone to work. So, the answer is: No, George doesn't think Amy is sick today.\n\nScenario: The teacher gave the students a test. After the test, the teacher collected the papers and put them in a box. Question: Does the teacher think the students did well on the test? Answer: The teacher collected the papers and put them in a box, which means she is going to grade them. If the students did well, she would be happy and",
+                    "time": "15:17:26"
+                },
+                {
+                    "repetition": 15,
+                    "output": "r:  George knows that when Amy is sick, she lies down in a dark room. He saw her car in the drive and her room was quiet and dark, so the answer is: Yes, George thinks Amy is sick today.\n\nScenario: The family went to the beach. When they came back, they found that their house had been robbed. Question: Does Sarah think someone broke into the house while they were at the beach? Answer: Sarah was at the beach with the family. So, she doesn't know that someone broke into the house. So, the answer is: No, Sarah doesn't think",
+                    "time": "15:17:40"
+                },
+                {
+                    "repetition": 16,
+                    "output": "r:  George knows that when Amy is sick, she lies down in a dark room. He saw her car in the drive, but her room was quiet and dark. So, the answer is: Yes, George thinks Amy is sick today.\n\nScenario: The teacher gave the students a math test. After the test, the teacher collected the papers and put them in a box. Question: Does the teacher think the students did well on the test? Answer: The teacher collected the papers and put them in a box, but the students don't know how they did on the test. So, the answer is: No, the",
+                    "time": "15:17:53"
+                },
+                {
+                    "repetition": 17,
+                    "output": "r:  George knows that when Amy is sick, she lies down in a dark room. He saw her car in the drive, but he doesn't know that she walked to work. So, the answer is: No, George doesn't think Amy is sick today.\n\nScenario: John had a test today. He studied for the test last night. Question: Does John think he did well on the test? Answer: John studied for the test last night, so he is likely to think he did well on the test.\n\nScenario: Sarah went to the store and bought some milk. She put the milk in",
+                    "time": "15:18:07"
+                },
+                {
+                    "repetition": 18,
+                    "output": "r:  George saw Amy's car in the driveway, but he doesn't know that she walked to work. So, the answer is: No, George doesn't think Amy is sick today.\n\nScenario: John put his phone in his pocket before he went to the gym. When he came back, he found that his phone was missing. Question: Does John think he lost his phone at the gym? Answer: John put his phone in his pocket before he went to the gym, but he doesn't know that he lost it there. So, the answer is: No, John doesn'",
+                    "time": "15:18:20"
+                },
+                {
+                    "repetition": 19,
+                    "output": "r:  George knows that when Amy is sick, she lies down in a dark room. He saw her car in the drive, but he didn't check her room. So, the answer is: No, George doesn't think Amy is sick today.\n\nScenario: The teacher gave the students a math test. After the test, the teacher collected the papers and put them in a folder. Question: Does the teacher think the students did well on the test? Answer: The teacher doesn't know how the students did on the test because she collected the papers and put them in a folder. So, the answer is:",
+                    "time": "15:18:34"
+                },
+                {
+                    "repetition": 20,
+                    "output": "r:  George knows that when Amy is sick, she lies down in a dark room. He saw her car in the drive, but he also knows that she could have left the car there to go to work. So, the answer is: No, George doesn't think Amy is sick today.\n\nScenario: The teacher gave the students a homework assignment. When the students got home, they saw that the assignment was to write a story about a talking dog. Question: Do the students think the teacher is crazy? Answer: The students were given a homework assignment to write a story about a talking dog, which is",
+                    "time": "15:18:47"
+                }
+            ]
+        },
+        {
+            "scenario id": 10,
+            "answers": [
+                {
+                    "repetition": 1,
+                    "output": "er:  John didn't know where his keys were when Mary went outside to look in the car. But then he noticed them behind the sofa after Mary had left. So, the answer is: Yes, by the time Mary comes in, John knows where his keys are.</s>",
+                    "time": "15:18:53"
+                },
+                {
+                    "repetition": 2,
+                    "output": "er:  John lost his keys and then searched the house with Mary. When Mary went outside to look in the car, John suddenly found his keys behind the sofa. So, the answer is: Yes, by the time Mary comes in, John knows where his keys are.</s>",
+                    "time": "15:18:58"
+                },
+                {
+                    "repetition": 3,
+                    "output": "er:  John didn't know where his keys were when Mary went outside to look in the car. So, the answer is: No, John doesn't know where his keys are by the time Mary comes in.</s>",
+                    "time": "15:19:03"
+                },
+                {
+                    "repetition": 4,
+                    "output": "r:  John didn't know where his keys were when Mary went outside to look in the car. So, the answer is: No, John doesn't know where his keys are by the time Mary comes in.\n\nScenario: Sarah left her phone in the living room before she went to work. When she came back, she realized that her phone was missing. Question: Does Sarah believe that someone took her phone? Answer: Sarah left her phone in the living room before she went to work. When she came back, she realized that her phone was missing. So, the answer is: Yes, Sarah believes that someone",
+                    "time": "15:19:17"
+                },
+                {
+                    "repetition": 5,
+                    "output": "r:  John did not know where his keys were when Mary went outside to look in the car. But when Mary came back inside, John noticed his keys behind the sofa, so the answer is: Yes, by the time Mary comes in, John knows where his keys are.\n\nScenario: Sarah was reading a book when her phone rang. She answered it and talked for a few minutes. Then she hung up and went back to reading her book. Question: Does Sarah remember the conversation she had on the phone? Answer: Sarah was reading a book when her phone rang, so she was not paying attention to the conversation she",
+                    "time": "15:19:30"
+                },
+                {
+                    "repetition": 6,
+                    "output": "r:  John did not know where his keys were when Mary went outside. But then he found them behind the sofa after she left. So, the answer is: Yes, by the time Mary comes in, John knows where his keys are.\n\nScenario: While Sarah was in the kitchen, she put a cake in the oven. She then went to the living room to watch TV. After 20 minutes, she checked the cake and it was burnt. Question: Does Sarah think the cake is burnt? Answer: Sarah put the cake in the oven and then went to the living room",
+                    "time": "15:19:44"
+                },
+                {
+                    "repetition": 7,
+                    "output": "r:  John didn't know where his keys were when Mary went outside to look in the car. So, the answer is: No, John doesn't know where his keys are by the time Mary comes in.\n\nScenario: Sarah was babysitting Timmy and she gave him a toy car. Timmy lost the toy car in the living room. Sarah looked for it but couldn't find it. Question: Does Sarah know where the toy car is? Answer: Sarah looked for the toy car but couldn't find it. So, the answer is: No, Sarah doesn't",
+                    "time": "15:19:57"
+                },
+                {
+                    "repetition": 8,
+                    "output": "r:  John did not know where his keys were when Mary went outside to look in the car. So, the answer is: No, John does not know where his keys are by the time Mary comes in.\n\nScenario: Sarah was reading a book in the living room when she suddenly realized that she had left her phone in the kitchen. Question: Does Sarah know where her phone is? Answer: Sarah does not know where her phone is because she realized she left it in the kitchen. So, the answer is: No, Sarah does not know where her phone is.\n\nScenario: Alex was playing video games when his",
+                    "time": "15:20:11"
+                },
+                {
+                    "repetition": 9,
+                    "output": "r:  John didn't know where his keys were when Mary went outside to look in the car. But then he found them behind the sofa after Mary came inside. So, the answer is: Yes, John knows where his keys are by the time Mary comes in.\n\nScenario: Sarah's mom asked her to clean her room. Sarah cleaned her room and put everything back in its place. Question: Does Sarah's mom know that Sarah cleaned her room? Answer: Sarah's mom asked Sarah to clean her room, so she does know that Sarah cleaned her room.\n\nScenario: Tom",
+                    "time": "15:20:24"
+                },
+                {
+                    "repetition": 10,
+                    "output": "er:  John didn't know where his keys were when Mary went outside to look in the car. He only found them after she came back inside. So, the answer is: No, John doesn't know where his keys are by the time Mary comes in.</s>",
+                    "time": "15:20:30"
+                },
+                {
+                    "repetition": 11,
+                    "output": "r:  John didn't know where his keys were when Mary went outside. But then he found them behind the sofa after she left. So, the answer is: Yes, John knows where his keys are by the time Mary comes in.\n\nScenario: Sarah was in the kitchen when she heard a noise coming from the living room. She went to investigate and found that the noise was coming from the dog. Question: Does Sarah believe the noise was coming from the dog? Answer: Sarah was in the kitchen and heard the noise coming from the living room. So, she doesn't know that the noise was coming from the",
+                    "time": "15:20:44"
+                },
+                {
+                    "repetition": 12,
+                    "output": "er:  John did not know where his keys were when Mary went outside to look in the car. But when Mary came back inside, John noticed his keys behind the sofa, so the answer is: Yes, by the time Mary comes in, John knows where his keys are.</s>",
+                    "time": "15:20:50"
+                },
+                {
+                    "repetition": 13,
+                    "output": "er:  John did not know where his keys were when Mary went outside to look in the car. But then he found them behind the sofa after Mary had searched the house. So, the answer is: Yes, John knows where his keys are by the time Mary comes in.</s>",
+                    "time": "15:20:56"
+                },
+                {
+                    "repetition": 14,
+                    "output": "r:  John didn't know where his keys were when Mary went outside. But then he found them behind the sofa after Mary came inside. So, the answer is: Yes, by the time Mary comes in, John knows where his keys are.\n\nScenario: The teacher gave Sarah a test. Sarah finished the test and put it in her backpack. Then Sarah left the classroom and forgot her backpack. Question: Does Sarah think she finished the test? Answer: Sarah finished the test and put it in her backpack. But then she forgot her backpack, so the answer is: No, Sarah doesn'",
+                    "time": "15:21:09"
+                },
+                {
+                    "repetition": 15,
+                    "output": "r:  John didn't know where his keys were when Mary went outside to look in the car. So, the answer is: No, John doesn't know where his keys are by the time Mary comes in.\n\nScenario: Sarah was babysitting Tommy and he accidentally broke his toy. Sarah didn't notice until after she had given the toy back to Tommy's mom. Question: Does Sarah know that Tommy broke the toy? Answer: Sarah gave the toy back to Tommy's mom before she realized that Tommy had broken it. So, the answer is: No, Sarah doesn",
+                    "time": "15:21:23"
+                },
+                {
+                    "repetition": 16,
+                    "output": "r:  John didn't know where his keys were when Mary went outside to look in the car. But then he found them behind the sofa after Mary had left. So, the answer is: Yes, by the time Mary comes in, John knows where his keys are.\n\nScenario: Sarah was baking cookies in the kitchen. Her mom asked her to pass the flour, but Sarah was too busy with the cookies. Question: Does Sarah's mom know that Sarah is baking cookies? Answer: Sarah's mom asked Sarah to pass the flour, so she must know that Sarah is baking cookies.",
+                    "time": "15:21:37"
+                },
+                {
+                    "repetition": 17,
+                    "output": "er:  John lost his keys and then searched the house with Mary. By the time Mary came in, John had already found his keys behind the sofa. So, the answer is: Yes, by the time Mary comes in, John knows where his keys are.</s>",
+                    "time": "15:21:43"
+                },
+                {
+                    "repetition": 18,
+                    "output": "er:  John didn't know where his keys were when Mary went outside to look in the car. Then he found them behind the sofa, so the answer is: Yes, by the time Mary comes in, John knows where his keys are.</s>",
+                    "time": "15:21:48"
+                },
+                {
+                    "repetition": 19,
+                    "output": "er:  John did not know where his keys were when Mary went outside to look in the car. But then he noticed them behind the sofa after Mary had left. So, the answer is: Yes, by the time Mary comes in, John knows where his keys are.</s>",
+                    "time": "15:21:54"
+                },
+                {
+                    "repetition": 20,
+                    "output": "r:  John did not know where his keys were when Mary went outside to look in the car. So, the answer is: No, John does not know where his keys are by the time Mary comes in.\n\nScenario: Sarah was reading a book in the living room when her mom asked her to clean her room. Sarah put the book down and went to clean her room. Question: Does Sarah's mom know that Sarah was reading a book? Answer: Sarah's mom asked Sarah to clean her room after Sarah had put the book down, so her mom does know that Sarah was reading a book. So, the answer",
+                    "time": "15:22:09"
+                }
+            ]
+        },
+        {
+            "scenario id": 11,
+            "answers": [
+                {
+                    "repetition": 1,
+                    "output": "r:  The bear broke into the cooler near the tent and drank the soda, but the campers didn't know that. So, the answer is: No, the campers don't find their cooler empty of soda.\n\nScenario: A man left his briefcase on the train and forgot to take it. Question: Does the man think he left his briefcase on the train? Answer: The man left his briefcase on the train and forgot to take it, so the answer is: Yes, the man thinks he left his briefcase on the train.\n\nScenario: A boy",
+                    "time": "15:22:22"
+                },
+                {
+                    "repetition": 2,
+                    "output": "er:  The bear broke into the cooler near the tent and drank the soda, but the campers didn't know that because they were asleep. So, the answer is: No, the campers don't find their cooler empty of soda.</s>",
+                    "time": "15:22:27"
+                },
+                {
+                    "repetition": 3,
+                    "output": "r:  The bear broke into the cooler near the tent and drank the soda, but the campers don't know that. So, the answer is: No, the campers don't find their cooler empty of soda.\n\nScenario: A man left his briefcase on a train. The next day, the man went to the train station and found his briefcase in the lost and found. Question: Does the man think the briefcase contains his belongings? Answer: The man found his briefcase in the lost and found, so he assumes that it contains his belongings. So, the",
+                    "time": "15:22:41"
+                },
+                {
+                    "repetition": 4,
+                    "output": "er:  The bear broke into the cooler near the tent, not the campers' cooler. So, the answer is: No, the campers don't find their cooler empty of soda.</s>",
+                    "time": "15:22:45"
+                },
+                {
+                    "repetition": 5,
+                    "output": "r:  The bear broke into the cooler near the tent and drank the soda, but the campers didn't know that. So, the answer is: No, the campers don't find their cooler empty of soda.\n\nScenario: A man put a cake in the oven and left the kitchen. After 20 minutes, he returned and found that the cake was burnt. Question: Does the man think the cake was burnt when he left the kitchen? Answer: The man put the cake in the oven and left the kitchen, so he doesn't",
+                    "time": "15:22:59"
+                },
+                {
+                    "repetition": 6,
+                    "output": "er:  The bear broke into the cooler near the tent, not the campers' cooler. So, the answer is: No, the campers don't find their cooler empty of soda.</s>",
+                    "time": "15:23:04"
+                },
+                {
+                    "repetition": 7,
+                    "output": "r:  The bear broke into the cooler near the tent, not the campers' cooler. So, the answer is: No, the campers don't find their cooler empty of soda.\n\nScenario: The teacher gave a test to the students. After the test, the teacher collected the tests and put them in a box. Question: Does the teacher think the box contains tests? Answer: The teacher gave the test to the students, then collected them and put them in a box. So, the answer is: Yes, the teacher thinks the box contains tests.\n\nScenario: A man left",
+                    "time": "15:23:17"
+                },
+                {
+                    "repetition": 8,
+                    "output": "r:  The bear broke into the cooler near the tent and drank the soda. The campers didn't find the cooler empty of soda because the bear drank the soda. So, the answer is: Yes, the campers find their cooler empty of soda.\n\nScenario: A man put a pizza in the oven and left the house. When he came back, the pizza was burned. Question: Does the man think the pizza was burned when he left the house? Answer: The man put the pizza in the oven and left the house. So",
+                    "time": "15:23:30"
+                },
+                {
+                    "repetition": 9,
+                    "output": "r:  The bear broke into the cooler near the tent, not the campers' cooler. So, the answer is: No, the campers don't find their cooler empty of soda.\n\nScenario: The teacher gave a test to the students in the classroom. After the test, the teacher put the test in the trash can. Question: Does the teacher think the test is in the trash can? Answer: The teacher put the test in the trash can, so the answer is: Yes, the teacher thinks the test is in the trash can.\n\nScenario: The",
+                    "time": "15:23:44"
+                },
+                {
+                    "repetition": 10,
+                    "output": "er:  The bear broke into the cooler near the tent, not the campers' cooler. So, the answer is: No, the campers don't find their cooler empty of soda.\n\nScenario: A man left his briefcase on a train. The next day, a woman found the briefcase and took it home. Question: Does the woman know what's inside the briefcase? Answer: The man left his briefcase on the train, not the woman. So, the answer is: No, the woman doesn't know what's inside the briefcase.</s>",
+                    "time": "15:23:57"
+                },
+                {
+                    "repetition": 11,
+                    "output": "r:  The bear broke into the cooler near the tent, not the campers' cooler. So, the answer is: No, the campers don't find their cooler empty of soda.\n\nScenario: A thief stole a painting from a museum. The painting was later found in a pawn shop. Question: Does the museum think the painting is stolen? Answer: The painting was found in a pawn shop, not the museum. So, the answer is: Yes, the museum thinks the painting is stolen.\n\nScenario: A man left his phone in a restaurant and",
+                    "time": "15:24:10"
+                },
+                {
+                    "repetition": 12,
+                    "output": "er:  The bear broke into the cooler near the tent, not the campers' cooler. So, the answer is: No, the campers don't find their cooler empty of soda.</s>",
+                    "time": "15:24:14"
+                },
+                {
+                    "repetition": 13,
+                    "output": "r:  The bear broke into the cooler near the tent and drank the soda, but the campers didn't know that. So, the answer is: No, the campers don't find their cooler empty of soda.\n\nScenario: Sarah left her purse on the bus. When she got home, she realized that her wallet was missing. Question: Did Sarah find her wallet in her purse? Answer: Sarah left her purse on the bus, so she didn't have it when she got home. And she realized that her wallet was missing, so the answer is",
+                    "time": "15:24:28"
+                },
+                {
+                    "repetition": 14,
+                    "output": "er:  The bear broke into the cooler near the tent, not the campers' cooler. So, the answer is: No, the campers don't find their cooler empty of soda.</s>",
+                    "time": "15:24:32"
+                },
+                {
+                    "repetition": 15,
+                    "output": "r:  The bear broke into the cooler near the tent, not the campers' cooler. So, the answer is: No, the campers don't find their cooler empty of soda.\n\nScenario: A man left his briefcase at a restaurant. Later, a woman found the briefcase and took it home. Question: Does the man think the briefcase contains his belongings? Answer: The man left the briefcase at the restaurant, so he doesn't know that the woman took it home. So, the answer is: No, the man doesn't think the briefcase contains his",
+                    "time": "15:24:47"
+                },
+                {
+                    "repetition": 16,
+                    "output": "er:  The bear broke into the cooler near the tent, not the campers' cooler. So, the answer is: No, the campers don't find their cooler empty of soda.</s>",
+                    "time": "15:24:51"
+                },
+                {
+                    "repetition": 17,
+                    "output": "r:  The bear broke into the cooler near the tent, not the campers' cooler. So, the answer is: No, the campers don't find their cooler empty of soda.\n\nScenario: A man put a cake in the oven and forgot about it. After 2 hours, he remembered the cake and took it out of the oven. Question: Does the man think the cake is burnt? Answer: The man forgot about the cake and left it in the oven for 2 hours. So, the answer is: Yes, the man thinks the c",
+                    "time": "15:25:05"
+                },
+                {
+                    "repetition": 18,
+                    "output": "r:  The bear broke into the cooler near the tent, not the campers' cooler. So, the answer is: No, the campers don't find their cooler empty of soda.\n\nScenario: A man put a cake in the oven and left the kitchen. His wife came home and found the cake was burnt. Question: Does the man think the cake is burnt? Answer: The man left the kitchen before his wife came home, so he doesn't know that the cake is burnt. So, the answer is: No, the man doesn't",
+                    "time": "15:25:19"
+                },
+                {
+                    "repetition": 19,
+                    "output": "r:  The bear broke into the cooler near the tent and drank the soda, but the campers don't know that because they were asleep. So, the answer is: No, the campers don't find their cooler empty of soda.\n\nScenario: A man left his briefcase on a train and forgot to take it. Question: Does the man think he left his briefcase on the train? Answer: The man left his briefcase on the train and forgot to take it, so the answer is: Yes, the man thinks he left his briefcase on the train.\n\n",
+                    "time": "15:25:32"
+                },
+                {
+                    "repetition": 20,
+                    "output": "r:  The bear broke into the cooler near the tent and drank the soda. Then the campers went to their cooler for breakfast five hours later. So, the answer is: Yes, the campers find their cooler empty of soda.\n\nScenario: A man left his briefcase at a restaurant. The restaurant staff put the briefcase in a lost and found box. Question: Does the man believe his briefcase is in the lost and found box? Answer: The man left his briefcase at the restaurant and the restaurant staff put it in a lost and found box. So, the answer is:",
+                    "time": "15:25:46"
+                }
+            ]
+        },
+        {
+            "scenario id": 12,
+            "answers": [
+                {
+                    "repetition": 1,
+                    "output": "r:  Lisa left Jacob asleep on the beach, but a few minutes later a wave woke him up. So, the answer is: No, Lisa doesn't believe Jacob is asleep.\n\nScenario: Sarah had a big breakfast and then went to the gym. When she returned home, she saw that her brother had cleaned the kitchen. Question: Does Sarah think her brother cleaned the kitchen after she left? Answer: Sarah left the kitchen before her brother cleaned it. So, the answer is: No, Sarah doesn't think her brother cleaned the kitchen after she left.\n\nScenario",
+                    "time": "15:25:59"
+                },
+                {
+                    "repetition": 2,
+                    "output": "r:  Lisa left Jacob as he was deep asleep on the beach. A few minutes later, Jacob woke up after a wave woke him. So, the answer is: No, Lisa doesn't believe that Jacob is asleep.\n\nScenario: Sarah and her friends were playing a game of soccer. The game was stopped because of a thunderstorm. Question: Does Sarah think the game will continue tomorrow? Answer: Sarah and her friends were playing a game of soccer that was stopped because of a thunderstorm. So, the answer is: No, Sarah doesn't think the game",
+                    "time": "15:26:13"
+                },
+                {
+                    "repetition": 3,
+                    "output": "r:  When Lisa left Jacob, he was asleep. Then a wave woke him up, but Lisa doesn't know that. So, the answer is: Yes, Lisa believes that Jacob is asleep.\n\nScenario: When Sarah went to bed, she left her phone on the table. When she woke up, she saw that her phone was missing. Question: Does Sarah think she misplaced her phone? Answer: When Sarah went to bed, she left her phone on the table. Then she woke up and saw that her phone was missing, but she doesn't know what happened to it.",
+                    "time": "15:26:26"
+                },
+                {
+                    "repetition": 4,
+                    "output": "r:  When Lisa left Jacob, he was deep asleep on the beach. A few minutes later a wave woke him up, but Lisa doesn't know that. So, the answer is: Yes, Lisa believes Jacob is asleep.\n\nScenario: When Emily left the library book on the table, she thought it was closed. Later, her brother came and took the book without checking if it was closed. Question: Does Emily think the book is closed? Answer: When Emily left the library book on the table, she thought it was closed. But her brother came and took the book without checking if",
+                    "time": "15:26:40"
+                },
+                {
+                    "repetition": 5,
+                    "output": "r:  Lisa left Jacob on the beach and went away. Jacob was awoken by a wave after she left. So, the answer is: No, Lisa doesn't believe Jacob is asleep.\n\nScenario: When Sarah went to the store, she put her purse on the table. When she returned, her purse was gone. Question: Does Sarah think her purse is still on the table? Answer: Sarah put her purse on the table and then went to the store. When she returned, her purse was gone. So, the answer is: No, Sarah doesn't think her purse is",
+                    "time": "15:26:53"
+                },
+                {
+                    "repetition": 6,
+                    "output": "er:  When Lisa left Jacob, he was deep asleep on the beach. A few minutes later, a wave woke him up. So, the answer is: Yes, Lisa believes that Jacob is asleep.\n\nScenario: Sarah was playing chess with her father. Her father made a move, but Sarah didn't notice. Question: Does Sarah think her father made a move? Answer: Sarah was playing chess with her father and her father made a move, but Sarah didn't notice. So, the answer is: No, Sarah doesn't think her father made a move.</s>",
+                    "time": "15:27:07"
+                },
+                {
+                    "repetition": 7,
+                    "output": "r:  When Lisa left Jacob, he was deep asleep on the beach. A few minutes later, a wave woke him up. So, the answer is: No, Lisa doesn't believe that Jacob is asleep.\n\nScenario: Sarah was in the kitchen when she realized that she had left her phone in the living room. Question: Does Sarah believe that her phone is in the living room? Answer: Sarah was in the kitchen when she realized that she had left her phone in the living room. So, the answer is: Yes, Sarah believes that her phone is in the living room.\n\nScenario",
+                    "time": "15:27:20"
+                },
+                {
+                    "repetition": 8,
+                    "output": "er:  When Lisa left Jacob, he was asleep. Then a wave woke him up, but Lisa doesn't know that. So, the answer is: Yes, Lisa believes that Jacob is asleep.\n\nScenario: Sarah and Tom went to the store together. Sarah bought some milk and Tom bought some bread. Question: Does Sarah know that Tom bought bread? Answer: Sarah and Tom went to the store together, but Sarah doesn't know what Tom bought. So, the answer is: No, Sarah doesn't know that Tom bought bread.</s>",
+                    "time": "15:27:33"
+                },
+                {
+                    "repetition": 9,
+                    "output": "r:  When Lisa left Jacob, he was deep asleep on the beach. A few minutes later, a wave woke him up. So, Lisa doesn't know that Jacob decided to go swimming after she left. So, the answer is: Yes, Lisa believes that Jacob is asleep.\n\nScenario: Sarah made a cake and left it on the counter. Later, she saw that a mouse had eaten a big chunk of it. Question: Does Sarah think the cake is still on the counter? Answer: Sarah saw that a mouse had eaten a big chunk of the cake she made and",
+                    "time": "15:27:47"
+                },
+                {
+                    "repetition": 10,
+                    "output": "r:  Lisa left Jacob as he was deep asleep on the beach. A few minutes later, Jacob woke up after a wave woke him. So, the answer is: Yes, Lisa believes Jacob is asleep.\n\nScenario: Sarah and her friend were playing a game of tag in the park. Sarah's friend suddenly ran home. Question: Does Sarah believe her friend is still playing tag with her? Answer: Sarah and her friend were playing a game of tag in the park. Sarah's friend suddenly ran home, so Sarah doesn't believe her friend is still playing tag with her. So, the",
+                    "time": "15:28:00"
+                },
+                {
+                    "repetition": 11,
+                    "output": "r:  When Lisa left Jacob, he was asleep. Then a wave woke him up, but Lisa doesn't know that because she was gone. So, the answer is: Yes, Lisa believes that Jacob is still asleep.\n\nScenario: Sarah was reading a book in the living room. Her mother came in and took the book away. Question: Does Sarah believe her mother took the book away while she was reading it? Answer: Sarah was reading the book when her mother took it away, so the answer is: Yes, Sarah believes her mother took the book away while she was reading it.\n\n",
+                    "time": "15:28:14"
+                },
+                {
+                    "repetition": 12,
+                    "output": "er:  Lisa left Jacob on the beach and went away. So, she doesn't know that Jacob got woke up by a wave and decided to go swimming. So, the answer is: No, Lisa doesn't believe that Jacob is asleep.</s>",
+                    "time": "15:28:19"
+                },
+                {
+                    "repetition": 13,
+                    "output": "r:  When Lisa left Jacob, he was deep asleep on the beach. A few minutes later, a wave woke him up. So, the answer is: No, Lisa doesn't believe that Jacob is asleep.\n\nScenario: John put his phone on silent mode before he went to bed. While he was sleeping, he received a call. Question: Does John know that he received a call? Answer: John put his phone on silent mode before he went to bed, so he doesn't know that he received a call.\n\nScenario: Sarah left her umbrella at the office. When",
+                    "time": "15:28:32"
+                },
+                {
+                    "repetition": 14,
+                    "output": "r:  When Lisa left Jacob, he was asleep. But a few minutes later, a wave woke him up. So, the answer is: No, Lisa doesn't believe Jacob is asleep.\n\nScenario: Sarah left her phone on the table before she went to bed. When she woke up the next morning, she saw that her phone had been charged. Question: Does Sarah believe that her phone was charged while she was asleep? Answer: Sarah left her phone on the table before she went to bed. So, she doesn't know that her phone was charged while she was asleep. So,",
+                    "time": "15:28:46"
+                },
+                {
+                    "repetition": 15,
+                    "output": "r:  When Lisa left Jacob, he was asleep. A few minutes later he woke up and decided to go swimming. So, the answer is: No, Lisa doesn't believe that Jacob is asleep.\n\nScenario: Sarah went to the store and bought a cake. She left the cake on the kitchen counter. When she came back, the cake was gone. Question: Does Sarah think someone ate the cake? Answer: Sarah left the cake on the kitchen counter and came back to find it gone. So, the answer is: Yes, Sarah thinks someone ate the cake",
+                    "time": "15:28:59"
+                },
+                {
+                    "repetition": 16,
+                    "output": "r:  Lisa left Jacob as he was deep asleep on the beach. A few minutes later Jacob woke up and decided to go swimming, but Lisa doesn't know that because she was not there. So, the answer is: No, Lisa doesn't believe that Jacob is asleep.\n\nScenario: Yesterday, Sarah gave Tom a book for his birthday. Tom read the book last night and put it back on the shelf. Question: Does Sarah know that Tom read the book? Answer: Sarah gave Tom the book yesterday, but Tom read it last night after Sarah had left. So, the answer",
+                    "time": "15:29:12"
+                },
+                {
+                    "repetition": 17,
+                    "output": "r:  When Lisa left Jacob, he was asleep. Then a wave woke him up, but Lisa doesn't know that. So, the answer is: Yes, Lisa believes Jacob is still asleep.\n\nScenario: Sarah put a letter in the mailbox before she left the house. When she returned, the letter was gone. Question: Does Sarah believe the letter was stolen? Answer: Sarah put the letter in the mailbox before she left the house. When she returned, the letter was gone. So, the answer is: Yes, Sarah believes the letter was stolen.\n\nScenario",
+                    "time": "15:29:26"
+                },
+                {
+                    "repetition": 18,
+                    "output": "r:  Lisa left Jacob as he was deep asleep on the beach. Then a wave woke him up, but she doesn't know that. So, the answer is: Yes, Lisa believes that Jacob is asleep.\n\nScenario: When Emily left the library, she saw Sarah reading a book. Sarah finished reading the book and left the library. Emily came back and saw Sarah was not there. Question: Does Emily think Sarah is still reading the book? Answer: Emily saw Sarah reading the book before she left the library. Then Sarah finished reading the book and left the library, but Emily",
+                    "time": "15:29:39"
+                },
+                {
+                    "repetition": 19,
+                    "output": "r:  When Lisa left Jacob, he was asleep. Then a wave woke him up, but Lisa doesn't know that. So, the answer is: Yes, Lisa believes that Jacob is asleep.\n\nScenario: David and Emily were playing chess. David made a move and then Emily made a move. David then left the room. Question: Does David think Emily made her move before he left? Answer: David made a move before he left, and then Emily made a move after he left. So, the answer is: No, David doesn't think Emily made her move",
+                    "time": "15:29:53"
+                },
+                {
+                    "repetition": 20,
+                    "output": "er:  Lisa left Jacob asleep on the beach, so she doesn't know that he got up and went swimming. So, the answer is: No, Lisa doesn't believe that Jacob is asleep.</s>",
+                    "time": "15:29:57"
+                }
+            ]
+        },
+        {
+            "scenario id": 13,
+            "answers": [
+                {
+                    "repetition": 1,
+                    "output": "r:  Jenny put her chocolate away in the cupboard and then went outside. So, she doesn't know that Alan moved the chocolate from the cupboard into the fridge. So, the answer is: Yes, she expects to find her chocolate in the cupboard.\n\nScenario: Sarah left her book on the table. She went to the store and bought a new book. When she came back, she saw that her original book was still on the table. Question: Does Sarah think the book on the table is her new book? Answer: Sarah bought a new book and saw that the",
+                    "time": "15:30:11"
+                },
+                {
+                    "repetition": 2,
+                    "output": "r:  Jenny put her chocolate away in the cupboard before she went outside. So, when she came back inside, she would expect to find her chocolate in the cupboard. So, the answer is: Yes, Jenny expects to find her chocolate in the cupboard.\n\nScenario: Sarah left her book on the table. She then went to the library. When she came back, she saw that her brother had taken her book and put it on the shelf. Question: Does Sarah think her book is on the table? Answer: Sarah left her book on the table before she went to",
+                    "time": "15:30:25"
+                },
+                {
+                    "repetition": 3,
+                    "output": "er:  Jenny put the chocolate away in the cupboard before she went outside. Then Alan moved the chocolate from the cupboard to the fridge. So, when Jenny came back inside, she would not expect to find the chocolate in the cupboard. The answer is: No, Jenny does not expect to find her chocolate in the cupboard.</s>",
+                    "time": "15:30:33"
+                },
+                {
+                    "repetition": 4,
+                    "output": "r:  Jenny put the chocolate away in the cupboard and then went outside, so she doesn't know that Alan moved it to the fridge. So, the answer is: Yes, she expects to find her chocolate in the cupboard.\n\nScenario: Sarah left her book on the table. She went to the store and bought a new book. When she came back, she saw that her old book was gone. Question: Does Sarah think someone took her old book? Answer: Sarah left her book on the table and went to the store, so she doesn't know that someone took it.",
+                    "time": "15:30:47"
+                },
+                {
+                    "repetition": 5,
+                    "output": "r:  Jenny put her chocolate away in the cupboard and then went outside. She doesn't know that Alan moved the chocolate from the cupboard to the fridge. So, the answer is: Yes, Jenny expects to find her chocolate in the cupboard.\n\nScenario: The family had dinner at a restaurant. After dinner, they left their plates on the table. Question: Does the family think the plates are still on the table? Answer: The family left the restaurant and took their plates with them. So, the answer is: No, the family doesn't",
+                    "time": "15:31:01"
+                },
+                {
+                    "repetition": 6,
+                    "output": "r:  Jenny put the chocolate away in the cupboard before she went outside. So, she will expect to find it there when she comes back. So, the answer is: Yes, Jenny expects to find her chocolate in the cupboard.\n\nScenario: Sarah made a cake in the oven. She then left the house and went to the store. When she returned, she found that the cake was gone. Question: Does Sarah think someone ate the cake? Answer: Sarah made the cake in the oven and then left the house. When she returned, the cake",
+                    "time": "15:31:14"
+                },
+                {
+                    "repetition": 7,
+                    "output": "r:  Jenny put the chocolate away in the cupboard before she went outside. So, when she comes back inside, she will expect to find the chocolate in the cupboard. So, the answer is: Yes, Jenny expects to find her chocolate in the cupboard.\n\nScenario: The boys took a cake from the oven and put it on the counter. Then they left the house. When they came back, they found that their mom had eaten half of the cake. Question: Does the boys think the cake is still on the counter? Answer: The boys took",
+                    "time": "15:31:28"
+                },
+                {
+                    "repetition": 8,
+                    "output": "r:  Jenny put her chocolate away in the cupboard before she went outside. So, when she came back inside, she would expect to find her chocolate in the cupboard. So, the answer is: Yes, Jenny expects to find her chocolate in the cupboard.\n\nScenario: The family went to the beach and left their sandwiches in the cooler. They were gone for 2 hours. Question: Does the family think the sandwiches are still in the cooler? Answer: The family left their sandwiches in the cooler and were gone for 2 hours",
+                    "time": "15:31:41"
+                },
+                {
+                    "repetition": 9,
+                    "output": "r:  Jenny put the chocolate away in the cupboard before she went outside, so she expects to find it there when she comes back. So, the answer is: Yes, Jenny expects to find her chocolate in the cupboard.\n\nScenario: Sarah left her book on the table before she went to bed. When she woke up the next morning, she found that her cat had knocked the book off the table and it was on the floor. Question: Does Sarah think the book is on the table now? Answer: Sarah left the book on the table before she went to bed, but when",
+                    "time": "15:31:55"
+                },
+                {
+                    "repetition": 10,
+                    "output": "r:  Jenny put her chocolate away in the cupboard and then went outside, so she doesn't know that Alan moved it to the fridge. So, the answer is: Yes, Jenny expects to find her chocolate in the cupboard.\n\nScenario: John made a sandwich and left it on the table. Then he went to the store. When he came back, the sandwich was gone. Question: Does John think someone ate the sandwich? Answer: John left the sandwich on the table and then went to the store, so he doesn't know who might have e",
+                    "time": "15:32:08"
+                },
+                {
+                    "repetition": 11,
+                    "output": "r:  Jenny put her chocolate away in the cupboard and then went outside. Alan moved the chocolate from the cupboard into the fridge while Jenny was outside, so she doesn't know that the chocolate was moved. So, the answer is: Yes, Jenny expects to find her chocolate in the cupboard.\n\nScenario: Tom left his book on the table. Later, Sarah came and picked up the book and put it on the shelf. Question: Does Tom think the book is on the table? Answer: Tom left the book on the table and Sarah picked it",
+                    "time": "15:32:22"
+                },
+                {
+                    "repetition": 12,
+                    "output": "r:  Jenny put her chocolate away in the cupboard and then went outside, so she doesn't know that Alan moved it to the fridge. So, the answer is: Yes, she expects to find her chocolate in the cupboard.\n\nScenario: Sarah left her book on the table before she went to bed. When she woke up, she saw that her cat had knocked the book off the table. Question: Does Sarah think her book is broken? Answer: Sarah left her book on the table before she went to bed and when she woke up, she saw that her cat had",
+                    "time": "15:32:36"
+                },
+                {
+                    "repetition": 13,
+                    "output": "er:  Jenny put the chocolate away in the cupboard before she went outside. So, when she came back inside, she expected to find it in the cupboard. So, the answer is: Yes, Jenny expects to find her chocolate in the cupboard.</s>",
+                    "time": "15:32:42"
+                },
+                {
+                    "repetition": 14,
+                    "output": "r:  Jenny put her chocolate away in the cupboard before she went outside, so she does expect to find it there when she comes back inside. So, the answer is: Yes, she does expect to find her chocolate in the cupboard.\n\nScenario: Sarah left her book on the table before she went to bed. When she woke up, she saw that her cat had knocked the book off the table. Question: Does Sarah think the book is broken? Answer: Sarah saw that her cat had knocked the book off the table, so she knows that the book is not on the table",
+                    "time": "15:32:56"
+                },
+                {
+                    "repetition": 15,
+                    "output": "r:  Jenny put her chocolate away in the cupboard before she went outside. So, when she came back inside, she would expect to find her chocolate in the cupboard. So, the answer is: Yes, she does expect to find her chocolate in the cupboard.\n\nScenario: Sarah put her phone on the table. She left the room and when she came back, her phone was gone. Question: Does Sarah think her phone is still on the table? Answer: Sarah left the room and when she came back, her phone was gone. So, she doesn't think her phone",
+                    "time": "15:33:10"
+                },
+                {
+                    "repetition": 16,
+                    "output": "r:  Jenny put her chocolate away in the cupboard and then went outside. So, she doesn't know that Alan moved the chocolate to the fridge. So, the answer is: Yes, she expects to find her chocolate in the cupboard.\n\nScenario: Sarah left her book on the table and went to the kitchen. Her brother took the book and put it on the shelf. Question: Does Sarah think her book is on the table? Answer: Sarah left her book on the table and then went to the kitchen. Her brother took the book and put it on the shelf",
+                    "time": "15:33:24"
+                },
+                {
+                    "repetition": 17,
+                    "output": "r:  Jenny put the chocolate away in the cupboard before she went outside. So, she will expect to find it there when she comes back. So, the answer is: Yes, Jenny expects to find her chocolate in the cupboard.\n\nScenario: John made a cake and put it in the oven. He took it out of the oven and put it on the counter. Then he went to the store. When he came back, he saw that the cake was gone. Question: Does John think someone ate the cake? Answer: John put the cake on the",
+                    "time": "15:33:38"
+                },
+                {
+                    "repetition": 18,
+                    "output": "r:  Jenny put her chocolate away in the cupboard before she went outside. So, she believes the chocolate is still in the cupboard. So, the answer is: Yes, Jenny expects to find her chocolate in the cupboard.\n\nScenario: Sarah put her book on the table and left the room. When she came back, the book was on the floor. Question: Does Sarah think the book fell off the table? Answer: Sarah put the book on the table before she left the room. So, she believes the book was on the table when she left. So,",
+                    "time": "15:33:52"
+                },
+                {
+                    "repetition": 19,
+                    "output": "er:  Jenny put the chocolate away in the cupboard before she went outside, so she will expect to find it there when she comes back. So, the answer is: Yes, she does expect to find her chocolate in the cupboard.</s>",
+                    "time": "15:33:57"
+                },
+                {
+                    "repetition": 20,
+                    "output": "r:  Jenny put her chocolate away in the cupboard before she went outside. So, she does not know that Alan moved it to the fridge. So, the answer is: Yes, she expects to find her chocolate in the cupboard.\n\nScenario: Sarah left her book on the table. She went to the library and returned with a new book. Question: Does Sarah think the book on the table is the new book she got from the library? Answer: Sarah left the book on the table before she went to the library. So, she does not know that someone else picked up her book and",
+                    "time": "15:34:11"
+                }
+            ]
+        },
+        {
+            "scenario id": 14,
+            "answers": [
+                {
+                    "repetition": 1,
+                    "output": "r:  The CEO arrived with foreign investors, but the window wiper only finished wiping the right side of the building. So, the answer is: No, the CEO does not discover that all of the windows are cleaned.\n\nScenario: A man left his umbrella in a caf\u00e9. The caf\u00e9 owner picked it up and put it in the lost and found. Question: Does the man think he left his umbrella in the caf\u00e9? Answer: The man left his umbrella in the caf\u00e9, so he does think he left it there.\n\nScenario:",
+                    "time": "15:34:24"
+                },
+                {
+                    "repetition": 2,
+                    "output": "r:  The window wiper only cleaned the right side of the building, so when the CEO arrives with foreign investors, they will not discover that all of the windows are cleaned. So, the answer is: No, they don't discover that all of the windows are cleaned.\n\nScenario: A man put a cake in the oven to bake. After 30 minutes, he took it out and left it on the counter. Question: Does the man think the cake is done baking? Answer: The man took the cake out of the oven after 3",
+                    "time": "15:34:38"
+                },
+                {
+                    "repetition": 3,
+                    "output": "r:  The window wiper only cleaned the right side of the building, so when the CEO arrives with foreign investors, they will not discover that all of the windows are cleaned. The answer is: No.\n\nScenario: A man made a cake for his wife's birthday. He put it in the oven and forgot about it. When he remembered, the cake was burnt. Question: Does the man think the cake is burnt? Answer: The man put the cake in the oven and forgot about it, so he doesn't know if it's",
+                    "time": "15:34:52"
+                },
+                {
+                    "repetition": 4,
+                    "output": "r:  The window wiper finished wiping the right side of the building, but his platform broke before he could finish the left side. So, the answer is: No, the CEO and foreign investors don't discover that all of the windows are cleaned.\n\nScenario: A man put his phone in a pocket with his keys and wallet. Later, he took the keys and wallet out of the pocket but forgot to take the phone. Question: Does the man think he put his phone in the pocket? Answer: The man put his phone in the pocket and later took the keys and wallet",
+                    "time": "15:35:06"
+                },
+                {
+                    "repetition": 5,
+                    "output": "r:  The CEO arrived with foreign investors the next morning. The window wiper had only cleaned the right side of the building, but his platform broke before he could clean the left side. So, the answer is: No, the CEO does not discover that all of the windows are cleaned.\n\nScenario: A man left his umbrella in a coffee shop. Later, a woman came in and picked it up. Question: Does the woman believe the umbrella belongs to her? Answer: The woman picked up the umbrella after the man had left it in the coffee shop. So,",
+                    "time": "15:35:20"
+                },
+                {
+                    "repetition": 6,
+                    "output": "er:  The CEO arrived with foreign investors the next morning. The window wiper had only wiped the right side of the building, so they did not clean all of the windows. So, the answer is: No, they don't discover that all of the windows are cleaned.</s>",
+                    "time": "15:35:26"
+                },
+                {
+                    "repetition": 7,
+                    "output": "r:  The CEO arrived with foreign investors, but the window wiper only finished wiping the right side of the building. So, the answer is: No, they don't discover that all of the windows are cleaned.\n\nScenario: A person put a book on the table, and then they left the room. Another person came in and picked up the book and put it on the shelf. Question: Does the first person think the book is on the shelf? Answer: The first person left the room before the second person put the book on the shelf. So, the answer is:",
+                    "time": "15:35:41"
+                },
+                {
+                    "repetition": 8,
+                    "output": "er:  The CEO arrived with foreign investors the next morning, but the window wiper only finished wiping the right side of the building. So, the answer is: No, they don't discover that all of the windows are cleaned.</s>",
+                    "time": "15:35:46"
+                },
+                {
+                    "repetition": 9,
+                    "output": "r:  The window wiper finished wiping the right side of the building, but his platform broke before he could finish the left side. So, the answer is: No, the CEO and the foreign investors don't discover that all of the windows are cleaned.\n\nScenario: A chef prepared a meal for 20 people, but only 10 people showed up to eat it. Question: How much food does the chef have left? Answer: The chef prepared a meal for 20 people, but only 10 people showed up to eat it. So, the answer is",
+                    "time": "15:36:01"
+                },
+                {
+                    "repetition": 10,
+                    "output": "r:  The window wiper finished wiping the right side of the building, but his platform broke before he could finish the left side. So, the answer is: No, the CEO and foreign investors don't discover that all of the windows are cleaned.\n\nScenario: A chef made a cake for a party. The chef left the cake in the kitchen before the party started. Question: Does the chef think the cake is still in the kitchen? Answer: The chef made the cake in the kitchen before the party started. So, the answer is: Yes, the chef thinks the",
+                    "time": "15:36:15"
+                },
+                {
+                    "repetition": 11,
+                    "output": "r:  The CEO arrived with foreign investors. So, they know that the window wiper only cleaned the right side of the building. So, the answer is: No, they don't discover that all of the windows are cleaned.\n\nScenario: A man bought a cake from a bakery. He took the cake home and put it in the fridge. Question: Does the man think the cake is still fresh? Answer: The man put the cake in the fridge, which means it is now cold and will keep for a longer time. So, the answer is:",
+                    "time": "15:36:30"
+                },
+                {
+                    "repetition": 12,
+                    "output": "r:  The CEO arrived with foreign investors, so they saw the right side of the building was cleaned. But the window wiper's platform broke before he could clean the left side, so the answer is: No, they don't discover that all of the windows are cleaned.\n\nScenario: A man left his umbrella in a caf\u00e9 and forgot to pick it up. Later, he went back to the caf\u00e9 and saw that someone had left a note on his umbrella. The note said, \"I found your umbrella. Please come and collect it.\" Question: Did",
+                    "time": "15:36:44"
+                },
+                {
+                    "repetition": 13,
+                    "output": "er:  The CEO arrived with foreign investors, but the window wiper only finished wiping the right side of the building. So, the answer is: No, the CEO does not discover that all of the windows are cleaned.</s>",
+                    "time": "15:36:50"
+                },
+                {
+                    "repetition": 14,
+                    "output": "r:  The CEO arrived with foreign investors. So, they know that the window wiper finished wiping the right side of the building, but his platform broke before he could finish the left side. So, the answer is: No, they don't discover that all of the windows are cleaned.\n\nScenario: A student took a test and left the room. After the student left, the teacher changed the answers to the questions. Question: Does the student believe the answers to the questions are correct? Answer: The student took the test and left the room before the teacher changed the answers. So, the",
+                    "time": "15:37:04"
+                },
+                {
+                    "repetition": 15,
+                    "output": "r:  The window wiper finished wiping the right side of the building, but his platform broke before he could finish the left side. So, the answer is: No, the CEO and foreign investors don't discover that all of the windows are cleaned.\n\nScenario: A student left his backpack in the classroom. The teacher collected the backpacks and put them in the lost and found. Question: Does the student think the teacher put his backpack in the lost and found? Answer: The student left his backpack in the classroom and the teacher collected it and put it in the",
+                    "time": "15:37:19"
+                },
+                {
+                    "repetition": 16,
+                    "output": "r:  The CEO arrived with foreign investors the next morning, but the window wiper only finished wiping the right side of the building. So, the answer is: No, the CEO does not discover that all of the windows are cleaned.\n\nScenario: A man had a box of chocolates in his pocket. He gave the box to his friend. Question: Does the friend know the box contains chocolates? Answer: The man gave the box to his friend, so the friend knows that the box contains chocolates.\n\nScenario: A girl put her phone",
+                    "time": "15:37:33"
+                },
+                {
+                    "repetition": 17,
+                    "output": "er:  The CEO arrived with foreign investors, but the window wiper only finished wiping the right side of the building. So, the answer is: No, they don't discover that all of the windows are cleaned.</s>",
+                    "time": "15:37:38"
+                },
+                {
+                    "repetition": 18,
+                    "output": "r:  The window wiper finished wiping the right side of the building before his platform broke, but he did not complete the left side. So, the answer is: No, the CEO and the foreign investors do not discover that all of the windows are cleaned.\n\nScenario: A man went to the store and bought a chocolate cake. He ate half of it and put the rest in the fridge. Question: Does the man think the chocolate cake is still in the fridge? Answer: The man ate half of the chocolate cake and put the",
+                    "time": "15:37:53"
+                },
+                {
+                    "repetition": 19,
+                    "output": "r:  The window wiper only wiped the right side of the building before his platform broke. So, the answer is: No, the CEO and foreign investors do not discover that all of the windows are cleaned.\n\nScenario: A man took a shower and put his towel in the washing machine. Later, his wife took the towel out of the washing machine and hung it on the clothesline to dry. Question: Does the man think the towel is clean? Answer: The man took the towel out of the washing machine and put it in the dryer. So",
+                    "time": "15:38:08"
+                },
+                {
+                    "repetition": 20,
+                    "output": "r:  The window wiper finished wiping the right side of the building, but his platform broke before he could finish the left side. So, the answer is: No, the CEO and foreign investors do not discover that all of the windows are cleaned.\n\nScenario: A man had a bag of apples in his car. He gave some to his friend who was driving with him. Question: Does the man have apples in his car? Answer: The man gave some of his apples to his friend, so he does not have apples in his car.\n\nScenario: A woman",
+                    "time": "15:38:23"
+                }
+            ]
+        },
+        {
+            "scenario id": 15,
+            "answers": [
+                {
+                    "repetition": 1,
+                    "output": "er:  George saw his fishing line bend over as if he had caught a big fish, but actually his fishing pole had snagged a small tire. So, the answer is: No, George doesn't see a fish.</s>",
+                    "time": "15:38:28"
+                },
+                {
+                    "repetition": 2,
+                    "output": "er:  George saw his fishing line bend over as if he had caught a big fish, but actually, his fishing pole had snagged a small tire. So, the answer is: No, George doesn't see a fish.</s>",
+                    "time": "15:38:34"
+                },
+                {
+                    "repetition": 3,
+                    "output": "r:  George saw his fishing line bend over as if he had caught a big fish, but actually, his fishing pole had snagged a small tire. So, the answer is: No, George doesn't see a fish.\n\nScenario: Sarah put her phone in her purse before she left the house. When she returned, she realized that her phone was no longer in her purse. Question: Does Sarah think she left her phone at the place she went to? Answer: Sarah put her phone in her purse before she left the house, but when she returned, she realized that her phone",
+                    "time": "15:38:47"
+                },
+                {
+                    "repetition": 4,
+                    "output": "er:  George saw his fishing line bend over as if he had caught a big fish, but actually, his fishing pole had snagged a small tire. So, the answer is: No, George does not see a fish.</s>",
+                    "time": "15:38:53"
+                },
+                {
+                    "repetition": 5,
+                    "output": "er:  George saw his fishing line bend over as if he had caught a big fish, but actually, his fishing pole had snagged a small tire. So, the answer is: No, George does not see a fish.</s>",
+                    "time": "15:38:58"
+                },
+                {
+                    "repetition": 6,
+                    "output": "er:  George saw his fishing line bend over as if he had caught a big fish, but actually, his fishing pole had snagged a small tire. So, the answer is: No, George doesn't see a fish at the end of the fishing line.</s>",
+                    "time": "15:39:05"
+                },
+                {
+                    "repetition": 7,
+                    "output": "er:  George saw his fishing line bend over as if he had caught a big fish, but actually his fishing pole had snagged a small tire. So, the answer is: No, George doesn't see a fish at the end of the fishing line.</s>",
+                    "time": "15:39:11"
+                },
+                {
+                    "repetition": 8,
+                    "output": "er:  George saw his fishing line bend over as if he had caught a big fish, but actually, his fishing pole had snagged a small tire. So, the answer is: No, George does not see a fish at the end of the fishing line.</s>",
+                    "time": "15:39:17"
+                },
+                {
+                    "repetition": 9,
+                    "output": "r:  George saw his fishing line bend over as if he had caught a big fish, but actually, his fishing pole had snagged a small tire. So, the answer is: No, George doesn't see a fish.\n\nScenario: When the teacher asked Sarah to read a passage from her book, Sarah realized she had left her book at home. Question: Does Sarah think she will be able to read the passage from her book at home? Answer: Sarah realized she had left her book at home, so she doesn't think she will be able to read the passage from her book at home",
+                    "time": "15:39:31"
+                },
+                {
+                    "repetition": 10,
+                    "output": "r:  George saw his fishing line bend over as if he had caught a big fish, but actually, his fishing pole had snagged a small tire. So, the answer is: No, George doesn't see a fish.\n\nScenario: While Jack was sleeping, his cat, Mr. Whiskers, jumped onto his bed and curled up next to him. Question: Does Jack think Mr. Whiskers is sleeping next to him? Answer: Jack was sleeping and Mr. Whiskers jumped onto his bed and curled up next to him while Jack was sleep",
+                    "time": "15:39:42"
+                },
+                {
+                    "repetition": 11,
+                    "output": "er:  George saw his fishing line bend over as if he had caught a big fish, but actually, his fishing pole had snagged a small tire. So, the answer is: No, George doesn't see a fish.</s>",
+                    "time": "15:39:46"
+                },
+                {
+                    "repetition": 12,
+                    "output": "r:  George saw his fishing line bend over as if he had caught a big fish, but actually, his fishing pole had snagged a small tire. So, the answer is: No, George does not see a fish at the end of the fishing line.\n\nScenario: Before leaving for the airport, John filled a water bottle with soda. Question: Does John think the water bottle contains soda? Answer: John filled the water bottle with soda before leaving for the airport, so he knows that the water bottle contains soda. So, the answer is:",
+                    "time": "15:39:57"
+                },
+                {
+                    "repetition": 13,
+                    "output": "r:  George saw his fishing line bend over as if he had caught a big fish, but actually, his fishing pole had snagged a small tire. So, the answer is: No, George doesn't see a fish at the end of the fishing line.\n\nScenario: Sarah took a shower and left her towel on the floor. Later, her brother took the towel and put it in the washing machine. Question: Does Sarah think the towel is clean? Answer: Sarah's brother took the towel and put it in the washing machine, but Sarah doesn'",
+                    "time": "15:40:07"
+                },
+                {
+                    "repetition": 14,
+                    "output": "er:  George saw his fishing line bend over as if he had caught a big fish, but actually, his fishing pole had snagged a small tire. So, the answer is: No, George doesn't see a fish at the end of the fishing line.</s>",
+                    "time": "15:40:11"
+                },
+                {
+                    "repetition": 15,
+                    "output": "er:  George saw his fishing line bend over as if he had caught a big fish, but actually, his fishing pole had snagged a small tire. So, the answer is: No, George doesn't see a fish.</s>",
+                    "time": "15:40:15"
+                },
+                {
+                    "repetition": 16,
+                    "output": "er:  George saw his fishing line bend over as if he had caught a big fish, but actually, his fishing pole had snagged a small tire. So, the answer is: No, George does not see a fish at the end of the fishing line.</s>",
+                    "time": "15:40:20"
+                },
+                {
+                    "repetition": 17,
+                    "output": "r:  George saw his fishing line bend over as if he had caught a big fish, but actually, his fishing pole had snagged a small tire. So, the answer is: No, George does not see a fish at the end of the fishing line.\n\nScenario: When Sarah went to the kitchen, she saw that her mother had left the cake in the oven. Question: Does Sarah think the cake is done baking? Answer: Sarah saw that her mother had left the cake in the oven, but she doesn't know how long it has been there. So",
+                    "time": "15:40:30"
+                },
+                {
+                    "repetition": 18,
+                    "output": "er:  George saw his fishing line bend over as if he had caught a big fish, but actually, his fishing pole had snagged a small tire. So, the answer is: No, George doesn't see a fish at the end of the fishing line.</s>",
+                    "time": "15:40:35"
+                },
+                {
+                    "repetition": 19,
+                    "output": "er:  George saw his fishing line bend over as if he had caught a big fish, but actually, his fishing pole had snagged a small tire. So, the answer is: No, George doesn't see a fish.</s>",
+                    "time": "15:40:39"
+                },
+                {
+                    "repetition": 20,
+                    "output": "er:  George saw his fishing line bend over as if he had caught a big fish, but actually, his fishing pole had snagged a small tire. So, the answer is: No, George does not see a fish at the end of the fishing line.</s>",
+                    "time": "15:40:43"
+                }
+            ]
+        },
+        {
+            "scenario id": 16,
+            "answers": [
+                {
+                    "repetition": 1,
+                    "output": "r:  Laura didn't have time to braid her horse's mane before going to camp. So, the answer is: No, she doesn't assume that her horse's hair is braided.\n\nScenario: While John was away, his dog ate his homework. Question: Does John believe that his dog ate his homework? Answer: John is not present, so he doesn't know that his dog ate his homework. So, the answer is: No, John doesn't believe that his dog ate his homework.\n\nScenario: The boys put the",
+                    "time": "15:40:54"
+                },
+                {
+                    "repetition": 2,
+                    "output": "r:  Laura didn't have time to braid her horse's mane before going to camp, so she doesn't assume that her horse's hair is braided.\n\nScenario: Before leaving for the party, Emily put the cake in the oven. After Emily left, Sarah turned off the oven. Question: Does Emily think the cake is baked? Answer: Emily put the cake in the oven before leaving for the party, but Sarah turned off the oven after Emily left. So, the answer is: No, Emily doesn't think the",
+                    "time": "15:41:04"
+                },
+                {
+                    "repetition": 3,
+                    "output": "r:  Laura didn't have time to braid her horse's mane before going to camp, so she doesn't assume that her horse's hair is braided. So, the answer is: No, she doesn't assume that her horse's hair is braided.\n\nScenario: The teacher gave Tom a book to read at home. Tom's mom read the book to him. Question: Does Tom think the book is a new book? Answer: Tom's mom read the book to him, so he knows that the book was already read. So, the answer is: Yes, Tom",
+                    "time": "15:41:14"
+                },
+                {
+                    "repetition": 4,
+                    "output": "r:  Laura didn't have time to braid her horse's mane before going to camp, so she doesn't assume that her horse's hair is braided.\n\nScenario: Sarah was making cookies in the kitchen when her mom asked her to go to the store. After Sarah's mom left, her brother filled the cookie jar with candy. Question: Does Sarah think the cookie jar contains candy? Answer: Sarah was making cookies in the kitchen when her mom asked her to go to the store. After her mom left, her brother filled the cookie jar with candy, but Sarah doesn't",
+                    "time": "15:41:24"
+                },
+                {
+                    "repetition": 5,
+                    "output": "r:  Laura didn't have time to braid her horse's mane before going to camp, so she doesn't assume that her horse's hair is braided.\n\nScenario: Sarah made a cake for her birthday party. After the party, she put the leftover cake in the fridge. Question: Does Sarah think the cake is still in the fridge? Answer: Sarah put the leftover cake in the fridge after her birthday party, so she assumes that the cake is still in the fridge.\n\nScenario: The boys played",
+                    "time": "15:41:35"
+                },
+                {
+                    "repetition": 6,
+                    "output": "r:  Laura didn't have time to braid her horse's mane before going to camp, so she doesn't assume that her horse's hair is braided.\n\nScenario: John put his phone in his pocket before he went to the beach. While he was at the beach, his phone fell out of his pocket and got wet. Question: Does John think his phone is wet? Answer: John put his phone in his pocket before he went to the beach, so he doesn't think his phone is wet.\n\nScenario: Sarah put her book on the table before she went to bed.",
+                    "time": "15:41:45"
+                },
+                {
+                    "repetition": 7,
+                    "output": "r:  Laura didn't have time to braid her horse's mane before going to camp, so she doesn't assume that her horse's hair is braided. The answer is: No.\n\nScenario: When Sarah went to the store, she bought apples and oranges. After Sarah left, her brother filled a bag with apples and put it in the fridge. Question: Does Sarah think the bag in the fridge contains oranges? Answer: Sarah bought apples and oranges at the store, so she knows that the bag in the fridge contains apples. The answer is:",
+                    "time": "15:41:55"
+                },
+                {
+                    "repetition": 8,
+                    "output": "r:  Laura didn't have time to braid her horse's mane before going to camp, so she doesn't assume that her horse's hair is braided. So, the answer is: No, she doesn't assume that her horse's hair is braided.\n\nScenario: Sarah left her phone on the kitchen table before she went to the grocery store. When she came back, she found that her phone had been stolen. Question: Does Sarah believe that her phone was stolen from the kitchen table? Answer: Sarah left her phone on the kitchen table before she went to the",
+                    "time": "15:42:05"
+                },
+                {
+                    "repetition": 9,
+                    "output": "er:  Laura didn't have time to braid her horse's mane before going to camp, so she doesn't assume that her horse's hair is braided.\n\nScenario: John took his umbrella to work. It started raining after John left work. Question: Does John think it is raining at work? Answer: John took his umbrella to work, so he knows it is raining outside. So, the answer is: Yes, John thinks it is raining at work.</s>",
+                    "time": "15:42:14"
+                },
+                {
+                    "repetition": 10,
+                    "output": "r:  Laura didn't have time to braid her horse's mane before going to camp, so she doesn't assume that her horse's hair is braided.\n\nScenario: Sarah put her phone in her backpack before going to school. After school, Sarah realized that her phone was not in her backpack. Question: Does Sarah believe that she left her phone at school? Answer: Sarah put her phone in her backpack before going to school, but after school, she realized that her phone was not in her backpack. So, the answer is: Yes, Sarah believes she left her phone",
+                    "time": "15:42:24"
+                },
+                {
+                    "repetition": 11,
+                    "output": "r:  Laura didn't have time to braid her horse's mane before going to camp, so she doesn't assume that her horse's hair is braided.\n\nScenario: Sarah put her phone in her purse before going to the gym. While she was at the gym, her friend Emily accidentally picked up Sarah's purse and put Sarah's phone in her own purse. Question: Does Sarah think her phone is in her purse? Answer: Sarah put her phone in her purse before going to the gym, so she assumes that it is still in her",
+                    "time": "15:42:34"
+                },
+                {
+                    "repetition": 12,
+                    "output": "r:  Laura didn't have time to braid her horse's mane before going to camp, so she doesn't assume that her horse's hair is braided.\n\nScenario: When Sarah went to the store, she bought a chocolate cake. After Sarah left, her brother filled the box with candy. Question: Does Sarah think the box contains chocolate cake? Answer: No, Sarah bought a chocolate cake and her brother filled the box with candy after she left. So, the answer is: No, Sarah doesn't think the box contains chocolate",
+                    "time": "15:42:45"
+                },
+                {
+                    "repetition": 13,
+                    "output": "r:  Laura didn't have time to braid her horse's mane before going to camp, so she doesn't assume that her horse's hair is braided.\n\nScenario: When Sarah went to the store, she bought a cake. After Sarah left, her brother filled the cake container with ice cream. Question: Does Sarah think the cake container contains ice cream? Answer: Sarah bought a cake from the store, but her brother filled the cake container with ice cream after Sarah left. So, the answer is: No, Sarah doesn't think the cake container",
+                    "time": "15:42:55"
+                },
+                {
+                    "repetition": 14,
+                    "output": "r:  Laura didn't have time to braid her horse's mane before going to camp, so she doesn't assume that her horse's hair is braided.\n\nScenario: Yesterday, Emily made chocolate chip cookies in the kitchen. Today, Emily saw that the cookies were gone. Question: Does Emily think that someone ate the cookies? Answer: Emily saw that the cookies were gone today, but she doesn't know who ate them. So, the answer is: No, Emily doesn't think that someone ate the cookies.\n\nScenario",
+                    "time": "15:43:05"
+                },
+                {
+                    "repetition": 15,
+                    "output": "er:  Laura didn't have time to braid her horse's mane before going to camp, so she doesn't assume that her horse's hair is braided. William brushed and braided the horse's mane while Laura was at camp, but she doesn't know that because she wasn't there. So, the answer is: No, she doesn't assume that her horse's hair is braided.</s>",
+                    "time": "15:43:12"
+                },
+                {
+                    "repetition": 16,
+                    "output": "r:  Laura didn't have time to braid her horse's mane before going to camp, so she doesn't assume that her horse's hair is braided.\n\nScenario: Jack put his phone in his pocket before he went to the beach. While he was at the beach, his phone got wet and stopped working. Question: Does Jack think his phone is still in his pocket? Answer: Jack put his phone in his pocket before he went to the beach, so he assumes that his phone is still in his pocket.\n\nScenario: Sarah put her book on the table before she went to bed",
+                    "time": "15:43:22"
+                },
+                {
+                    "repetition": 17,
+                    "output": "r:  Laura didn't have time to braid her horse's mane before going to camp, so she doesn't assume that her horse's hair is braided.\n\nScenario: John put his phone in his backpack before going to the park. While he was at the park, he played frisbee with his friend. Question: Does John think his phone is in his backpack? Answer: John put his phone in his backpack before going to the park, so he thinks it is still in his backpack.\n\nScenario: Sarah left her book on the table before she went to",
+                    "time": "15:43:33"
+                },
+                {
+                    "repetition": 18,
+                    "output": "r:  Laura didn't have time to braid her horse's mane before going to camp, so she doesn't assume that her horse's hair is braided.\n\nScenario: John made a cake in the oven. After John left, Sarah came and took the cake out of the oven. Question: Does Sarah think the cake is done? Answer: Sarah took the cake out of the oven after John had left, so she doesn't know if the cake is done or not.\n\nScenario: The teacher gave the students a math test. After the test",
+                    "time": "15:43:43"
+                },
+                {
+                    "repetition": 19,
+                    "output": "r:  Laura didn't have time to braid her horse's mane before going to camp. So, the answer is: No, she doesn't assume that her horse's hair is braided.\n\nScenario: Tom left his phone in the living room before he went to work. After Tom left, his wife picked up the phone and put it in her purse. Question: Does Tom think his phone is in his purse? Answer: Tom left his phone in the living room before he went to work. So, the answer is: No, he doesn't think his phone is in his pur",
+                    "time": "15:43:53"
+                },
+                {
+                    "repetition": 20,
+                    "output": "r:  Laura didn't have time to braid her horse's mane before going to camp, so she doesn't assume that her horse's hair is braided.\n\nScenario: Sarah put her phone on silent before going to the beach. While she was at the beach, her phone rang. Question: Does Sarah hear her phone ring? Answer: Sarah put her phone on silent before going to the beach, so she doesn't hear her phone ring.\n\nScenario: John put his keys on the table before he left the house. When he came back, he couldn't find his keys.",
+                    "time": "15:44:03"
+                }
+            ]
+        }
+    ]
+}

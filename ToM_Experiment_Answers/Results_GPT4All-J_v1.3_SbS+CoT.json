@@ -1,0 +1,1694 @@
+{
+    "model": "nomic-ai/gpt4all-j v1.3-groovy",
+    "step-by_step reasoning": true,
+    "chain-of-thougth examples": true,
+    "model parameter": {
+        "max_new_tokens": 128,
+        "top k": 50,
+        "top p": 0.95,
+        "do sample": true,
+        "temperature": 0.4
+    },
+    "scenarios": [
+        {
+            "scenario id": 1,
+            "answers": [
+                {
+                    "repetition": 1,
+                    "output": "\nThe weather was so warm today that all the tulips in Pam's backyard suddenly bloomed. The tulips next to Pam's office still have not yet flowered, though. Pam has been at work all day. So, the answer is: Yes, Pam assumes her tulips have bloomed.<|endoftext|>",
+                    "time": "13:24:23"
+                },
+                {
+                    "repetition": 2,
+                    "output": "\n\n- Pam has been at work all day.\n- The weather was warm today.\n- All the tulips in Pam's backyard suddenly bloomed.\n- The tulips next to Pam's office still have not yet flowered, though.\n- Pam has been at work all day.\n- The weather was warm today.\n- All the tulips in Pam's backyard suddenly bloomed.\n- The tulips next to Pam's office still have not yet flowered, though.\n- Pam has been at work all day.\n- The weather was warm today.\n- All the tulips in",
+                    "time": "13:25:03"
+                },
+                {
+                    "repetition": 3,
+                    "output": "\nWhen Pam is driving home after work, she assumes her tulips have bloomed. So, the answer is: Yes, she assumes her tulips have bloomed.<|endoftext|>",
+                    "time": "13:25:13"
+                },
+                {
+                    "repetition": 4,
+                    "output": "\n\n1. The weather was so warm today that all the tulips in Pam's backyard suddenly bloomed.\n2. The tulips next to Pam's office still have not yet flowered, though.\n3. Pam has been at work all day.\n4. Pam drives home after work.\n5. Pam assumes her tulips have bloomed.\n\nTherefore, the answer is: Yes, Pam assumes her tulips have bloomed.<|endoftext|>",
+                    "time": "13:25:42"
+                },
+                {
+                    "repetition": 5,
+                    "output": "\n\n- Pam has been at work all day.\n- The weather was so warm today that all the tulips in Pam's backyard suddenly bloomed.\n- The tulips next to Pam's office still have not yet flowered, though.\n- Pam has been at work all day.\n- The weather was so warm today that all the tulips in Pam's backyard suddenly bloomed.\n- The tulips next to Pam's office still have not yet flowered, though.\n- Pam has been at work all day.\n- The weather was so warm today that all the tulips in Pam's backyard",
+                    "time": "13:26:23"
+                },
+                {
+                    "repetition": 6,
+                    "output": "\n\n- Pam has been at work all day. \n- The weather was so warm today that all the tulips in Pam's backyard suddenly bloomed. \n- The tulips next to Pam's office still have not yet flowered, though. \n- Pam has been at work all day. \n- The weather was so warm today that all the tulips in Pam's backyard suddenly bloomed. \n- The tulips next to Pam's office still have not yet flowered, though. \n- Pam has been at work all day. \n- The weather was so warm today that all",
+                    "time": "13:27:03"
+                },
+                {
+                    "repetition": 7,
+                    "output": "\n\n* The weather was warm today.\n* All the tulips in Pam's backyard suddenly bloomed.\n* The tulips next to Pam's office still have not yet flowered, though.\n* Pam has been at work all day.\n* The answer is: Yes, she assumes her tulips have bloomed.<|endoftext|>",
+                    "time": "13:27:24"
+                },
+                {
+                    "repetition": 8,
+                    "output": "\nThe weather was so warm today that all the tulips in Pam's backyard suddenly bloomed. The tulips next to Pam's office still have not yet flowered, though. Pam has been at work all day. So, the answer is: Yes, she assumes her tulips have bloomed.<|endoftext|>",
+                    "time": "13:27:42"
+                },
+                {
+                    "repetition": 9,
+                    "output": "\n1. Pam's tulips have not yet bloomed.\n2. She gets home from work.\n3. She sees her tulips next to her office still have not yet bloomed.\n4. She assumes her tulips have bloomed.\n5. She gets in her car and drives home.\n6. When she gets home, she realizes her tulips still have not bloomed.\n7. She assumes her tulips have bloomed.\n8. She gets in her house and checks her tulips.\n9. She realizes her tulips still have not bloomed.\n10. She",
+                    "time": "13:28:22"
+                },
+                {
+                    "repetition": 10,
+                    "output": "\nWhen Pam is driving home after work, she is not aware of the warm weather. So, she doesn't know that all the tulips in her backyard have bloomed. She is not aware of the fact that the tulips next to her office have not yet flowered. So, the answer is: No, she doesn't assume her tulips have bloomed.<|endoftext|>",
+                    "time": "13:28:45"
+                },
+                {
+                    "repetition": 11,
+                    "output": "\n\nPam's tulips have not yet flowered, but the weather was so warm today that all the tulips in Pam's backyard suddenly bloomed. The tulips next to Pam's office still have not yet flowered, though. Pam has been at work all day. So, the answer is: Yes, she assumes her tulips have bloomed.<|endoftext|>",
+                    "time": "13:29:08"
+                },
+                {
+                    "repetition": 12,
+                    "output": "\n\n- Pam is at work all day.\n- The weather is warm.\n- All the tulips in Pam's backyard suddenly bloomed.\n- The tulips next to Pam's office still have not yet flowered.\n- Pam has been at work all day.\n- The weather is warm.\n- All the tulips in Pam's backyard suddenly bloomed.\n- The tulips next to Pam's office still have not yet flowered.\n- Pam has been at work all day.\n- The weather is warm.\n- All the tulips in Pam's backyard suddenly bloomed.\n",
+                    "time": "13:29:48"
+                },
+                {
+                    "repetition": 13,
+                    "output": "\nThe tulips in Pam's backyard have not yet bloomed, but the tulips next to Pam's office have not yet bloomed either. Pam has been at work all day. So, the answer is: No, she does not assume her tulips have bloomed.<|endoftext|>",
+                    "time": "13:30:05"
+                },
+                {
+                    "repetition": 14,
+                    "output": "\n\n- Pam works at a flower shop all day.\n- She has tulips in her backyard that have not yet bloomed.\n- She goes to work and works all day.\n- When she gets home, she assumes her tulips have bloomed because she has been at work all day and hasn't been able to see them.\n- She gets in her car and drives home.\n- When she gets home, she sees that her tulips next to her office have not yet bloomed.\n- She assumes her tulips have bloomed because she has been at work all day and hasn't been able",
+                    "time": "13:30:45"
+                },
+                {
+                    "repetition": 15,
+                    "output": "\n\n* The weather was warm today.\n* All the tulips in Pam's backyard suddenly bloomed.\n* The tulips next to Pam's office still have not yet flowered.\n* Pam has been at work all day.\n\nSo, the answer is: Yes, she assumes her tulips have bloomed.<|endoftext|>",
+                    "time": "13:31:06"
+                },
+                {
+                    "repetition": 16,
+                    "output": "\nThe weather was so warm today that all the tulips in Pam's backyard suddenly bloomed. The tulips next to Pam's office still have not yet flowered, though. Pam has been at work all day. So, the answer is: Yes, she assumes her tulips have bloomed.<|endoftext|>",
+                    "time": "13:31:25"
+                },
+                {
+                    "repetition": 17,
+                    "output": "\n\n- The weather was so warm today that all the tulips in Pam's backyard suddenly bloomed.\n- The tulips next to Pam's office still have not yet flowered, though.\n- Pam has been at work all day.\n\nSo, the answer is: Yes, Pam assumes her tulips have bloomed when she sees the tulips next to her office still have not yet flowered.<|endoftext|>",
+                    "time": "13:31:51"
+                },
+                {
+                    "repetition": 18,
+                    "output": "\nWhen Pam is driving home after work, she assumes that the tulips next to her office have bloomed. She doesn't know that the tulips next to her office have not yet bloomed. So, the answer is: No, she doesn't assume the tulips have bloomed.<|endoftext|>",
+                    "time": "13:32:09"
+                },
+                {
+                    "repetition": 19,
+                    "output": "\nPam goes home after work and drives her car. She assumes that the tulips next to her office have bloomed. So, the answer is: Yes, she assumes that her tulips have bloomed.<|endoftext|>",
+                    "time": "13:32:22"
+                },
+                {
+                    "repetition": 20,
+                    "output": "\n\n- The weather was so warm today that all the tulips in Pam's backyard suddenly bloomed.\n- The tulips next to Pam's office still have not yet flowered, though.\n- Pam has been at work all day.\n- When Pam is driving home after work, she assumes her tulips have bloomed.\n- So, the answer is: Yes, she assumes her tulips have bloomed.<|endoftext|>",
+                    "time": "13:32:49"
+                }
+            ]
+        },
+        {
+            "scenario id": 2,
+            "answers": [
+                {
+                    "repetition": 1,
+                    "output": "\n\n1. Nathan moved Susie's car into the garage.\n2. Nathan moved the minivan into the driveway.\n3. Susie woke up in the morning.\n4. Susie saw the minivan in the driveway.\n\nSo, the answer is: Yes, she sees the minivan in the driveway.<|endoftext|>",
+                    "time": "13:33:09"
+                },
+                {
+                    "repetition": 2,
+                    "output": "\n\n1. When Susie woke up, she saw the sports car in the driveway.\n2. She saw the minivan in the garage, which was Nathan's car.\n3. She saw the minivan in the garage, which was Nathan's car.\n4. She saw the minivan in the garage, which was Nathan's car.\n5. She saw the minivan in the garage, which was Nathan's car.\n6. She saw the minivan in the garage, which was Nathan's car.\n7. She saw the minivan in the garage, which was Nathan's car.\n",
+                    "time": "13:33:49"
+                },
+                {
+                    "repetition": 3,
+                    "output": "\nSusie parked her sports car in the driveway. In the middle of the night, Nathan moved her car into the garage to make room for his minivan. So, she doesn't see the minivan in the driveway. So, the answer is: No, she doesn't see the minivan in the driveway.<|endoftext|>",
+                    "time": "13:34:08"
+                },
+                {
+                    "repetition": 4,
+                    "output": "\n\n1. Susie parked her sports car in the driveway.\n2. In the middle of the night, Nathan moved her car into the garage to make room for his minivan.\n3. Susie woke up early in the morning.\n4. So, when Susie wakes up, she sees the minivan in the driveway.\n\nScenario: The girls left the ice cream in the freezer before they went to sleep. Over night the power to the kitchen was cut and the ice cream melted. Question: When they get up, do the girls believe the ice cream is melted? Answer: Let's think",
+                    "time": "13:34:48"
+                },
+                {
+                    "repetition": 5,
+                    "output": "\n1. Susie parked her sports car in the driveway.\n2. In the middle of the night, Nathan moved her car into the garage to make room for his minivan.\n3. Susie woke up early in the morning.\n4. So, she doesn't see the minivan in the driveway.\n\nScenario: The boys left their soccer ball in the backyard. They went to the park to play with their friends. When they returned, they saw that the ball was gone. Question: When they return, do they believe the ball is still in the backyard? Answer: Let's think step by",
+                    "time": "13:35:28"
+                },
+                {
+                    "repetition": 6,
+                    "output": "\n\n- The sports car is in the driveway.\n- The minivan is in the garage.\n- The minivan is in the garage because Susie moved it there.\n- Susie woke up.\n- So, the answer is: Yes, she sees the minivan in the driveway.<|endoftext|>",
+                    "time": "13:35:47"
+                },
+                {
+                    "repetition": 7,
+                    "output": "\n\n1. The minivan was parked in the driveway. \n2. In the middle of the night, Nathan moved Susie's car into the garage. \n3. So, when Susie wakes up in the morning, she sees the minivan in the driveway. \n\nScenario: The girls left the ice cream in the freezer before they went to sleep. Over night the power to the kitchen was cut and the ice cream melted. Question: When they get up, do the girls believe the ice cream is melted? Answer: Let's think step by step: The girls put the ice cream in the",
+                    "time": "13:36:27"
+                },
+                {
+                    "repetition": 8,
+                    "output": "\nSusie parked her sports car in the driveway. \nIn the middle of the night, Nathan moved her car into the garage to make room for his minivan. \nSo, when Susie wakes up in the morning, she sees the minivan in the driveway.<|endoftext|>",
+                    "time": "13:36:43"
+                },
+                {
+                    "repetition": 9,
+                    "output": "\n\n- Susie parked her sports car in the driveway. \n- In the middle of the night, Nathan moved her car into the garage to make room for his minivan. \n- Susie woke up early in the morning. \n\nSo, the answer is: No, she doesn't see the minivan in the driveway.<|endoftext|>",
+                    "time": "13:37:05"
+                },
+                {
+                    "repetition": 10,
+                    "output": "\nSusie parked her sports car in the driveway. In the middle of the night, Nathan moved her car into the garage to make room for his minivan. So, when Susie woke up in the morning, she saw the minivan in the driveway. So, the answer is: Yes, she sees the minivan in the driveway.<|endoftext|>",
+                    "time": "13:37:25"
+                },
+                {
+                    "repetition": 11,
+                    "output": "\n\n* Susie parked her sports car in the driveway.\n* In the middle of the night, Nathan moved her car into the garage to make room for his minivan.\n* Susie woke up early in the morning.\n* So, when she wakes up, she sees the minivan in the driveway.\n\nScenario: The girls left the milk in the fridge. After they went to bed, the power to the kitchen was cut and the milk was left to spoil. Question: When they get up, do the girls believe the milk is spoiled? Answer: Let's think step by step: The girls",
+                    "time": "13:38:05"
+                },
+                {
+                    "repetition": 12,
+                    "output": "\nSusie parked her sports car in the driveway. In the middle of the night, Nathan moved her car into the garage to make room for his minivan. So, when Susie wakes up in the morning, she sees the minivan in the driveway.<|endoftext|>",
+                    "time": "13:38:21"
+                },
+                {
+                    "repetition": 13,
+                    "output": "\n\nWhen Susie woke up, she saw the minivan in the driveway. So, the answer is: Yes, she sees the minivan in the driveway.<|endoftext|>",
+                    "time": "13:38:31"
+                },
+                {
+                    "repetition": 14,
+                    "output": "\n\nSusie parked her sports car in the driveway. In the middle of the night, Nathan moved her car into the garage to make room for his minivan. So, when Susie woke up in the morning, her car was no longer in the driveway. She doesn't know that Nathan moved her car into the garage. So, the answer is: No, she doesn't see the minivan in the driveway.<|endoftext|>",
+                    "time": "13:38:56"
+                },
+                {
+                    "repetition": 15,
+                    "output": "\nWhen Susie woke up in the morning, she saw the minivan in the driveway. So, the answer is: Yes, she sees the minivan in the driveway.<|endoftext|>",
+                    "time": "13:39:07"
+                },
+                {
+                    "repetition": 16,
+                    "output": "\nWhen Susie woke up, she saw the sports car in the driveway. So, the answer is: Yes, she sees the minivan in the driveway.<|endoftext|>",
+                    "time": "13:39:16"
+                },
+                {
+                    "repetition": 17,
+                    "output": "\n\n1. Susie parked her sports car in the driveway.\n2. In the middle of the night, Nathan moved her car into the garage to make room for his minivan.\n3. So, the minivan is in the driveway.\n4. When Susie wakes up, she sees the minivan in the driveway.\n\nScenario: Susie's friend is coming to visit her. She is going to bring her dog, which is very small. Question: When Susie's friend comes, does she bring her dog? Answer: Let's think step by step: \n\n1. Sus",
+                    "time": "13:39:57"
+                },
+                {
+                    "repetition": 18,
+                    "output": "\nWhen Susie woke up, she saw the minivan in the driveway. She parked her sports car in the driveway and Nathan moved her car into the garage to make room for his minivan. So, the answer is: Yes, she sees the minivan in the driveway.<|endoftext|>",
+                    "time": "13:40:13"
+                },
+                {
+                    "repetition": 19,
+                    "output": "\n\n- Susie parked her sports car in the driveway. \n- In the middle of the night, Nathan moved her car into the garage to make room for his minivan. \n- So, when Susie woke up in the morning, her car was in the driveway and Nathan's car was in the garage. \n- Therefore, the answer is: Yes, she sees the minivan in the driveway.<|endoftext|>",
+                    "time": "13:40:39"
+                },
+                {
+                    "repetition": 20,
+                    "output": "\n\n1. When Susie wakes up, she sees the sports car in the driveway.\n2. She looks around and sees the minivan in the garage.\n3. She realizes that Nathan moved her car into the garage to make room for his minivan.\n4. She realizes that she parked her car in the driveway.\n5. She realizes that the minivan is in the garage.\n6. She goes back to sleep.\n\nScenario: The girls left ice cream in the freezer before they went to sleep. Over night the power to the kitchen was cut and the ice cream melted. Question:",
+                    "time": "13:41:20"
+                }
+            ]
+        },
+        {
+            "scenario id": 3,
+            "answers": [
+                {
+                    "repetition": 1,
+                    "output": "\n\n1. Sarah put her high heel shoes under her dress.\n2. Sarah went shopping.\n3. Sarah's sister borrowed the shoes and later put them under Sarah's bed.\n4. Sarah gets ready.\n5. Sarah doesn't know that her sister borrowed the shoes and put them under her bed.\n6. So, the answer is: No, she doesn't assume her shoes are under her dress.<|endoftext|>",
+                    "time": "13:41:46"
+                },
+                {
+                    "repetition": 2,
+                    "output": "\n1. Sarah places her high heel shoes under her dress.\n2. Sarah goes shopping.\n3. Sarah's sister borrows the shoes.\n4. Sarah's sister puts the shoes under Sarah's bed.\n5. Sarah gets ready.\n6. Sarah doesn't assume her shoes are under her dress because she didn't know her sister borrowed the shoes. So, the answer is: No, she doesn't assume her shoes are under her dress.<|endoftext|>",
+                    "time": "13:42:15"
+                },
+                {
+                    "repetition": 3,
+                    "output": "\nWhen Sarah got ready for the high school dance, she put her high heel shoes under her dress. Later, her sister borrowed the shoes and put them under Sarah's bed. So, Sarah doesn't know that her shoes are under her dress. So, the answer is: No, she doesn't assume her shoes are under her dress.<|endoftext|>",
+                    "time": "13:42:35"
+                },
+                {
+                    "repetition": 4,
+                    "output": "\n1. Sarah placed her high heel shoes under her dress.\n2. Later that afternoon, her sister borrowed the shoes and later put them under Sarah's bed.\n3. When Sarah gets ready, she assumes her shoes are under her dress.\n\nScenario: The morning of the high school dance Sarah placed her high heel shoes under her dress and then went shopping. That afternoon, her sister borrowed the shoes and later put them under Sarah's bed. Question: When Sarah gets ready, does she assume her shoes are under her dress? Answer: Let's think step by step: \n1. Sarah placed her high",
+                    "time": "13:43:15"
+                },
+                {
+                    "repetition": 5,
+                    "output": "\n\n1. Sarah put her high heel shoes under her dress.\n2. Later that afternoon, her sister borrowed the shoes and later put them under Sarah's bed.\n\nSo, the answer is: Yes, she assumes her shoes are under her dress.<|endoftext|>",
+                    "time": "13:43:30"
+                },
+                {
+                    "repetition": 6,
+                    "output": "\n\n* Sarah placed her high heel shoes under her dress.\n* Later, her sister borrowed the shoes and put them under Sarah's bed.\n\nSo, the answer is: Yes, she assumes her shoes are under her dress.<|endoftext|>",
+                    "time": "13:43:44"
+                },
+                {
+                    "repetition": 7,
+                    "output": "\n\n1. Sarah put her high heel shoes under her dress.\n2. Later that afternoon, her sister borrowed the shoes and put them under Sarah's bed.\n3. When Sarah gets ready, she doesn't know that her sister borrowed the shoes and put them under her bed.\n4. So, the answer is: No, she doesn't assume her shoes are under her dress.\n\nScenario: The girls left ice cream in the freezer before they went to sleep. Over night the power to the kitchen was cut and the ice cream melted. Question: When they get up, do the girls believe the ice",
+                    "time": "13:44:24"
+                },
+                {
+                    "repetition": 8,
+                    "output": "\nWhen Sarah placed her high heel shoes under her dress, she didn't know that her sister borrowed the shoes and later put them under Sarah's bed. So, the answer is: No, she doesn't assume her shoes are under her dress.<|endoftext|>",
+                    "time": "13:44:38"
+                },
+                {
+                    "repetition": 9,
+                    "output": "\n\nSarah placed her high heel shoes under her dress and went shopping. So, she doesn't know that her sister borrowed the shoes and later put them under Sarah's bed. So, the answer is: No, she doesn't assume her shoes are under her dress.<|endoftext|>",
+                    "time": "13:44:54"
+                },
+                {
+                    "repetition": 10,
+                    "output": "\n\nSarah put her high heel shoes under her dress in the morning.\n\nLater that afternoon, her sister borrowed the shoes and later put them under Sarah's bed.\n\nSo, the answer is: Yes, she assumes her shoes are under her dress.<|endoftext|>",
+                    "time": "13:45:10"
+                },
+                {
+                    "repetition": 11,
+                    "output": "\nSarah put her high heel shoes under her dress. Later, her sister borrowed the shoes and later put them under Sarah's bed. So, the answer is: Yes, she assumes her shoes are under her dress.<|endoftext|>",
+                    "time": "13:45:22"
+                },
+                {
+                    "repetition": 12,
+                    "output": "\nWhen Sarah went shopping, she placed her high heel shoes under her dress. That afternoon, her sister borrowed the shoes and later put them under Sarah's bed. So, Sarah doesn't know that her sister borrowed the shoes and put them under her bed. So, the answer is: No, she doesn't assume her shoes are under her dress.<|endoftext|>",
+                    "time": "13:45:43"
+                },
+                {
+                    "repetition": 13,
+                    "output": "\n\nWhen Sarah got ready, she put her high heel shoes under her dress. \n\nThen her sister borrowed the shoes and later put them under Sarah's bed. \n\nSo, the answer is: Yes, she assumes her shoes are under her dress.<|endoftext|>",
+                    "time": "13:45:59"
+                },
+                {
+                    "repetition": 14,
+                    "output": "\nWhen Sarah got ready, she put her high heel shoes under her dress. So, she assumes her shoes are under her dress.<|endoftext|>",
+                    "time": "13:46:07"
+                },
+                {
+                    "repetition": 15,
+                    "output": "\n\n1. Sarah put her high heel shoes under her dress.\n2. She went shopping.\n3. She got home.\n4. She went to bed.\n5. Her sister borrowed the shoes and later put them under Sarah's bed.\n6. Sarah wakes up and realizes her shoes are under her bed.\n\nSo, the answer is: Yes, she assumes her shoes are under her dress.<|endoftext|>",
+                    "time": "13:46:32"
+                },
+                {
+                    "repetition": 16,
+                    "output": "\n\n- Sarah placed her high heel shoes under her dress.\n- Her sister borrowed the shoes.\n- Later, her sister put the shoes under Sarah's bed.\n- So, the answer is: Yes, she assumes her shoes are under her dress.<|endoftext|>",
+                    "time": "13:46:48"
+                },
+                {
+                    "repetition": 17,
+                    "output": "\nWhen Sarah went shopping, she put her high heel shoes under her dress. \nLater that afternoon, her sister borrowed the shoes and later put them under Sarah's bed. \nSo, the answer is: Yes, she assumes her shoes are under her dress.<|endoftext|>",
+                    "time": "13:47:04"
+                },
+                {
+                    "repetition": 18,
+                    "output": "\n\n1. Sarah placed her high heel shoes under her dress.\n2. Later that afternoon, her sister borrowed the shoes and later put them under Sarah's bed.\n3. So, Sarah doesn't know that her sister borrowed the shoes and later put them under her bed.\n4. So, the answer is: No, she doesn't assume her shoes are under her dress.<|endoftext|>",
+                    "time": "13:47:27"
+                },
+                {
+                    "repetition": 19,
+                    "output": "\n\n* Sarah put her high heel shoes under her dress.\n* Later, her sister borrowed the shoes and put them under Sarah's bed.\n* So, the answer is: Yes, she assumes her shoes are under her dress.<|endoftext|>",
+                    "time": "13:47:41"
+                },
+                {
+                    "repetition": 20,
+                    "output": "\nSarah placed her high heel shoes under her dress and went shopping. When she got back home, her sister borrowed the shoes and later put them under Sarah's bed. So, Sarah doesn't know that her sister borrowed her shoes and later put them under her bed. So, the answer is: No, she doesn't assume her shoes are under her dress.<|endoftext|>",
+                    "time": "13:48:02"
+                }
+            ]
+        },
+        {
+            "scenario id": 4,
+            "answers": [
+                {
+                    "repetition": 1,
+                    "output": "\nSally and Greg called ahead of time to make a reservation for the back-country cabin. The park ranger forgot to write down the reservation and two other hikers got to the cabin first. So, when Sally and Greg arrive, they find their cabin unoccupied.<|endoftext|>",
+                    "time": "13:48:18"
+                },
+                {
+                    "repetition": 2,
+                    "output": "\nSally and Greg called ahead of time to make a reservation for the back-country cabin. The park ranger forgot to write down the reservation and two other hikers got to the cabin first. So, when Sally and Greg arrive, they find their cabin unoccupied.<|endoftext|>",
+                    "time": "13:48:34"
+                },
+                {
+                    "repetition": 3,
+                    "output": "\n\nSally and Greg called ahead of time to make a reservation for the back-country cabin. The park ranger forgot to write down the reservation and two other hikers got to the cabin first. So, when Sally and Greg arrive, they find their cabin unoccupied.<|endoftext|>",
+                    "time": "13:48:50"
+                },
+                {
+                    "repetition": 4,
+                    "output": "\nSally and Greg called ahead of time to make a reservation for the back-country cabin. The park ranger forgot to write down the reservation and two other hikers got to the cabin first. So, when Sally and Greg arrive, they find their cabin unoccupied.<|endoftext|>",
+                    "time": "13:49:05"
+                },
+                {
+                    "repetition": 5,
+                    "output": "\nSally and Greg called ahead of time to make a reservation for the back-country cabin. \nThe park ranger forgot to write down the reservation and two other hikers got to the cabin first. \nSo, when Sally and Greg arrive, they find their cabin unoccupied.<|endoftext|>",
+                    "time": "13:49:22"
+                },
+                {
+                    "repetition": 6,
+                    "output": "\nSally and Greg called ahead of time to make a reservation for the back-country cabin. The park ranger forgot to write down the reservation and two other hikers got to the cabin first. So, when Sally and Greg arrive, they find their cabin unoccupied. So, the answer is: Yes, they find their cabin unoccupied.<|endoftext|>",
+                    "time": "13:49:42"
+                },
+                {
+                    "repetition": 7,
+                    "output": "\nSally and Greg called ahead of time to make a reservation for the back-country cabin. The park ranger forgot to write down the reservation and two other hikers got to the cabin first. So, when Sally and Greg arrive, they find their cabin unoccupied.<|endoftext|>",
+                    "time": "13:49:57"
+                },
+                {
+                    "repetition": 8,
+                    "output": "\nSally and Greg called ahead of time to make a reservation for the back-country cabin. The park ranger forgot to write down the reservation and two other hikers got to the cabin first. So, when Sally and Greg arrive, they find their cabin unoccupied.<|endoftext|>",
+                    "time": "13:50:13"
+                },
+                {
+                    "repetition": 9,
+                    "output": "\nSally and Greg called ahead of time to make a reservation for the back-country cabin. The park ranger forgot to write down the reservation and two other hikers got to the cabin first. So, when Sally and Greg arrive, they find their cabin unoccupied.<|endoftext|>",
+                    "time": "13:50:28"
+                },
+                {
+                    "repetition": 10,
+                    "output": "\nSally and Greg called ahead of time to make a reservation for the back-country cabin. The park ranger forgot to write down the reservation and two other hikers got to the cabin first. So, when Sally and Greg arrive, they find their cabin unoccupied.<|endoftext|>",
+                    "time": "13:50:44"
+                },
+                {
+                    "repetition": 11,
+                    "output": "\nSally and Greg called ahead of time to make a reservation for the back-country cabin. The park ranger forgot to write down the reservation and two other hikers got to the cabin first. So, when Sally and Greg arrive, they find their cabin unoccupied.<|endoftext|>",
+                    "time": "13:50:59"
+                },
+                {
+                    "repetition": 12,
+                    "output": "\nSally and Greg called ahead of time to make a reservation for the back-country cabin. \nThe park ranger forgot to write down the reservation and two other hikers got to the cabin first. \nSo, when Sally and Greg arrive, they find their cabin unoccupied. \n\nScenario: The girls left ice cream in the freezer before they went to sleep. Over night the power to the kitchen was cut and the ice cream melted. Question: When they get up, do the girls believe the ice cream is melted? Answer: Let's think step by step: The girls put the ice cream in the freezer",
+                    "time": "13:51:39"
+                },
+                {
+                    "repetition": 13,
+                    "output": "\nSally and Greg called ahead of time to make a reservation for the back-country cabin. The park ranger forgot to write down the reservation and two other hikers got to the cabin first. So, when Sally and Greg arrive, they find their cabin unoccupied.<|endoftext|>",
+                    "time": "13:51:55"
+                },
+                {
+                    "repetition": 14,
+                    "output": "\n\n1. Sally and Greg call ahead of time to make a reservation for the back-country cabin.\n2. The park ranger forgets to write down the reservation.\n3. Two other hikers get to the cabin first.\n4. Sally and Greg arrive at the cabin.\n5. The cabin is unoccupied.\n\nSo, the answer is: Yes, they find their cabin unoccupied.<|endoftext|>",
+                    "time": "13:52:20"
+                },
+                {
+                    "repetition": 15,
+                    "output": "\n\n1. Sally and Greg called ahead of time to make a reservation for the back-country cabin.\n2. The park ranger forgot to write down the reservation.\n3. Two other hikers got to the cabin first.\n4. Sally and Greg arrive.\n5. They find their cabin unoccupied.\n\nScenario: The girls left the ice cream in the freezer before they went to sleep. Over night the power to the kitchen was cut and the ice cream melted. Question: When they get up, do the girls believe the ice cream is melted? Answer: Let's think step by step: The girls",
+                    "time": "13:52:59"
+                },
+                {
+                    "repetition": 16,
+                    "output": "\nSally and Greg called ahead of time to make a reservation for the back-country cabin. The park ranger forgot to write down the reservation and two other hikers got to the cabin first. So, when Sally and Greg arrive, they find the cabin unoccupied.<|endoftext|>",
+                    "time": "13:53:15"
+                },
+                {
+                    "repetition": 17,
+                    "output": "\nSally and Greg called ahead of time to make a reservation for the back-country cabin. \nThe park ranger forgot to write down the reservation and two other hikers got to the cabin first. \nSo, when Sally and Greg arrive, they find the cabin unoccupied. \nThe answer is: Yes, they find their cabin unoccupied.<|endoftext|>",
+                    "time": "13:53:36"
+                },
+                {
+                    "repetition": 18,
+                    "output": "\nSally and Greg called ahead of time to make a reservation for the back-country cabin. The park ranger forgot to write down the reservation and two other hikers got to the cabin first. So, when Sally and Greg arrive, they find their cabin unoccupied.<|endoftext|>",
+                    "time": "13:53:52"
+                },
+                {
+                    "repetition": 19,
+                    "output": "\nSally and Greg called ahead of time to make a reservation for the back-country cabin. The park ranger forgot to write down the reservation and two other hikers got to the cabin first. So, when Sally and Greg arrive, they find their cabin unoccupied.<|endoftext|>",
+                    "time": "13:54:07"
+                },
+                {
+                    "repetition": 20,
+                    "output": "\n\n1. Sally and Greg called ahead of time to make a reservation for the back-country cabin.\n2. The park ranger forgot to write down the reservation.\n3. Two other hikers got to the cabin first.\n4. When Sally and Greg arrive, they find their cabin unoccupied.<|endoftext|>",
+                    "time": "13:54:25"
+                }
+            ]
+        },
+        {
+            "scenario id": 5,
+            "answers": [
+                {
+                    "repetition": 1,
+                    "output": "\n\nJeff put on a light pink shirt. Jeff is colorblind, so he can't tell the difference between subtle shades of color. So, the answer is: No, he doesn't believe he is wearing a white shirt.<|endoftext|>",
+                    "time": "13:54:39"
+                },
+                {
+                    "repetition": 2,
+                    "output": "\nJeff put on a light pink shirt instead of a white one. So, he doesn't know that he is wearing a white shirt. So, the answer is: No, he doesn't believe he is wearing a white shirt.<|endoftext|>",
+                    "time": "13:54:52"
+                },
+                {
+                    "repetition": 3,
+                    "output": "\nJeff put on a light pink shirt this morning. He is colorblind, so he can't tell the difference between subtle shades of color. So, the answer is: No, he doesn't believe he is wearing a white shirt.<|endoftext|>",
+                    "time": "13:55:06"
+                },
+                {
+                    "repetition": 4,
+                    "output": "\nWhen Jeff got ready this morning, he put on a light pink shirt instead of a white one. Jeff is colorblind, so he can't tell the difference between subtle shades of color. So, the answer is: No, he doesn't believe he is wearing a white shirt.<|endoftext|>",
+                    "time": "13:55:22"
+                },
+                {
+                    "repetition": 5,
+                    "output": "\nJeff got ready this morning and put on a light pink shirt instead of a white one. So, he doesn't know that he is wearing a white shirt. So, the answer is: No, he doesn't believe he is wearing a white shirt.<|endoftext|>",
+                    "time": "13:55:37"
+                },
+                {
+                    "repetition": 6,
+                    "output": "\nWhen Jeff got ready this morning, he put on a light pink shirt instead of a white one. So, he doesn't know that he is wearing a white shirt. So, the answer is: No, he doesn't believe he is wearing a white shirt.<|endoftext|>",
+                    "time": "13:55:53"
+                },
+                {
+                    "repetition": 7,
+                    "output": "\n\n1. Jeff put on a light pink shirt.\n2. He put on a white shirt.\n3. He put on a white shirt.\n4. He put on a white shirt.\n5. He put on a white shirt.\n6. He put on a white shirt.\n7. He put on a white shirt.\n8. He put on a white shirt.\n9. He put on a white shirt.\n10. He put on a white shirt.\n11. He put on a white shirt.\n12. He put on a white shirt.\n13. He put on",
+                    "time": "13:56:32"
+                },
+                {
+                    "repetition": 8,
+                    "output": "\n\n1. Jeff put on a light pink shirt.\n2. Jeff is colorblind, so he can't tell the difference between subtle shades of color.\n3. Jeff believes he is wearing a light pink shirt.\n\nSo, the answer is: Yes, Jeff believes he is wearing a light pink shirt.<|endoftext|>",
+                    "time": "13:56:51"
+                },
+                {
+                    "repetition": 9,
+                    "output": "\n\n1. Jeff put on a light pink shirt.\n2. Jeff put on a white shirt.\n3. Jeff put on a light pink shirt.\n4. Jeff put on a white shirt.\n5. Jeff put on a light pink shirt.\n6. Jeff put on a white shirt.\n7. Jeff put on a light pink shirt.\n8. Jeff put on a white shirt.\n9. Jeff put on a light pink shirt.\n10. Jeff put on a white shirt.\n11. Jeff put on a light pink shirt.\n12. Jeff put on a white shirt.\n",
+                    "time": "13:57:30"
+                },
+                {
+                    "repetition": 10,
+                    "output": "\nJeff put on a light pink shirt. He is colorblind, so he can't tell the difference between subtle shades of color. So, the answer is: No, he doesn't believe he is wearing a white shirt.<|endoftext|>",
+                    "time": "13:57:43"
+                },
+                {
+                    "repetition": 11,
+                    "output": "\nWhen Jeff got ready this morning, he put on a light pink shirt instead of a white one. Jeff is colorblind, so he can't tell the difference between subtle shades of color. So, the answer is: No, he doesn't believe he is wearing a white shirt.<|endoftext|>",
+                    "time": "13:57:59"
+                },
+                {
+                    "repetition": 12,
+                    "output": "\n\nWhen Jeff got ready this morning, he put on a light pink shirt instead of a white one. So, he doesn't know that he is wearing a white shirt. So, the answer is: No, he doesn't believe he is wearing a white shirt.<|endoftext|>",
+                    "time": "13:58:15"
+                },
+                {
+                    "repetition": 13,
+                    "output": "\nJeff put on a light pink shirt this morning. Jeff is colorblind, so he can't tell the difference between subtle shades of color. So, the answer is: No, Jeff doesn't believe he is wearing a white shirt.<|endoftext|>",
+                    "time": "13:58:29"
+                },
+                {
+                    "repetition": 14,
+                    "output": "\nJeff put on a light pink shirt instead of a white one. So, Jeff doesn't know that he is wearing a white shirt. So, the answer is: No, he doesn't believe he is wearing a white shirt.<|endoftext|>",
+                    "time": "13:58:42"
+                },
+                {
+                    "repetition": 15,
+                    "output": "\n\nJeff got ready this morning, so he put on a light pink shirt. He is colorblind, so he can't tell the difference between subtle shades of color. So, the answer is: No, he doesn't believe he is wearing a white shirt.<|endoftext|>",
+                    "time": "13:58:58"
+                },
+                {
+                    "repetition": 16,
+                    "output": "\nJeff put on a light pink shirt and he is colorblind, so he can't tell the difference between subtle shades of color. So, the answer is: No, he doesn't believe he is wearing a white shirt.<|endoftext|>",
+                    "time": "13:59:11"
+                },
+                {
+                    "repetition": 17,
+                    "output": "\n\n- Jeff put on a light pink shirt\n- Jeff is colorblind, so he can't tell the difference between subtle shades of color\n- Jeff believes he is wearing a white shirt because he can't tell the difference between subtle shades of color.<|endoftext|>",
+                    "time": "13:59:26"
+                },
+                {
+                    "repetition": 18,
+                    "output": "\n\nJeff put on a light pink shirt instead of a white one. \nJeff is colorblind, so he can't tell the difference between subtle shades of color. \nSo, the answer is: No, Jeff doesn't believe he is wearing a white shirt.<|endoftext|>",
+                    "time": "13:59:42"
+                },
+                {
+                    "repetition": 19,
+                    "output": "\nWhen Jeff got ready this morning, he put on a light pink shirt instead of a white one. So, Jeff doesn't know that he is wearing a white shirt. So, the answer is: No, Jeff doesn't believe he is wearing a white shirt.<|endoftext|>",
+                    "time": "13:59:57"
+                },
+                {
+                    "repetition": 20,
+                    "output": "\nJeff put on a light pink shirt this morning. Jeff is colorblind, so he can't tell the difference between subtle shades of color. So, the answer is: Yes, Jeff believes he is wearing a white shirt.<|endoftext|>",
+                    "time": "14:00:10"
+                }
+            ]
+        },
+        {
+            "scenario id": 6,
+            "answers": [
+                {
+                    "repetition": 1,
+                    "output": "\n\n1. Larry chose a debated topic for his class paper due on Friday.\n2. The news on Thursday indicated that the debate had been solved.\n3. Larry never read the news on Thursday.\n4. So, Larry thinks the debate is still unsolved.\n\nTherefore, the answer is: No, Larry doesn't think the debate has been solved.<|endoftext|>",
+                    "time": "14:00:32"
+                },
+                {
+                    "repetition": 2,
+                    "output": "\n\n1. Larry chose a debated topic for his class paper due on Friday.\n2. The news on Thursday indicated that the debate had been solved.\n3. Larry never read the news on Thursday.\n4. So, Larry doesn't think the debate has been solved.\n5. The answer is: No, Larry doesn't think the debate has been solved.<|endoftext|>",
+                    "time": "14:00:54"
+                },
+                {
+                    "repetition": 3,
+                    "output": "\n\nLarry chose a debated topic for his class paper due on Friday.\n\nThe news on Thursday indicated that the debate had been solved, but Larry never read it.\n\nSo, the answer is: No, he doesn't think the debate has been solved.<|endoftext|>",
+                    "time": "14:01:10"
+                },
+                {
+                    "repetition": 4,
+                    "output": "\n\n1. Larry chose a debated topic for his class paper due on Friday.\n2. The news on Thursday indicated that the debate had been solved.\n3. Larry never read the news on Thursday.\n4. So, when Larry writes his paper, he doesn't think the debate has been solved.<|endoftext|>",
+                    "time": "14:01:28"
+                },
+                {
+                    "repetition": 5,
+                    "output": "\nLarry chose a debated topic for his class paper due on Friday. The news on Thursday indicated that the debate had been solved, but Larry never read it. So, Larry doesn't know that the debate has been solved. So, the answer is: No, he doesn't think the debate has been solved.<|endoftext|>",
+                    "time": "14:01:46"
+                },
+                {
+                    "repetition": 6,
+                    "output": "\nLarry chose a debated topic for his class paper due on Friday. \nThe news on Thursday indicated that the debate had been solved, but Larry never read it. \nSo, when Larry writes his paper, he doesn't think the debate has been solved. \nThe answer is: No, he doesn't think the debate has been solved.<|endoftext|>",
+                    "time": "14:02:06"
+                },
+                {
+                    "repetition": 7,
+                    "output": "\n\nLarry chose a debated topic for his class paper due on Friday. \nThe news on Thursday indicated that the debate had been solved, but Larry never read it. \n\nSo, the answer is: No, Larry doesn't think the debate has been solved.<|endoftext|>",
+                    "time": "14:02:22"
+                },
+                {
+                    "repetition": 8,
+                    "output": "\n\nLarry chose a debated topic for his class paper due on Friday. \nThe news on Thursday indicated that the debate had been solved. \nLarry never read it. \nSo, the answer is: No, he doesn't think the debate has been solved.<|endoftext|>",
+                    "time": "14:02:38"
+                },
+                {
+                    "repetition": 9,
+                    "output": "\n\nLarry chose a debated topic for his class paper due on Friday. The news on Thursday indicated that the debate had been solved, but Larry never read it. So, Larry doesn't know that the debate has been solved. So, the answer is: No, he doesn't think the debate has been solved.<|endoftext|>",
+                    "time": "14:02:56"
+                },
+                {
+                    "repetition": 10,
+                    "output": "\nLarry chose a debated topic for his class paper due on Friday. The news on Thursday indicated that the debate had been solved, but Larry never read it. So, Larry doesn't know that the debate has been solved. So, the answer is: No, he doesn't think the debate has been solved.<|endoftext|>",
+                    "time": "14:03:14"
+                },
+                {
+                    "repetition": 11,
+                    "output": "\n1. Larry chose a debated topic for his class paper due on Friday.\n2. The news on Thursday indicated that the debate had been solved.\n3. Larry never read the news on Thursday.\n4. So, the answer is: No, Larry doesn't think the debate has been solved.<|endoftext|>",
+                    "time": "14:03:32"
+                },
+                {
+                    "repetition": 12,
+                    "output": "\nLarry chose a debated topic for his class paper due on Friday. \nThe news on Thursday indicated that the debate had been solved, but Larry never read it. \nSo, the answer is: No, he doesn't think the debate has been solved.<|endoftext|>",
+                    "time": "14:03:48"
+                },
+                {
+                    "repetition": 13,
+                    "output": "\n\nLarry chose a debated topic for his class paper due on Friday. \n\nThe news on Thursday indicated that the debate had been solved, but Larry never read it. \n\nSo, the answer is: No, he doesn't think the debate has been solved.<|endoftext|>",
+                    "time": "14:04:04"
+                },
+                {
+                    "repetition": 14,
+                    "output": "\nLarry chose a debated topic for his class paper due on Friday. \nThe news on Thursday indicated that the debate had been solved, but Larry never read it. \nSo, Larry doesn't know that the debate has been solved. \nTherefore, the answer is: No, he doesn't think the debate has been solved.<|endoftext|>",
+                    "time": "14:04:24"
+                },
+                {
+                    "repetition": 15,
+                    "output": "\n\nLarry chose a debated topic for his class paper due on Friday. \n\nThe news on Thursday indicated that the debate had been solved, but Larry never read it. \n\nSo, the answer is: No, he doesn't think the debate has been solved.<|endoftext|>",
+                    "time": "14:04:40"
+                },
+                {
+                    "repetition": 16,
+                    "output": "\n\nLarry chose a debated topic for his class paper due on Friday. \n\nThe news on Thursday indicated that the debate had been solved. \n\nLarry never read it. So, the answer is: No, he doesn't think the debate has been solved.<|endoftext|>",
+                    "time": "14:04:56"
+                },
+                {
+                    "repetition": 17,
+                    "output": "\n\n1. Larry chose a debated topic for his class paper due on Friday.\n2. The news on Thursday indicated that the debate had been solved.\n3. Larry never read the news on Thursday.\n4. So, Larry doesn't think the debate has been solved.\n\nScenario: The girls left ice cream in the freezer before they went to sleep. Over night the power to the kitchen was cut and the ice cream melted. Question: When they get up, do the girls believe the ice cream is melted? Answer: Let's think step by step: The girls put the ice cream in the freezer and",
+                    "time": "14:05:35"
+                },
+                {
+                    "repetition": 18,
+                    "output": "\nLarry chose a debated topic for his class paper due on Friday. The news on Thursday indicated that the debate had been solved, but Larry never read it. So, he doesn't know that the debate has been solved. So, the answer is: No, he doesn't think the debate has been solved.<|endoftext|>",
+                    "time": "14:05:53"
+                },
+                {
+                    "repetition": 19,
+                    "output": "\n\nLarry chose a debated topic for his class paper due on Friday. \nThe news on Thursday indicated that the debate had been solved, but Larry never read it. \nSo, Larry doesn't know that the debate has been solved. \nTherefore, the answer is: No, he doesn't think the debate has been solved.<|endoftext|>",
+                    "time": "14:06:13"
+                },
+                {
+                    "repetition": 20,
+                    "output": "\n\n1. Larry chose a debated topic for his class paper due on Friday.\n2. The news on Thursday indicated that the debate had been solved.\n3. Larry never read the news on Thursday.\n\nSo, the answer is: No, Larry doesn't think the debate has been solved.<|endoftext|>",
+                    "time": "14:06:31"
+                }
+            ]
+        },
+        {
+            "scenario id": 7,
+            "answers": [
+                {
+                    "repetition": 1,
+                    "output": "\n\n1. Jill goes to the coffee shop every day and orders a latte, her favorite drink.\n2. Today, the cashier misunderstands Jill and prepares a mocha instead.\n3. Jill doesn't know that her drink will taste like a mocha.\n4. Jill doesn't know that her drink will taste like a mocha.\n5. Jill doesn't know that her drink will taste like a mocha.\n6. Jill doesn't know that her drink will taste like a mocha.\n7. Jill doesn't know that her drink will taste like a m",
+                    "time": "14:07:11"
+                },
+                {
+                    "repetition": 2,
+                    "output": "\n\nJill goes to the coffee shop every day and orders a latte, her favorite drink. Today, the cashier misunderstands Jill and prepares a mocha instead. So, Jill doesn't know that the cashier prepared a mocha instead of a latte. So, the answer is: No, Jill doesn't think her drink will taste like a mocha.<|endoftext|>",
+                    "time": "14:07:34"
+                },
+                {
+                    "repetition": 3,
+                    "output": "\n\nJill goes to the coffee shop every day and orders a latte, her favorite drink. Today, the cashier misunderstands Jill and prepares a mocha instead. So, Jill doesn't know that the cashier prepared a mocha instead of a latte. So, the answer is: No, Jill doesn't think her drink will taste like a mocha.<|endoftext|>",
+                    "time": "14:07:57"
+                },
+                {
+                    "repetition": 4,
+                    "output": "\n\nJill goes to the coffee shop every day and orders a latte. Today, the cashier mistakenly prepares a mocha instead of a latte. So, Jill doesn't know that her drink will taste like a mocha. So, the answer is: No, Jill doesn't think her drink will taste like a mocha.<|endoftext|>",
+                    "time": "14:08:18"
+                },
+                {
+                    "repetition": 5,
+                    "output": "\n\n- Jill goes to the coffee shop every day and orders a latte.\n- Today, the cashier misunderstands Jill and prepares a mocha instead.\n- Jill doesn't know that her drink will taste like a mocha.\n- So, the answer is: No, she doesn't think her drink will taste like a mocha.<|endoftext|>",
+                    "time": "14:08:40"
+                },
+                {
+                    "repetition": 6,
+                    "output": "\n\n- Jill goes to the coffee shop every day and orders a latte, her favorite drink. \n- Today, the cashier misunderstands Jill and prepares a mocha instead. \n- Jill doesn't know that her drink will taste like a mocha because she doesn't know what she's getting. So, the answer is: No, she doesn't think her drink will taste like a mocha.<|endoftext|>",
+                    "time": "14:09:06"
+                },
+                {
+                    "repetition": 7,
+                    "output": "\n\nJill goes to the coffee shop every day and orders a latte, her favorite drink. Today, the cashier misunderstands Jill and prepares a mocha instead. So, Jill doesn't know that the cashier made a mistake. So, the answer is: No, Jill doesn't think her drink will taste like a mocha.<|endoftext|>",
+                    "time": "14:09:27"
+                },
+                {
+                    "repetition": 8,
+                    "output": "\nJill goes to the coffee shop every day and orders a latte, her favorite drink. Today, the cashier misunderstands Jill and prepares a mocha instead. So, Jill doesn't know that her drink will taste like a mocha. So, the answer is: No, Jill doesn't think her drink will taste like a mocha.<|endoftext|>",
+                    "time": "14:09:49"
+                },
+                {
+                    "repetition": 9,
+                    "output": "\n\nJill goes to the coffee shop every day and orders a latte. Today, the cashier misunderstands her and prepares a mocha instead. So, Jill doesn't know that the cashier misunderstood her and prepared a mocha instead of a latte. So, the answer is: No, she doesn't think her drink will taste like a mocha.<|endoftext|>",
+                    "time": "14:10:12"
+                },
+                {
+                    "repetition": 10,
+                    "output": "\n\nJill goes to the coffee shop every day and orders a latte, her favorite drink. Today, the cashier misunderstands Jill and prepares a mocha instead. So, Jill doesn't know that the cashier prepared a mocha instead of a latte. So, the answer is: No, Jill doesn't think her drink will taste like a mocha.<|endoftext|>",
+                    "time": "14:10:35"
+                },
+                {
+                    "repetition": 11,
+                    "output": "\n\n- Jill goes to the coffee shop every day and orders a latte.\n- Today, the cashier mistakenly prepares a mocha instead of a latte.\n- Jill is surprised by the mistake and asks the cashier to correct it.\n- The cashier mistakenly prepares a mocha instead of a latte.\n- Jill is confused and doesn't know if her drink will taste like a mocha.\n- Jill doesn't think her drink will taste like a mocha.\n- Jill doesn't think her drink will taste like a mocha.\n- Jill doesn't think",
+                    "time": "14:11:14"
+                },
+                {
+                    "repetition": 12,
+                    "output": "\nJill goes to the coffee shop every day and orders a latte. So, she knows that the cashier always prepares her drink correctly. Today, the cashier misunderstands Jill and prepares a mocha instead. So, the answer is: No, Jill doesn't think her drink will taste like a mocha.<|endoftext|>",
+                    "time": "14:11:34"
+                },
+                {
+                    "repetition": 13,
+                    "output": "\n\nJill goes to the coffee shop every day and orders a latte. Today, the cashier misunderstands Jill and prepares a mocha instead. So, Jill doesn't know that her drink will taste like a mocha. So, the answer is: No, she doesn't think her drink will taste like a mocha.<|endoftext|>",
+                    "time": "14:11:55"
+                },
+                {
+                    "repetition": 14,
+                    "output": "\n\nJill goes to the coffee shop every day and orders a latte, her favorite drink. Today, the cashier misunderstands Jill and prepares a mocha instead. So, Jill doesn't know that the cashier prepared a mocha instead of a latte. So, the answer is: No, she doesn't think her drink will taste like a mocha.<|endoftext|>",
+                    "time": "14:12:18"
+                },
+                {
+                    "repetition": 15,
+                    "output": "\n\nJill goes to the coffee shop every day and orders a latte, her favorite drink. Today, the cashier misunderstands Jill and prepares a mocha instead. So, Jill doesn't know that the cashier prepared a mocha instead of a latte. So, the answer is: No, she doesn't think her drink will taste like a mocha.<|endoftext|>",
+                    "time": "14:12:41"
+                },
+                {
+                    "repetition": 16,
+                    "output": "\n\nJill goes to the coffee shop every day and orders a latte, her favorite drink. Today, the cashier misunderstands Jill and prepares a mocha instead. So, Jill thinks her drink will taste like a mocha.\n\nScenario: The kids left the cake in the oven. The next day they forgot to turn on the oven and the cake burned. Question: When they get up, do the kids believe the cake is burned? Answer: Let's think step by step: The kids put the cake in the oven and went to sleep. So, they don't know that the oven was",
+                    "time": "14:13:21"
+                },
+                {
+                    "repetition": 17,
+                    "output": "\n\nJill goes to the coffee shop every day and orders a latte, her favorite drink. Today, the cashier misunderstands Jill and prepares a mocha instead. So, Jill doesn't know that the cashier prepared a mocha instead of a latte. So, the answer is: No, she doesn't think her drink will taste like a mocha.<|endoftext|>",
+                    "time": "14:13:44"
+                },
+                {
+                    "repetition": 18,
+                    "output": "\nJill goes to the coffee shop every day and orders a latte, her favorite drink. Today, the cashier misunderstands Jill and prepares a mocha instead. So, Jill doesn't know that the cashier misunderstood her order and prepared a mocha instead. So, the answer is: No, Jill doesn't think her drink will taste like a mocha.<|endoftext|>",
+                    "time": "14:14:07"
+                },
+                {
+                    "repetition": 19,
+                    "output": "\nJill goes to the coffee shop every day and orders a latte, her favorite drink. Today, the cashier misunderstands Jill and prepares a mocha instead. So, Jill thinks her drink will taste like a mocha. The answer is: Yes, Jill thinks her drink will taste like a mocha.<|endoftext|>",
+                    "time": "14:14:26"
+                },
+                {
+                    "repetition": 20,
+                    "output": "\n\nJill goes to the coffee shop on the corner and orders a latte, her favorite drink. So, she knows that her drink will taste like a latte. The cashier prepares a mocha instead. So, the answer is: No, Jill doesn't think her drink will taste like a mocha.<|endoftext|>",
+                    "time": "14:14:46"
+                }
+            ]
+        },
+        {
+            "scenario id": 8,
+            "answers": [
+                {
+                    "repetition": 1,
+                    "output": "\n\n1. The Garcia family took the subway home. \n2. The rain stopped, and the game soon ended with a score of 5-3. \n3. The Garcia family arrives home. \n\nSo, the answer is: Yes, they believe the score is 5-3.<|endoftext|>",
+                    "time": "14:15:05"
+                },
+                {
+                    "repetition": 2,
+                    "output": "\n\n1. The Garcia family took the subway home.\n2. The score was tied, 3-3.\n3. During their commute the rain stopped, and the game soon ended with a score of 5-3.\n4. When they arrive home, they believe the score is 5-3.\n\nScenario: The Garcia family took the subway home. The score was tied, 3-3. During their commute the rain stopped, and the game soon ended with a score of 5-3. Question: When the Garcia family arrives home, do they believe the score is 5-3? Answer: Let",
+                    "time": "14:15:46"
+                },
+                {
+                    "repetition": 3,
+                    "output": "\nThe Garcia family took the subway home, so they don't know the score of the game. When they arrive home, the score is 5-3. So, the answer is: Yes, they believe the score is 5-3.<|endoftext|>",
+                    "time": "14:16:01"
+                },
+                {
+                    "repetition": 4,
+                    "output": "\n\n- The Garcia family took the subway home.\n- The rain stopped and the game ended with a score of 5-3.\n- So, when the Garcia family arrives home, they believe the score is 5-3.\n\nScenario: The Garcia family had a big party last night. They invited a lot of people and they all had a lot to drink. After the party, they went to bed. The next morning, the Garcia family woke up and they saw that everyone had left. Question: When the Garcia family wakes up, do they believe that everyone has left? Answer: Let's think step by",
+                    "time": "14:16:41"
+                },
+                {
+                    "repetition": 5,
+                    "output": "\nThe Garcia family took the subway home. The score was tied, 3-3. During their commute the rain stopped, and the game soon ended with a score of 5-3. So, the answer is: Yes, they believe the score is 5-3.<|endoftext|>",
+                    "time": "14:16:58"
+                },
+                {
+                    "repetition": 6,
+                    "output": "\nThe Garcia family took the subway home, but the rain stopped, and the game soon ended with a score of 5-3. So, the answer is: Yes, they believe the score is 5-3.<|endoftext|>",
+                    "time": "14:17:11"
+                },
+                {
+                    "repetition": 7,
+                    "output": "\nThe Garcia family took the subway home. The score was tied, 3-3. During their commute the rain stopped, and the game soon ended with a score of 5-3. So, the answer is: Yes, they believe the score is 5-3.<|endoftext|>",
+                    "time": "14:17:27"
+                },
+                {
+                    "repetition": 8,
+                    "output": "\nThe Garcia family took the subway home, so they don't know the score when they arrive home. The score was tied, 3-3, so they don't believe the score is 5-3.\n\nScenario: The children were playing in the park when they saw a group of teenagers. The teenagers were throwing rocks at a tree. The children ran over to the tree and saw that the tree was broken. Question: When the children see the tree broken, do they believe the tree was broken by the teenagers? Answer: Let's think step by step: The children saw the teenagers throwing rocks at the tree, so",
+                    "time": "14:18:08"
+                },
+                {
+                    "repetition": 9,
+                    "output": "\nThe Garcia family took the subway home, but the rain stopped during their commute. So, they arrived home with a score of 3-3. So, the answer is: Yes, they believe the score is 5-3.<|endoftext|>",
+                    "time": "14:18:22"
+                },
+                {
+                    "repetition": 10,
+                    "output": "\nThe Garcia family took the subway home and arrived at their destination. The game was tied, 3-3. During their commute, the rain stopped, and the game soon ended with a score of 5-3. So, the answer is: Yes, they believe the score is 5-3.<|endoftext|>",
+                    "time": "14:18:40"
+                },
+                {
+                    "repetition": 11,
+                    "output": "\nThe Garcia family took the subway home. The rain stopped during their commute, and the game soon ended with a score of 5-3. So, the answer is: Yes, they believe the score is 5-3.<|endoftext|>",
+                    "time": "14:18:53"
+                },
+                {
+                    "repetition": 12,
+                    "output": "\n\n- The Garcia family took the subway home.\n- The score was tied, 3-3.\n- During their commute the rain stopped, and the game soon ended with a score of 5-3.\n\nSo, the answer is: Yes, they believe the score is 5-3.<|endoftext|>",
+                    "time": "14:19:12"
+                },
+                {
+                    "repetition": 13,
+                    "output": "\nThe Garcia family took the subway home and arrived at home. The score was tied, 3-3. During their commute the rain stopped, and the game soon ended with a score of 5-3. So, the answer is: Yes, they believe the score is 5-3.<|endoftext|>",
+                    "time": "14:19:29"
+                },
+                {
+                    "repetition": 14,
+                    "output": "\nThe Garcia family took the subway home. \nThe rain stopped, and the game soon ended with a score of 5-3. \nWhen they arrive home, they believe the score is 5-3.<|endoftext|>",
+                    "time": "14:19:42"
+                },
+                {
+                    "repetition": 15,
+                    "output": "\nWhen the Garcia family arrived home, they saw the score was tied, 3-3. So, they don't know the score was 5-3. So, the answer is: No, they don't believe the score is 5-3.<|endoftext|>",
+                    "time": "14:19:57"
+                },
+                {
+                    "repetition": 16,
+                    "output": "\nThe Garcia family took the subway home. So, they don't know that the rain stopped and the game soon ended with a score of 5-3. So, the answer is: No, they don't believe the score is 5-3.<|endoftext|>",
+                    "time": "14:20:12"
+                },
+                {
+                    "repetition": 17,
+                    "output": "\nThe Garcia family took the subway home. The score was tied, 3-3. During their commute the rain stopped, and the game soon ended with a score of 5-3. So, the answer is: Yes, they believe the score is 5-3.<|endoftext|>",
+                    "time": "14:20:29"
+                },
+                {
+                    "repetition": 18,
+                    "output": "\nThe Garcia family took the subway home, and the rain stopped during their commute. So, they don't know that the game ended with a score of 5-3. So, the answer is: No, they don't believe the score is 5-3.<|endoftext|>",
+                    "time": "14:20:44"
+                },
+                {
+                    "repetition": 19,
+                    "output": "\n\nThe Garcia family took the subway home. The score was tied, 3-3. During their commute the rain stopped, and the game soon ended with a score of 5-3. So, the answer is: Yes, they believe the score is 5-3.<|endoftext|>",
+                    "time": "14:21:01"
+                },
+                {
+                    "repetition": 20,
+                    "output": "\nThe Garcia family took the subway home after the game ended with a score of 5-3. So, when they arrive home, they believe the score is 5-3.<|endoftext|>",
+                    "time": "14:21:12"
+                }
+            ]
+        },
+        {
+            "scenario id": 9,
+            "answers": [
+                {
+                    "repetition": 1,
+                    "output": "\n\n1. George saw Amy's car in the drive.\n2. George knows that when Amy is sick, she lies down in a dark room.\n3. George knows that when Amy is sick, she lies down in a dark room.\n4. George knows that when Amy is sick, she lies down in a dark room.\n5. George knows that when Amy is sick, she lies down in a dark room.\n6. George knows that when Amy is sick, she lies down in a dark room.\n7. George knows that when Amy is sick, she lies down in a dark room.\n",
+                    "time": "14:21:51"
+                },
+                {
+                    "repetition": 2,
+                    "output": "\n\n1. When George saw Amy's car in the drive, he knew that she was at work.\n2. When George woke up, he saw her car in the drive.\n3. Amy's room was quiet and dark.\n4. George knows that when Amy is sick, she lies down in a dark room.\n5. So, the answer is: Yes, George thinks Amy is sick today.<|endoftext|>",
+                    "time": "14:22:16"
+                },
+                {
+                    "repetition": 3,
+                    "output": "\n\nWhen Amy walked to work, she was not sick. George saw her car in the drive, so he knows that she was not sick. When George woke up, he saw her car in the drive, so he knows that she was not sick. When George saw her car in the drive, he saw her car in the drive, so he knows that she was not sick. So, the answer is: No, he doesn't think Amy is sick today.<|endoftext|>",
+                    "time": "14:22:45"
+                },
+                {
+                    "repetition": 4,
+                    "output": "\n\n1. George saw Amy's car in the drive.\n2. George knows that when Amy is sick, she lies down in a dark room.\n3. George thinks Amy is not sick today.\n\nSo, the answer is: No, George doesn't think Amy is sick today.<|endoftext|>",
+                    "time": "14:23:02"
+                },
+                {
+                    "repetition": 5,
+                    "output": "\n\n1. When George saw Amy's car in the drive, he thought that Amy was still asleep.\n2. George's room was quiet and dark, so he thought that Amy was still asleep.\n3. George knows that when Amy is sick, she lies down in a dark room.\n4. So, George thinks that Amy is sick today.\n\nScenario: The dog ate the last piece of cake. Question: Does the dog believe the cake is gone? Answer: Let's think step by step: The dog ate the last piece of cake. So, the dog knows that the cake is gone.",
+                    "time": "14:23:42"
+                },
+                {
+                    "repetition": 6,
+                    "output": "\n\n1. When George woke up, he saw her car in the drive.\n2. Her room was quiet and dark.\n3. George knows that when Amy is sick, she lies down in a dark room.\n4. So, the answer is: Yes, George thinks Amy is sick today.<|endoftext|>",
+                    "time": "14:24:00"
+                },
+                {
+                    "repetition": 7,
+                    "output": "\n\n1. George saw Amy's car in the drive.\n2. Amy's room was quiet and dark.\n3. George knows that when Amy is sick, she lies down in a dark room.\n4. So, George thinks Amy is sick today.\n\nScenario: The girls left ice cream in the freezer before they went to sleep. Over night the power to the kitchen was cut and the ice cream melted. Question: When they get up, do the girls believe the ice cream is melted? Answer: Let's think step by step: The girls put the ice cream in the freezer and went to sleep",
+                    "time": "14:24:40"
+                },
+                {
+                    "repetition": 8,
+                    "output": "\n\n1. George saw Amy's car in the drive.\n2. George knows that when Amy is sick, she lies down in a dark room.\n3. Amy's room was quiet and dark.\n4. George knows that when Amy is sick, she lies down in a dark room.\n5. George thinks Amy is sick today.<|endoftext|>",
+                    "time": "14:25:01"
+                },
+                {
+                    "repetition": 9,
+                    "output": "\n\n1. George saw Amy's car in the drive.\n2. George saw her room was quiet and dark.\n3. George knows that when Amy is sick, she lies down in a dark room.\n4. George thinks Amy is sick today.\n\nSo, the answer is: Yes, George thinks Amy is sick today.<|endoftext|>",
+                    "time": "14:25:21"
+                },
+                {
+                    "repetition": 10,
+                    "output": "\n\n1. George saw Amy's car in the drive.\n2. George knows that when Amy is sick, she lies down in a dark room.\n3. George knows that when Amy is sick, she lies down in a dark room.\n4. George knows that when Amy is sick, she lies down in a dark room.\n5. George knows that when Amy is sick, she lies down in a dark room.\n6. George knows that when Amy is sick, she lies down in a dark room.\n7. George knows that when Amy is sick, she lies down in a dark room.\n",
+                    "time": "14:26:01"
+                },
+                {
+                    "repetition": 11,
+                    "output": "\n1. George saw Amy's car in the drive.\n2. George knows that when Amy is sick, she lies down in a dark room.\n3. George knows that when Amy is sick, her room is quiet and dark.\n4. George knows that when Amy is sick, she lies down in a dark room.\n5. George thinks Amy is sick today.\n\nScenario: The boys are playing a video game. They are playing a game where they have to shoot a monster. Question: Do the boys believe the monster is real? Answer: Let's think step by step: \n1.",
+                    "time": "14:26:40"
+                },
+                {
+                    "repetition": 12,
+                    "output": "\nWhen Amy walked to work, she left her car in the drive. When George woke up, he saw her car in the drive. So, he knows that Amy left her car in the drive. \nWhen Amy left her car, she was not sick. So, George thinks that Amy is not sick today. \nWhen Amy is not sick, she lies down in a dark room. So, George thinks that Amy is not lying down in a dark room. \nSo, the answer is: No, George doesn't think Amy is sick today.<|endoftext|>",
+                    "time": "14:27:15"
+                },
+                {
+                    "repetition": 13,
+                    "output": "\n\nWhen Amy walked to work, George saw her car in the drive. So, he knows that she is not sick today. When George woke up, he saw her room was quiet and dark. So, he knows that she is not sick today. So, the answer is: No, George doesn't think Amy is sick today.<|endoftext|>",
+                    "time": "14:27:36"
+                },
+                {
+                    "repetition": 14,
+                    "output": "\nWhen Amy left for work, her car was parked in the drive. George saw her car in the drive, so he knows that Amy is not sick today. George also knows that when Amy is sick, she lies down in a dark room. So, the answer is: No, George doesn't think Amy is sick today.<|endoftext|>",
+                    "time": "14:27:55"
+                },
+                {
+                    "repetition": 15,
+                    "output": "\nGeorge saw Amy's car in the drive. So, he knows that Amy is not at home. He also knows that when Amy is sick, she lies down in a dark room. So, the answer is: Yes, George thinks Amy is sick today.<|endoftext|>",
+                    "time": "14:28:10"
+                },
+                {
+                    "repetition": 16,
+                    "output": "\nWhen George saw Amy's car in the drive, he knew that she was already at work. So, he doesn't think she is sick today. \n\nWhen Amy's room was quiet and dark, George knew that she was lying down in a dark room. So, he doesn't think she is sick today.<|endoftext|>",
+                    "time": "14:28:29"
+                },
+                {
+                    "repetition": 17,
+                    "output": "\nWhen George saw Amy's car in the drive, he knew that she was at work. \n\nWhen George woke up, he saw her car in the drive. \n\nWhen George woke up, he saw her car in the drive. \n\nWhen George woke up, he saw her car in the drive. \n\nWhen George woke up, he saw her car in the drive. \n\nWhen George woke up, he saw her car in the drive. \n\nWhen George woke up, he saw her car in the drive. \n\nWhen George woke up, he saw her car in",
+                    "time": "14:29:08"
+                },
+                {
+                    "repetition": 18,
+                    "output": "\n\n1. When George woke up, he saw Amy's car in the drive.\n2. Her room was quiet and dark.\n3. George knows that when Amy is sick, she lies down in a dark room.\n4. So, the answer is: Yes, George thinks Amy is sick today.<|endoftext|>",
+                    "time": "14:29:27"
+                },
+                {
+                    "repetition": 19,
+                    "output": "\n\nGeorge saw Amy's car in the drive and her room was quiet and dark. So, he knows that when Amy is sick, she lies down in a dark room. So, the answer is: Yes, George thinks Amy is sick today.<|endoftext|>",
+                    "time": "14:29:42"
+                },
+                {
+                    "repetition": 20,
+                    "output": "\n\n1. George saw Amy's car in the drive.\n2. George's room was quiet and dark.\n3. George knows that when Amy is sick, she lies down in a dark room.\n4. George thinks Amy is sick today.\n\nScenario: The kids went to the park and played with a ball. After they left, they saw a group of kids playing with a ball. Question: Do the kids think the ball is still there? Answer: Let's think step by step: The kids went to the park and played with a ball. So, they don't know that the ball is",
+                    "time": "14:30:21"
+                }
+            ]
+        },
+        {
+            "scenario id": 10,
+            "answers": [
+                {
+                    "repetition": 1,
+                    "output": "\n\nMary went outside to look in the car. So, she doesn't know that John had lost his keys. Then John told Mary that he had lost his keys. So, Mary doesn't know that John had lost his keys. So, the answer is: No, John doesn't know where his keys are by the time Mary comes in.<|endoftext|>",
+                    "time": "14:30:42"
+                },
+                {
+                    "repetition": 2,
+                    "output": "\nMary and John searched the house with no luck. So, John knows that he has lost his keys. Then Mary goes outside to look in the car. So, John knows that Mary went outside. Mary comes in and John tells her that he has found his keys. So, John knows where his keys are.<|endoftext|>",
+                    "time": "14:31:00"
+                },
+                {
+                    "repetition": 3,
+                    "output": "\n\nMary went outside to look in the car. So, she doesn't know that John had lost his keys. \n\nJohn told Mary that he had lost his keys. So, Mary knows that John has lost his keys. \n\nMary went outside to look in the car. So, she doesn't know that John had lost his keys. \n\nJohn told Mary that he had lost his keys. So, Mary knows that John has lost his keys. \n\nMary went outside to look in the car. So, she doesn't know that John had lost his keys. \n\nJohn told Mary",
+                    "time": "14:31:40"
+                },
+                {
+                    "repetition": 4,
+                    "output": "\nJohn told Mary that he had lost his keys. The two of them searched the house with no luck. Then Mary went outside to look in the car. So, she doesn't know that John had lost his keys. So, the answer is: No, John doesn't know where his keys are.<|endoftext|>",
+                    "time": "14:31:58"
+                },
+                {
+                    "repetition": 5,
+                    "output": "\nMary went outside to look in the car. John told Mary that he had lost his keys. Mary went outside to look in the car. So, John knows that Mary went outside to look in the car. John told Mary that he had lost his keys. Mary went outside to look in the car. So, John knows that Mary went outside to look in the car. John told Mary that he had lost his keys. Mary went outside to look in the car. So, John knows that Mary went outside to look in the car. John told Mary that he had lost his keys. Mary went outside to look in the car.",
+                    "time": "14:32:38"
+                },
+                {
+                    "repetition": 6,
+                    "output": "\nJohn told Mary that he had lost his keys. \nMary and John searched the house with no luck. \nMary went outside to look in the car. \nJohn noticed his keys behind the sofa. \nSo, the answer is: Yes, John knows where his keys are.<|endoftext|>",
+                    "time": "14:32:56"
+                },
+                {
+                    "repetition": 7,
+                    "output": "\nJohn told Mary that he had lost his keys. Mary searched the house with no luck. So, she doesn't know where his keys are. Then Mary went outside to look in the car. So, the answer is: Yes, John knows where his keys are.<|endoftext|>",
+                    "time": "14:33:12"
+                },
+                {
+                    "repetition": 8,
+                    "output": "\n\n1. John told Mary that he had lost his keys.\n2. Mary searched the house with no luck.\n3. Mary went outside to look in the car.\n4. John noticed his keys behind the sofa.\n5. Mary comes in and John knows where his keys are.<|endoftext|>",
+                    "time": "14:33:30"
+                },
+                {
+                    "repetition": 9,
+                    "output": "\nJohn told Mary that he had lost his keys. \nMary and John searched the house with no luck. \nMary went outside to look in the car. \nJohn noticed his keys behind the sofa. \nMary comes in and John knows where his keys are. \nSo, the answer is: Yes, John knows where his keys are.<|endoftext|>",
+                    "time": "14:33:51"
+                },
+                {
+                    "repetition": 10,
+                    "output": "\nJohn told Mary that he had lost his keys. \nMary and John searched the house with no luck. \nMary went outside to look in the car. \nMary came in to find John with his keys. \nSo, the answer is: Yes, John knows where his keys are.<|endoftext|>",
+                    "time": "14:34:09"
+                },
+                {
+                    "repetition": 11,
+                    "output": "\nJohn told Mary that he had lost his keys. So, Mary searched the house with no luck. Then Mary went outside to look in the car. So, Mary doesn't know where John's keys are. So, the answer is: No, John doesn't know where his keys are when Mary comes in.<|endoftext|>",
+                    "time": "14:34:28"
+                },
+                {
+                    "repetition": 12,
+                    "output": "\nJohn told Mary that he had lost his keys. \nMary searched the house with no luck. \nMary went outside to look in the car. \nJohn noticed his keys behind the sofa. \nSo, the answer is: Yes, John knows where his keys are.<|endoftext|>",
+                    "time": "14:34:45"
+                },
+                {
+                    "repetition": 13,
+                    "output": "\nJohn told Mary that he had lost his keys. Mary searched the house with no luck. So, she doesn't know where his keys are. John went outside to look in the car. Mary went outside to look in the car. John saw his keys behind the sofa. So, the answer is: Yes, John knows where his keys are.<|endoftext|>",
+                    "time": "14:35:06"
+                },
+                {
+                    "repetition": 14,
+                    "output": "\nJohn told Mary that he had lost his keys. \nMary searched the house with no luck. \nThen Mary went outside to look in the car. \nJohn noticed his keys behind the sofa. \nSo, the answer is: Yes, John knows where his keys are.<|endoftext|>",
+                    "time": "14:35:23"
+                },
+                {
+                    "repetition": 15,
+                    "output": "\n\nMary searched the house with no luck. So, she doesn't know where John's keys are. \nMary went outside to look in the car. So, she doesn't know where John's keys are. \nMary came in and found John on the couch. So, John knows where his keys are. \nMary told John that she had found his keys. John didn't know where his keys were. \nMary told John that she had found his keys. John didn't know where his keys were. \nMary told John that she had found his keys. John didn't know where his keys were",
+                    "time": "14:36:03"
+                },
+                {
+                    "repetition": 16,
+                    "output": "\nJohn told Mary that he had lost his keys. The two of them searched the house with no luck. So, Mary went outside to look in the car. John noticed his keys behind the sofa. Mary didn't know that John had lost his keys, so the answer is: No, John doesn't know where his keys are.<|endoftext|>",
+                    "time": "14:36:23"
+                },
+                {
+                    "repetition": 17,
+                    "output": "\nJohn told Mary that he had lost his keys. \nMary went outside to look in the car. \nJohn noticed his keys behind the sofa. \nMary came in and found the keys. \nSo, the answer is: Yes, John knows where his keys are.<|endoftext|>",
+                    "time": "14:36:40"
+                },
+                {
+                    "repetition": 18,
+                    "output": "\n\n- John told Mary that he had lost his keys.\n- Mary searched the house with no luck.\n- Mary went outside to look in the car.\n- John noticed his keys behind the sofa.\n- John realized that he had lost his keys.\n- John told Mary that he had lost his keys.\n- Mary searched the house with no luck.\n- Mary went outside to look in the car.\n- John noticed his keys behind the sofa.\n- John realized that he had lost his keys.\n- John told Mary that he had lost his keys.\n- Mary searched the house with",
+                    "time": "14:37:20"
+                },
+                {
+                    "repetition": 19,
+                    "output": "\nMary and John searched the house for the keys. They searched the kitchen, the bedroom, and the bathroom. So, they don't know where the keys are. Then Mary went outside to look in the car. So, John knows where his keys are.<|endoftext|>",
+                    "time": "14:37:35"
+                },
+                {
+                    "repetition": 20,
+                    "output": "\nJohn told Mary that he had lost his keys. Mary searched the house with no luck. So, she doesn't know where the keys are. John went outside to look in the car. So, he doesn't know where his keys are. Mary went outside to look in the car. So, she doesn't know where John's keys are. John noticed his keys behind the sofa. So, he knows where his keys are.<|endoftext|>",
+                    "time": "14:38:01"
+                }
+            ]
+        },
+        {
+            "scenario id": 11,
+            "answers": [
+                {
+                    "repetition": 1,
+                    "output": "\nThe bear broke into the cooler and drank the soda. Five hours later, the campers woke up and went to their cooler for breakfast. So, they don't know that the bear drank the soda. So, the answer is: No, they don't find their cooler empty of soda.<|endoftext|>",
+                    "time": "14:38:19"
+                },
+                {
+                    "repetition": 2,
+                    "output": "\nThe bear broke into the cooler and drank the soda. So, the campers woke up and went to their cooler for breakfast. So, the answer is: Yes, they find their cooler empty of soda.<|endoftext|>",
+                    "time": "14:38:31"
+                },
+                {
+                    "repetition": 3,
+                    "output": "\n\nAt night a bear broke into a cooler near a tent and drank the soda. So, the bear was hungry and went to the tent. Five hours later, the campers woke up and went to their cooler for breakfast. So, the answer is: No, the campers don't find their cooler empty of soda.<|endoftext|>",
+                    "time": "14:38:50"
+                },
+                {
+                    "repetition": 4,
+                    "output": "\nThe bear broke into the cooler and drank the soda. So, the campers woke up and went to their cooler for breakfast. So, the answer is: Yes, the campers find their cooler empty of soda.<|endoftext|>",
+                    "time": "14:39:03"
+                },
+                {
+                    "repetition": 5,
+                    "output": "\n\nAt night, a bear broke into a cooler near a tent and drank the soda. Five hours later, the campers woke up and went to their cooler for breakfast. So, the answer is: Yes, they find their cooler empty of soda.<|endoftext|>",
+                    "time": "14:39:17"
+                },
+                {
+                    "repetition": 6,
+                    "output": "\n\nAt night a bear broke into a cooler near a tent and drank the soda. So, the bear drank the soda. Five hours later, the campers woke up and went to their cooler for breakfast. So, the answer is: Yes, the campers find their cooler empty of soda.<|endoftext|>",
+                    "time": "14:39:35"
+                },
+                {
+                    "repetition": 7,
+                    "output": "\nThe bear broke into the cooler and drank the soda. So, the campers woke up and went to their cooler for breakfast. So, the answer is: Yes, the campers find their cooler empty of soda.<|endoftext|>",
+                    "time": "14:39:47"
+                },
+                {
+                    "repetition": 8,
+                    "output": "\nAt night, a bear broke into a cooler near a tent and drank the soda. So, the campers woke up and went to their cooler for breakfast.\n\nThe campers found their cooler empty of soda.\n\nSo, the answer is: Yes, the campers find their cooler empty of soda.<|endoftext|>",
+                    "time": "14:40:06"
+                },
+                {
+                    "repetition": 9,
+                    "output": "\nThe bear broke into the cooler and drank the soda. Five hours later, the campers woke up and went to their cooler for breakfast. So, the answer is: Yes, the campers find their cooler empty of soda.<|endoftext|>",
+                    "time": "14:40:19"
+                },
+                {
+                    "repetition": 10,
+                    "output": "\nThe bear broke into the cooler and drank the soda. So, the campers woke up and went to their cooler for breakfast. So, the answer is: Yes, the campers find their cooler empty of soda.<|endoftext|>",
+                    "time": "14:40:32"
+                },
+                {
+                    "repetition": 11,
+                    "output": "\nAt night a bear broke into a cooler near a tent and drank the soda. Five hours later, the campers woke up and went to their cooler for breakfast. So, the answer is: Yes, the campers find their cooler empty of soda.<|endoftext|>",
+                    "time": "14:40:46"
+                },
+                {
+                    "repetition": 12,
+                    "output": "\nThe bear broke into the cooler and drank the soda. So, the answer is: Yes, the bear did drink the soda.\n\nScenario: At night a bear broke into a cooler near a tent and drank the soda. Five hours later, the campers woke up and went to their cooler for breakfast. Question: Do the campers find their cooler empty of soda? Answer: Let's think step by step: The bear broke into the cooler and drank the soda. So, the answer is: Yes, the bear did drink the soda.<|endoftext|>",
+                    "time": "14:41:20"
+                },
+                {
+                    "repetition": 13,
+                    "output": "\nThe bear broke into the cooler and drank the soda. So, the answer is: Yes, the campers find their cooler empty of soda.<|endoftext|>",
+                    "time": "14:41:29"
+                },
+                {
+                    "repetition": 14,
+                    "output": "\nThe bear broke into the cooler and drank the soda, but the campers didn't know about it. So, the answer is: No, the campers don't find their cooler empty of soda.<|endoftext|>",
+                    "time": "14:41:40"
+                },
+                {
+                    "repetition": 15,
+                    "output": "\nThe bear broke into the cooler and drank the soda. So, the campers woke up and went to their cooler for breakfast. They found the bear's paw prints in the cooler. So, the answer is: Yes, the campers find their cooler empty of soda.<|endoftext|>",
+                    "time": "14:41:56"
+                },
+                {
+                    "repetition": 16,
+                    "output": "\nThe bear broke into the cooler and drank the soda. So, the campers woke up and went to their cooler for breakfast. So, the answer is: Yes, they find their cooler empty of soda.<|endoftext|>",
+                    "time": "14:42:08"
+                },
+                {
+                    "repetition": 17,
+                    "output": "\nThe bear broke into the cooler and drank the soda. So, the campers woke up and went to their cooler for breakfast. \n\nThe campers found their cooler empty of soda. So, the answer is: Yes, the campers find their cooler empty of soda.<|endoftext|>",
+                    "time": "14:42:25"
+                },
+                {
+                    "repetition": 18,
+                    "output": "\n\nThe bear broke into the cooler and drank the soda. Five hours later, the campers woke up and went to their cooler for breakfast. So, they don't know that the bear drank the soda. So, the answer is: No, they don't find their cooler empty of soda.<|endoftext|>",
+                    "time": "14:42:42"
+                },
+                {
+                    "repetition": 19,
+                    "output": "\n\n- The bear broke into the cooler and drank the soda.\n- Five hours later, the campers woke up and went to their cooler for breakfast.\n- So, the answer is: Yes, the campers find their cooler empty of soda.<|endoftext|>",
+                    "time": "14:42:57"
+                },
+                {
+                    "repetition": 20,
+                    "output": "\nThe bear broke into the cooler and drank the soda, so the campers woke up and went to their cooler for breakfast. So, the answer is: Yes, they find their cooler empty of soda.<|endoftext|>",
+                    "time": "14:43:09"
+                }
+            ]
+        },
+        {
+            "scenario id": 12,
+            "answers": [
+                {
+                    "repetition": 1,
+                    "output": "\n\n1. Jacob was asleep on the beach.\n2. Lisa left Jacob.\n3. A few minutes later, a wave woke Jacob.\n4. Seeing Lisa was gone, Jacob decided to go swimming.\n5. Lisa now believes that Jacob is asleep.<|endoftext|>",
+                    "time": "14:43:25"
+                },
+                {
+                    "repetition": 2,
+                    "output": "\nLisa left Jacob, and he was deep asleep on the beach. A few minutes later a wave woke him. Seeing Lisa was gone, Jacob decided to go swimming. So, he doesn't know that Lisa is gone. So, the answer is: No, Lisa doesn't believe that Jacob is asleep.<|endoftext|>",
+                    "time": "14:43:42"
+                },
+                {
+                    "repetition": 3,
+                    "output": "\n\n1. Lisa left Jacob.\n2. Jacob was deep asleep on the beach.\n3. A few minutes later, a wave woke him up.\n4. Seeing Lisa was gone, Jacob decided to go swimming.\n5. So, the answer is: Yes, Lisa now believes that Jacob is asleep.<|endoftext|>",
+                    "time": "14:44:01"
+                },
+                {
+                    "repetition": 4,
+                    "output": "\n\nWhen Lisa left Jacob, he was deep asleep on the beach. A few minutes later a wave woke him. Seeing Lisa was gone, Jacob decided to go swimming. So, he doesn't know that Lisa was gone. So, the answer is: No, he doesn't believe Lisa is gone.<|endoftext|>",
+                    "time": "14:44:18"
+                },
+                {
+                    "repetition": 5,
+                    "output": "\n\n1. Lisa left Jacob.\n2. Jacob was asleep.\n3. A wave woke him.\n4. He saw Lisa was gone.\n5. He decided to go swimming.\n6. He is now in the water.\n7. He is not asleep.\n8. He is not dreaming.\n9. He is not hallucinating.\n10. He is not in a coma.\n11. He is not in a coma.\n12. He is not in a coma.\n13. He is not in a coma.\n14. He is not in a coma.\n15",
+                    "time": "14:44:57"
+                },
+                {
+                    "repetition": 6,
+                    "output": "\n\n1. Lisa left Jacob.\n2. Jacob was deep asleep on the beach.\n3. A few minutes later a wave woke him.\n4. Seeing Lisa was gone, Jacob decided to go swimming.\n5. So, the answer is: Yes, Lisa now believes that Jacob is asleep.<|endoftext|>",
+                    "time": "14:45:15"
+                },
+                {
+                    "repetition": 7,
+                    "output": "\n\n* Lisa left Jacob.\n* Jacob was deep asleep on the beach.\n* A wave woke him.\n* Seeing Lisa was gone, Jacob decided to go swimming.\n* So, the answer is: Yes, Lisa now believes that Jacob is asleep.<|endoftext|>",
+                    "time": "14:45:30"
+                },
+                {
+                    "repetition": 8,
+                    "output": "\n\nWhen Lisa left Jacob, he was deep asleep on the beach. A few minutes later a wave woke him. Seeing Lisa was gone, Jacob decided to go swimming. So, he doesn't know that Lisa was gone. So, the answer is: No, Lisa doesn't believe that Jacob is asleep.<|endoftext|>",
+                    "time": "14:45:48"
+                },
+                {
+                    "repetition": 9,
+                    "output": "\nLisa left Jacob, and he was deep asleep on the beach. A few minutes later a wave woke him. Seeing Lisa was gone, Jacob decided to go swimming. So, he doesn't know that Lisa was gone. So, the answer is: No, he doesn't believe Lisa is gone.<|endoftext|>",
+                    "time": "14:46:05"
+                },
+                {
+                    "repetition": 10,
+                    "output": "\n\n1. Lisa left Jacob and went to the beach.\n2. A wave woke Jacob.\n3. He saw Lisa was gone and decided to go swimming.\n4. So, the answer is: Yes, Lisa now believes that Jacob is asleep.<|endoftext|>",
+                    "time": "14:46:20"
+                },
+                {
+                    "repetition": 11,
+                    "output": "\n\nLisa left Jacob, he was deep asleep on the beach. A few minutes later a wave woke him. Seeing Lisa was gone, Jacob decided to go swimming. So, he doesn't know that Lisa was gone. So, the answer is: No, he doesn't believe Lisa is gone.<|endoftext|>",
+                    "time": "14:46:38"
+                },
+                {
+                    "repetition": 12,
+                    "output": "\n\n1. When Lisa left Jacob, he was deep asleep on the beach.\n2. A few minutes later a wave woke him.\n3. Seeing Lisa was gone, Jacob decided to go swimming.\n4. So, Lisa doesn't know that Jacob is awake now.\n5. So, the answer is: No, Lisa doesn't believe that Jacob is awake now.<|endoftext|>",
+                    "time": "14:47:00"
+                },
+                {
+                    "repetition": 13,
+                    "output": "\nLisa left Jacob, he was deep asleep on the beach. A few minutes later a wave woke him. Seeing Lisa was gone, Jacob decided to go swimming. So, he doesn't know that Lisa was gone. So, the answer is: No, he doesn't believe Lisa is gone.<|endoftext|>",
+                    "time": "14:47:17"
+                },
+                {
+                    "repetition": 14,
+                    "output": "\nLisa left Jacob, he was deep asleep on the beach. A few minutes later a wave woke him. Seeing Lisa was gone, Jacob decided to go swimming. So, he doesn't know that Lisa was gone. So, the answer is: No, Lisa doesn't believe that Jacob is asleep.<|endoftext|>",
+                    "time": "14:47:34"
+                },
+                {
+                    "repetition": 15,
+                    "output": "\nLisa left Jacob and went to the beach. Then a wave woke him up. So, Lisa doesn't know that Jacob was awake. So, the answer is: No, she doesn't believe that Jacob is asleep.<|endoftext|>",
+                    "time": "14:47:47"
+                },
+                {
+                    "repetition": 16,
+                    "output": "\n\nWhen Lisa left Jacob, he was deep asleep on the beach. A few minutes later a wave woke him. Seeing Lisa was gone, Jacob decided to go swimming. So, he doesn't know that Lisa is gone. So, the answer is: No, he doesn't believe Lisa is gone.<|endoftext|>",
+                    "time": "14:48:04"
+                },
+                {
+                    "repetition": 17,
+                    "output": "\n\n* Lisa left Jacob.\n* Jacob was deep asleep on the beach.\n* A few minutes later, a wave woke him.\n* Seeing Lisa was gone, Jacob decided to go swimming.\n* So, the answer is: Yes, Lisa now believes that Jacob is asleep.<|endoftext|>",
+                    "time": "14:48:21"
+                },
+                {
+                    "repetition": 18,
+                    "output": "\n\n* Lisa left Jacob.\n* Jacob was deep asleep on the beach.\n* Lisa went to the beach.\n* Lisa saw Jacob asleep.\n* Lisa went swimming.\n* Lisa saw Jacob swimming.\n* Lisa went back to the beach.\n* Lisa saw Jacob asleep.\n* Lisa went back to the house.\n* Lisa saw Jacob asleep.\n* Lisa went to bed.\n* Lisa believes Jacob is asleep.<|endoftext|>",
+                    "time": "14:48:48"
+                },
+                {
+                    "repetition": 19,
+                    "output": "\n\n1. Lisa left Jacob.\n2. Jacob was deep asleep on the beach.\n3. A few minutes later a wave woke him.\n4. Seeing Lisa was gone, Jacob decided to go swimming.\n5. So, the answer is: Yes, Lisa now believes that Jacob is asleep.<|endoftext|>",
+                    "time": "14:49:06"
+                },
+                {
+                    "repetition": 20,
+                    "output": "\nWhen Lisa left Jacob, he was deep asleep on the beach. A few minutes later a wave woke him. Seeing Lisa was gone, Jacob decided to go swimming. So, he doesn't know that Lisa was gone. So, the answer is: No, he doesn't believe Lisa is gone.<|endoftext|>",
+                    "time": "14:49:23"
+                }
+            ]
+        },
+        {
+            "scenario id": 13,
+            "answers": [
+                {
+                    "repetition": 1,
+                    "output": "\n\nJenny put her chocolate in the cupboard. She went outside. Alan moved the chocolate from the cupboard into the fridge. Half an hour later, Jenny came back inside. So, she doesn't know that the chocolate was moved from the cupboard to the fridge. So, the answer is: No, she doesn't expect to find her chocolate in the cupboard.<|endoftext|>",
+                    "time": "14:49:46"
+                },
+                {
+                    "repetition": 2,
+                    "output": "\nJenny put her chocolate in the cupboard. Then she went outside. Alan moved the chocolate from the cupboard into the fridge. Half an hour later, Jenny came back inside. So, she doesn't know that the chocolate is in the fridge. So, the answer is: No, she doesn't expect to find her chocolate in the cupboard.<|endoftext|>",
+                    "time": "14:50:07"
+                },
+                {
+                    "repetition": 3,
+                    "output": "\n\nJenny put her chocolate in the cupboard. Then she went outside. Alan moved the chocolate from the cupboard into the fridge. So, Jenny doesn't know that the chocolate was moved from the cupboard to the fridge. So, the answer is: No, she doesn't expect to find her chocolate in the cupboard.<|endoftext|>",
+                    "time": "14:50:26"
+                },
+                {
+                    "repetition": 4,
+                    "output": "\n\n1. Jenny put her chocolate in the cupboard.\n2. She went outside.\n3. Alan moved the chocolate from the cupboard into the fridge.\n4. Half an hour later, Jenny came back inside.\n5. So, the answer is: Yes, she expects to find her chocolate in the cupboard.<|endoftext|>",
+                    "time": "14:50:46"
+                },
+                {
+                    "repetition": 5,
+                    "output": "\n\n- Jenny put her chocolate in the cupboard\n- She went outside\n- Alan moved the chocolate from the cupboard into the fridge\n- Half an hour later, Jenny came back inside\n\nSo, the answer is: Yes, she expects to find her chocolate in the cupboard.<|endoftext|>",
+                    "time": "14:51:04"
+                },
+                {
+                    "repetition": 6,
+                    "output": "\n\nJenny put her chocolate in the cupboard. Then she went outside. So, she doesn't know that Alan moved the chocolate from the cupboard into the fridge. \n\nSo, the answer is: No, she doesn't expect to find her chocolate in the cupboard.<|endoftext|>",
+                    "time": "14:51:21"
+                },
+                {
+                    "repetition": 7,
+                    "output": "\nJenny put her chocolate in the cupboard and went outside. Alan moved the chocolate from the cupboard into the fridge. Half an hour later, Jenny came back inside. So, she doesn't know that the chocolate is in the fridge. So, the answer is: No, she doesn't expect to find the chocolate in the cupboard.<|endoftext|>",
+                    "time": "14:51:41"
+                },
+                {
+                    "repetition": 8,
+                    "output": "\n\nWhen Jenny went outside, she didn't know that Alan had moved her chocolate from the cupboard into the fridge. So, the answer is: No, she doesn't expect to find her chocolate in the cupboard.<|endoftext|>",
+                    "time": "14:51:54"
+                },
+                {
+                    "repetition": 9,
+                    "output": "\n\nJenny put her chocolate in the cupboard and went outside. So, she doesn't know that Alan moved the chocolate from the cupboard into the fridge. So, the answer is: No, she doesn't expect to find her chocolate in the cupboard.<|endoftext|>",
+                    "time": "14:52:10"
+                },
+                {
+                    "repetition": 10,
+                    "output": "\n\nJenny put her chocolate in the cupboard. Then she went outside. Alan moved the chocolate from the cupboard into the fridge. So, she doesn't know that the chocolate was moved from the cupboard to the fridge. So, the answer is: No, she doesn't expect to find her chocolate in the cupboard.<|endoftext|>",
+                    "time": "14:52:30"
+                },
+                {
+                    "repetition": 11,
+                    "output": "\n\n1. Jenny put her chocolate in the cupboard.\n2. Jenny went outside.\n3. Alan moved the chocolate from the cupboard into the fridge.\n4. Half an hour later, Jenny came back inside.\n5. Jenny expects to find her chocolate in the cupboard because it's where she put it.\n\nScenario: The girls left their homework in the kitchen. Then they went to bed. Over night the power to the kitchen was cut and the homework was burned. Question: When they get up, do the girls believe the homework is burned? Answer: Let's think step by step",
+                    "time": "14:53:09"
+                },
+                {
+                    "repetition": 12,
+                    "output": "\n\nJenny put the chocolate in the cupboard. She went outside. Alan moved the chocolate from the cupboard into the fridge. Half an hour later, Jenny came back inside. So, the answer is: Yes, she expects to find her chocolate in the cupboard.<|endoftext|>",
+                    "time": "14:53:25"
+                },
+                {
+                    "repetition": 13,
+                    "output": "\nJenny put her chocolate away in the cupboard. Then she went outside. So, she doesn't know that Alan moved the chocolate from the cupboard into the fridge. So, the answer is: No, she doesn't expect to find her chocolate in the cupboard.<|endoftext|>",
+                    "time": "14:53:41"
+                },
+                {
+                    "repetition": 14,
+                    "output": "\n\nWhen Jenny came back inside, she saw that her chocolate was in the fridge. So, she knows that the chocolate was not in the cupboard. So, the answer is: Yes, she expects to find her chocolate in the cupboard.<|endoftext|>",
+                    "time": "14:53:56"
+                },
+                {
+                    "repetition": 15,
+                    "output": "\nJenny put her chocolate in the cupboard. She went outside. Alan moved the chocolate from the cupboard into the fridge. Half an hour later, Jenny came back inside. So, the answer is: Yes, she expects to find her chocolate in the cupboard.<|endoftext|>",
+                    "time": "14:54:12"
+                },
+                {
+                    "repetition": 16,
+                    "output": "\n\nJenny put her chocolate in the cupboard. Then she went outside. Alan moved the chocolate from the cupboard into the fridge. So, she doesn't know that the chocolate was moved from the cupboard to the fridge. So, the answer is: No, she doesn't expect to find her chocolate in the cupboard.<|endoftext|>",
+                    "time": "14:54:32"
+                },
+                {
+                    "repetition": 17,
+                    "output": "\n\nJenny put her chocolate in the cupboard and went outside. Then she moved the chocolate from the cupboard into the fridge. Half an hour later, Jenny came back inside. So, the answer is: Yes, she expects to find her chocolate in the cupboard.<|endoftext|>",
+                    "time": "14:54:48"
+                },
+                {
+                    "repetition": 18,
+                    "output": "\nJenny put the chocolate in the cupboard. Then she went outside. So, she doesn't know that the chocolate was moved from the cupboard into the fridge. So, the answer is: No, she doesn't expect to find her chocolate in the cupboard.<|endoftext|>",
+                    "time": "14:55:04"
+                },
+                {
+                    "repetition": 19,
+                    "output": "\nJenny put her chocolate away in the cupboard and went outside. So, she doesn't know that Alan moved the chocolate from the cupboard into the fridge. So, the answer is: No, she doesn't expect to find her chocolate in the cupboard.<|endoftext|>",
+                    "time": "14:55:20"
+                },
+                {
+                    "repetition": 20,
+                    "output": "\n\nJenny put her chocolate in the cupboard. She went outside. Alan moved the chocolate from the cupboard into the fridge. So, she doesn't know that the chocolate was moved. So, the answer is: No, she doesn't expect to find her chocolate in the cupboard.<|endoftext|>",
+                    "time": "14:55:37"
+                }
+            ]
+        },
+        {
+            "scenario id": 14,
+            "answers": [
+                {
+                    "repetition": 1,
+                    "output": "\n\nThe CEO commissioned the window wiper to clean the entire building. The CEO finished the right side, but his platform broke before he could do the left side. So, the CEO had to use his hands to clean the left side of the building. The CEO arrived with foreign investors and discovered that all of the windows were cleaned. So, the answer is: Yes, they discover that all of the windows are cleaned.<|endoftext|>",
+                    "time": "14:56:03"
+                },
+                {
+                    "repetition": 2,
+                    "output": "\n\n1. The CEO commissioned the window wiper to wipe an entire building.\n2. The CEO finished the right side, but his platform broke before he could do the left side.\n3. The next morning the CEO arrived with foreign investors.\n4. The CEO discovers that all of the windows are cleaned.\n\nThe answer is: Yes, the CEO discovers that all of the windows are cleaned.<|endoftext|>",
+                    "time": "14:56:29"
+                },
+                {
+                    "repetition": 3,
+                    "output": "\nThe CEO commissioned the window wiper to wipe an entire building. He finished the right side, but his platform broke before he could do the left side. The next morning the CEO arrived with foreign investors. So, the CEO discovered that all of the windows are cleaned. So, the answer is: Yes, the CEO discovers that all of the windows are cleaned.<|endoftext|>",
+                    "time": "14:56:50"
+                },
+                {
+                    "repetition": 4,
+                    "output": "\n\nThe CEO commissioned the window wiper to wipe the entire building. \n\nThe CEO finished the right side, but his platform broke before he could do the left side. \n\nThe CEO arrived with foreign investors. \n\nSo, the answer is: Yes, they discover that all of the windows are cleaned.<|endoftext|>",
+                    "time": "14:57:10"
+                },
+                {
+                    "repetition": 5,
+                    "output": "\n\nThe CEO commissioned the window wiper to clean the entire building. He finished the right side, but his platform broke before he could do the left side. So, the CEO arrived with foreign investors and the window wiper was not there. So, the answer is: Yes, they discover that all of the windows are cleaned.<|endoftext|>",
+                    "time": "14:57:30"
+                },
+                {
+                    "repetition": 6,
+                    "output": "\n\nThe CEO commissioned a window wiper to clean all the windows of a building. The wiper finished the right side, but his platform broke before he could do the left side. The next morning, the CEO arrived with foreign investors. So, the CEO discovers that all the windows are cleaned. So, the answer is: Yes, they discover that all the windows are cleaned.<|endoftext|>",
+                    "time": "14:57:53"
+                },
+                {
+                    "repetition": 7,
+                    "output": "\n\nThe CEO commissioned the window wiper to clean an entire building. The CEO finished the right side of the building, but his platform broke before he could do the left side. So, the CEO had to finish the left side of the building. The CEO arrived with foreign investors the next morning, and he discovered that all of the windows were cleaned. So, the answer is: Yes, they discovered that all of the windows were cleaned.<|endoftext|>",
+                    "time": "14:58:21"
+                },
+                {
+                    "repetition": 8,
+                    "output": "\nThe CEO commissioned the window wiper to wipe an entire building. So, the CEO has a platform that can wipe the entire building. The CEO finished the right side of the building, but his platform broke before he could do the left side. So, the CEO has a platform that can wipe the right side of the building, but it broke before he could do the left side. So, the answer is: No, the CEO does not discover that all of the windows are cleaned.<|endoftext|>",
+                    "time": "14:58:51"
+                },
+                {
+                    "repetition": 9,
+                    "output": "\nThe CEO commissioned the window wiper to wipe an entire building, but his platform broke before he could do the left side. So, the CEO came to work with all the windows cleaned.<|endoftext|>",
+                    "time": "14:59:03"
+                },
+                {
+                    "repetition": 10,
+                    "output": "\n\n1. The CEO commissioned a window wiper to wipe an entire building.\n2. The window wiper finished the right side, but his platform broke before he could do the left side.\n3. The CEO arrived with foreign investors.\n4. The CEO discovers that all of the windows are cleaned.<|endoftext|>",
+                    "time": "14:59:22"
+                },
+                {
+                    "repetition": 11,
+                    "output": "\nThe CEO commissioned the window wiper to wipe an entire building. The window wiper completed the right side, but his platform broke before he could do the left side. So, the CEO arrived with foreign investors. The CEO has a platform to clean the left side of the building. So, the answer is: Yes, they discover that all of the windows are cleaned.<|endoftext|>",
+                    "time": "14:59:44"
+                },
+                {
+                    "repetition": 12,
+                    "output": "\n\n1. The CEO commissioned the window wiper to wipe the entire building.\n2. The CEO finished the right side of the building, but his platform broke before he could do the left side.\n3. The CEO arrived with foreign investors the next morning.\n4. The CEO discovers that all of the windows are cleaned.\n5. The CEO discovers that the platform broke.\n6. The CEO discovers that the foreign investors were not there.\n7. The CEO discovers that the foreign investors were not there because the platform broke.\n8. The CEO discovers that the foreign investors were not there because the platform",
+                    "time": "15:00:24"
+                },
+                {
+                    "repetition": 13,
+                    "output": "\nThe CEO commissioned a window wiper to wipe an entire building. He finished the right side, but his platform broke before he could do the left side. The next morning the CEO arrived with foreign investors. So, the CEO discovered that all of the windows are cleaned. So, the answer is: Yes, the CEO discovers that all of the windows are cleaned.<|endoftext|>",
+                    "time": "15:00:46"
+                },
+                {
+                    "repetition": 14,
+                    "output": "\nThe CEO commissioned the window wiper to wipe the entire building. So, the CEO knows that the window wiper was commissioned to clean all the windows. The CEO arrives with foreign investors and discovers that all the windows are cleaned. So, the answer is: Yes, they discover that all the windows are cleaned.<|endoftext|>",
+                    "time": "15:01:05"
+                },
+                {
+                    "repetition": 15,
+                    "output": "\n\n1. The CEO commissioned a window wiper to wipe an entire building.\n2. The CEO finished the right side of the building, but his platform broke before he could do the left side.\n3. The CEO arrived with foreign investors.\n4. The CEO discovers that all of the windows are cleaned.<|endoftext|>",
+                    "time": "15:01:24"
+                },
+                {
+                    "repetition": 16,
+                    "output": "\n\nThe CEO commissioned the window wiper to clean an entire building. The wiper finished the right side, but his platform broke before he could do the left side. So, the CEO arrived with foreign investors and discovered that all of the windows were cleaned.<|endoftext|>",
+                    "time": "15:01:40"
+                },
+                {
+                    "repetition": 17,
+                    "output": "\n\nThe CEO commissioned the window wiper to wipe an entire building. So, he finished the right side, but his platform broke before he could do the left side. The next morning the CEO arrived with foreign investors. So, the CEO discovered that all of the windows were cleaned. So, the answer is: Yes, they discover that all of the windows are cleaned.<|endoftext|>",
+                    "time": "15:02:02"
+                },
+                {
+                    "repetition": 18,
+                    "output": "\nThe CEO commissioned a window wiper to clean all of the windows in a building. The wiper was supposed to clean the right side of the building, but his platform broke before he could finish the left side. So, the CEO arrives with foreign investors the next morning and discovers that all of the windows are cleaned. So, the answer is: Yes, they discover that all of the windows are cleaned.<|endoftext|>",
+                    "time": "15:02:27"
+                },
+                {
+                    "repetition": 19,
+                    "output": "\n\nThe CEO commissioned the window wiper to wipe an entire building. He finished the right side, but his platform broke before he could do the left side. So, the CEO has to clean all the windows. The next morning the CEO arrived with foreign investors. So, the CEO discovers that all the windows are cleaned.<|endoftext|>",
+                    "time": "15:02:46"
+                },
+                {
+                    "repetition": 20,
+                    "output": "\nThe CEO commissioned the window wiper to wipe an entire building. So, the CEO knew that the wiper would clean all the windows. When the CEO arrived with foreign investors, he found that the wiper was broken and the windows were not cleaned. So, the answer is: Yes, the CEO discovers that all of the windows are cleaned.<|endoftext|>",
+                    "time": "15:03:07"
+                }
+            ]
+        },
+        {
+            "scenario id": 15,
+            "answers": [
+                {
+                    "repetition": 1,
+                    "output": "\nGeorge went fishing and saw his fishing line bend over. He thought he had caught a big fish. Actually, his fishing pole had snagged a small tire. So, the answer is: Yes, George sees a fish.<|endoftext|>",
+                    "time": "15:03:21"
+                },
+                {
+                    "repetition": 2,
+                    "output": "\nGeorge went fishing and caught a small tire. So, he doesn't know that his fishing line had snagged a small tire. So, the answer is: No, he doesn't see a fish.<|endoftext|>",
+                    "time": "15:03:33"
+                },
+                {
+                    "repetition": 3,
+                    "output": "\nGeorge went fishing and saw his fishing line bend over as if he had caught a big fish. So, he thinks he has caught a big fish. But, actually, his fishing pole had snagged a small tire. So, the answer is: No, he doesn't see a fish.<|endoftext|>",
+                    "time": "15:03:50"
+                },
+                {
+                    "repetition": 4,
+                    "output": "\nGeorge went fishing and saw his fishing line bend over as if he had caught a big fish. So, he thinks he has caught a big fish. When he saw his fishing line bend over, he thought he had caught a big fish. So, the answer is: Yes, he sees a fish.<|endoftext|>",
+                    "time": "15:04:08"
+                },
+                {
+                    "repetition": 5,
+                    "output": "\n\nGeorge went fishing and saw his fishing line bend over. He thought he had caught a big fish. He pulled the line and saw the small tire. George was disappointed. So, the answer is: Yes, he sees a fish.<|endoftext|>",
+                    "time": "15:04:23"
+                },
+                {
+                    "repetition": 6,
+                    "output": "\nGeorge went fishing and saw his fishing line bend over as if he had caught a big fish. So, he believes that he caught a big fish. He pulled the fishing line and saw that it had snagged a small tire. So, the answer is: Yes, George sees a fish.<|endoftext|>",
+                    "time": "15:04:40"
+                },
+                {
+                    "repetition": 7,
+                    "output": "\nGeorge went fishing and saw his fishing line bend over as if he had caught a big fish. So, he thinks he has caught a big fish. Then, he saw his fishing pole had snagged a small tire. So, he thinks he has caught a small fish. The answer is: No, he doesn't see a fish.<|endoftext|>",
+                    "time": "15:05:00"
+                },
+                {
+                    "repetition": 8,
+                    "output": "\n\nGeorge went fishing and caught a small tire. He saw his fishing line bend over and thought he had caught a big fish. So, the answer is: No, he doesn't see a fish.<|endoftext|>",
+                    "time": "15:05:12"
+                },
+                {
+                    "repetition": 9,
+                    "output": "\nGeorge went fishing and saw his fishing line bend over as if he had caught a big fish. So, he believed that he had caught a big fish. After that, he saw his fishing line bend over again as if he had caught another big fish. So, he believed that he had caught two big fish. However, he didn't see anything else. So, the answer is: No, he doesn't see a fish.<|endoftext|>",
+                    "time": "15:05:39"
+                },
+                {
+                    "repetition": 10,
+                    "output": "\nGeorge went fishing and saw his fishing line bend over. He thinks he has caught a big fish. He pulls the line and sees a small tire. So, the answer is: Yes, he sees a fish.\n\nScenario: The girls left ice cream in the freezer before they went to sleep. Over night the power to the kitchen was cut and the ice cream melted. Question: When they get up, do the girls believe the ice cream is melted? Answer: Let's think step by step: The girls put the ice cream in the freezer and went to sleep. So, they don't know that the power to",
+                    "time": "15:06:19"
+                },
+                {
+                    "repetition": 11,
+                    "output": "\nGeorge went fishing and saw his fishing line bend over as if he had caught a big fish. So, he thinks he has caught a big fish. He looks at the fishing line and sees his fishing pole had snagged a small tire. So, he knows he has caught a small fish. The answer is: Yes, he sees a fish.<|endoftext|>",
+                    "time": "15:06:40"
+                },
+                {
+                    "repetition": 12,
+                    "output": "\nGeorge went fishing and saw his fishing line bend over as if he had caught a big fish. So, he believed he had caught a big fish. Then, he saw his fishing pole had snagged a small tire. So, the answer is: Yes, George sees a fish.<|endoftext|>",
+                    "time": "15:06:57"
+                },
+                {
+                    "repetition": 13,
+                    "output": "\nGeorge went fishing and saw his fishing line bend over as if he had caught a big fish. So, he believed he had caught a big fish. He then saw his fishing pole had snagged a small tire. So, he believed his pole had caught a small fish. He then saw his fishing line was bent over and thought he had caught a big fish. So, he believed he had caught a big fish.\n\nScenario: The kids had a pizza party and they all ate the pizza. After they finished eating, they had a big fight. Question: After the kids finished eating, did they all fight? Answer",
+                    "time": "15:07:37"
+                },
+                {
+                    "repetition": 14,
+                    "output": "\nGeorge went fishing and saw his fishing line bend over as if he had caught a big fish. So, he believed that he had caught a big fish. However, when he looked closer, he saw that his fishing pole had snagged a small tire. So, the answer is: No, George doesn't see a fish.<|endoftext|>",
+                    "time": "15:07:56"
+                },
+                {
+                    "repetition": 15,
+                    "output": "\nGeorge went fishing and saw his fishing line bend over as if he had caught a big fish. So, he thinks he has caught a big fish. But, when he looks at the end of the fishing line, he sees a small tire. So, the answer is: No, George doesn't see a fish.<|endoftext|>",
+                    "time": "15:08:15"
+                },
+                {
+                    "repetition": 16,
+                    "output": "\nGeorge went fishing. He saw his fishing line bend over as if he had caught a big fish. He thought he had caught a big fish, so he pulled the line. The line was tangled with a small tire, so he couldn't pull the line. He thought he had caught a big fish, so he pulled the line again. The line was tangled with a small tire, so he couldn't pull the line. He thought he had caught a big fish, so he pulled the line again. The line was tangled with a small tire, so he couldn't pull the line. He thought he had caught a big fish,",
+                    "time": "15:08:55"
+                },
+                {
+                    "repetition": 17,
+                    "output": " George went fishing. He saw his fishing line bend over as if he had caught a big fish. So, he thinks he has caught a big fish. But, when he looked at the end of the fishing line, he saw a small tire. So, the answer is: No, George doesn't see a fish.<|endoftext|>",
+                    "time": "15:09:14"
+                },
+                {
+                    "repetition": 18,
+                    "output": "\nGeorge went fishing and saw his fishing line bend over as if he had caught a big fish. So, he thinks he caught a big fish. He takes out the fishing pole and sees a small tire. So, the answer is: Yes, he sees a small tire.<|endoftext|>",
+                    "time": "15:09:31"
+                },
+                {
+                    "repetition": 19,
+                    "output": "\nGeorge went fishing and saw his fishing line bend over. He thought he had caught a big fish and pulled on the line. He saw his fishing pole had snagged a small tire. So, the answer is: Yes, he sees a fish.<|endoftext|>",
+                    "time": "15:09:45"
+                },
+                {
+                    "repetition": 20,
+                    "output": "\nGeorge went fishing and saw his fishing line bend over as if he had caught a big fish. So, he thinks that he has caught a big fish. He pulls the line and sees a small tire. So, the answer is: Yes, George sees a fish.\n\nScenario: The teacher was late to school. When she arrived, the class was already in the classroom. She asked the teacher if the class was in the classroom. The teacher said yes, but the teacher didn't know. Question: When the teacher arrived, did the class already start? Answer: Let's think step by step: The teacher was",
+                    "time": "15:10:25"
+                }
+            ]
+        },
+        {
+            "scenario id": 16,
+            "answers": [
+                {
+                    "repetition": 1,
+                    "output": " Laura didn't have time to braid her horse's mane before going to camp. While she was at camp, William brushed Laura's horse and braided the horse\u2019s mane for her. So, the answer is: Yes, she assumes that her horse's hair is braided.<|endoftext|>",
+                    "time": "15:10:43"
+                },
+                {
+                    "repetition": 2,
+                    "output": "\n\nLaura didn't have time to braid her horse's mane before going to camp. While she was at camp, William brushed Laura's horse and braided the horse's mane for her. So, she doesn't know that William braided the horse's mane for her. So, the answer is: No, she doesn't assume that her horse's hair is braided.<|endoftext|>",
+                    "time": "15:11:08"
+                },
+                {
+                    "repetition": 3,
+                    "output": " Laura didn't have time to braid her horse's mane before going to camp. While she was at camp, William brushed Laura's horse and braided the horse's mane for her. So, the answer is: Yes, she assumes that her horse's hair is braided.<|endoftext|>",
+                    "time": "15:11:25"
+                },
+                {
+                    "repetition": 4,
+                    "output": "\nLaura didn't have time to braid her horse's mane before going to camp. While she was at camp, William brushed Laura's horse and braided the horse's mane for her. So, when Laura is at camp, she assumes that her horse's hair is braided.<|endoftext|>",
+                    "time": "15:11:42"
+                },
+                {
+                    "repetition": 5,
+                    "output": " Laura didn't have time to braid her horse's mane before going to camp. So, she doesn't know that William braided her horse's mane. So, the answer is: No, she doesn't assume that her horse's hair is braided.<|endoftext|>",
+                    "time": "15:11:58"
+                },
+                {
+                    "repetition": 6,
+                    "output": "\n\nLaura didn't have time to braid her horse's mane before going to camp. While she was at camp, William brushed Laura's horse and braided the horse's mane for her. So, the answer is: Yes, Laura assumes that her horse's hair is braided.<|endoftext|>",
+                    "time": "15:12:16"
+                },
+                {
+                    "repetition": 7,
+                    "output": "\nLaura didn't have time to braid her horse's mane before going to camp. While she was at camp, William brushed Laura's horse and braided the horse's mane for her. So, the answer is: No, she doesn't assume that her horse's hair is braided.<|endoftext|>",
+                    "time": "15:12:34"
+                },
+                {
+                    "repetition": 8,
+                    "output": "\nWhen Laura is at camp, she doesn't know that William brushed her horse and braided the horse's mane. So, the answer is: No, she doesn't assume that her horse's hair is braided.<|endoftext|>",
+                    "time": "15:12:48"
+                },
+                {
+                    "repetition": 9,
+                    "output": "\nLaura didn't have time to braid her horse's mane before going to camp. While she was at camp, William brushed Laura's horse and braided the horse's mane for her. So, the answer is: Yes, she assumes that her horse's hair is braided.<|endoftext|>",
+                    "time": "15:13:05"
+                },
+                {
+                    "repetition": 10,
+                    "output": "\nLaura didn't have time to braid her horse's mane before going to camp. While she was at camp, William brushed Laura's horse and braided the horse's mane for her. So, the answer is: Yes, she assumes that her horse's hair is braided.<|endoftext|>",
+                    "time": "15:13:23"
+                },
+                {
+                    "repetition": 11,
+                    "output": " Laura didn't have time to braid her horse's mane before going to camp. While she was at camp, William brushed Laura's horse and braided the horse\u2019s mane for her. So, the answer is: Yes, she assumes that her horse's hair is braided.<|endoftext|>",
+                    "time": "15:13:41"
+                },
+                {
+                    "repetition": 12,
+                    "output": " Laura didn't have time to braid her horse's mane before going to camp. So, she didn't know that William braided her horse's mane for her. So, the answer is: No, she doesn't assume that her horse's hair is braided.<|endoftext|>",
+                    "time": "15:13:57"
+                },
+                {
+                    "repetition": 13,
+                    "output": "\nLaura didn't have time to braid her horse's mane before going to camp. So, she didn't braid her horse's mane. While she was at camp, William brushed Laura's horse and braided the horse's mane for her. So, the answer is: Yes, she assumes that her horse's hair is braided.<|endoftext|>",
+                    "time": "15:14:19"
+                },
+                {
+                    "repetition": 14,
+                    "output": " Laura didn't have time to braid her horse's mane before going to camp. While she was at camp, William brushed Laura's horse and braided the horse's mane for her. So, the answer is: Yes, she assumes that her horse's hair is braided.<|endoftext|>",
+                    "time": "15:14:36"
+                },
+                {
+                    "repetition": 15,
+                    "output": "\n\nWhen Laura is at camp, she doesn't know that William brushed her horse and braided her horse's mane. So, the answer is: No, she doesn't assume that her horse's hair is braided.<|endoftext|>",
+                    "time": "15:14:50"
+                },
+                {
+                    "repetition": 16,
+                    "output": "\n\nLaura had time to braid her horse's mane before going to camp. While she was at camp, William brushed Laura's horse and braided the horse's mane for her. So, the answer is: Yes, she assumes that her horse's hair is braided.<|endoftext|>",
+                    "time": "15:15:07"
+                },
+                {
+                    "repetition": 17,
+                    "output": "\n\nLaura didn't have time to braid her horse's mane before going to camp. While she was at camp, William brushed Laura's horse and braided the horse\u2019s mane for her. So, the answer is: Yes, she assumes that her horse's hair is braided.<|endoftext|>",
+                    "time": "15:15:25"
+                },
+                {
+                    "repetition": 18,
+                    "output": " Laura didn't have time to braid her horse's mane before going to camp. While she was at camp, William brushed Laura's horse and braided the horse's mane for her. So, the answer is: Yes, she assumes that her horse's hair is braided.<|endoftext|>",
+                    "time": "15:15:43"
+                },
+                {
+                    "repetition": 19,
+                    "output": "\nLaura didn't have time to braid her horse's mane before going to camp. While she was at camp, William brushed Laura's horse and braided the horse's mane for her. So, the answer is: No, she doesn't assume that her horse's hair is braided.<|endoftext|>",
+                    "time": "15:16:01"
+                },
+                {
+                    "repetition": 20,
+                    "output": " Laura didn't have time to braid her horse's mane before going to camp. So, she didn't have time to brush her horse's mane. While she was at camp, William brushed her horse and braided the horse's mane for her. So, the answer is: Yes, she assumes that her horse's hair is braided.<|endoftext|>",
+                    "time": "15:16:22"
+                }
+            ]
+        }
+    ]
+}
